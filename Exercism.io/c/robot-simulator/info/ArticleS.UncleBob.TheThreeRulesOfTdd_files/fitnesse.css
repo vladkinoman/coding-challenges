@@ -1,0 +1,104 @@
+@import url("/files/css/fitnesse_base.css");
+
+.strike {
+  text-decoration: none;
+}
+
+body
+{
+        font-size: 0.8em;
+}
+
+a:link
+{
+        color: #618059;
+        background: transparent;
+}
+
+a:visited
+{
+        color: #806959;
+        background: transparent;
+}
+
+a:hover
+{
+        color: #598080;
+        background: transparent;
+        text-decoration: none;
+}
+
+a:active
+{
+        color: #60BFBF;
+        background: transparent;
+}
+
+div.sidebar
+{
+        border-right: dotted 1px #618059;
+}
+
+div.art_niche
+{
+        border-bottom: solid 1px #618059;
+        background-image: url("/files/images/butunclebobIcon.gif");
+}
+
+div.header
+{
+        border-bottom: solid 1px #618059;
+}
+
+.actions a:link, .actions a:visited
+{
+        color: #FFF;
+        background-color: #72A372;
+}
+
+span.page_title
+{
+	text-shadow: 0px 0px 4px #72A372;
+}
+
+.actions a:hover
+{
+        color: #BF6060;
+        background-color: #60BF60;
+}
+
+.note
+{
+        font-size: 0.75em;
+        color: #999999;
+}
+
+.included, .setup, .teardown
+{
+        background: #EFF0FB;
+        border: 1px dotted #806159;
+}
+
+li
+{
+	margin: 5px;
+}
+
+pre
+{
+	margin: 3px;
+        font-size: 1.3em;
+	background: #E6FADF;
+	border: 1px dotted #596F80;
+	padding: 3px;
+}
+
+h1, h2, h3
+{
+	margin: 2px;
+}
+
+.centered
+{
+	margin: 2px 5px 2px 5px;
+}
