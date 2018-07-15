@@ -12,7 +12,7 @@ public class Solution {
     static int birthdayCakeCandles(int[] ar) {
     	if(ar.length < 1 || ar.length > 100000)
 			throw new NegativeArraySizeException(
-					"Count of candles must be greater 1 <= height <=10^5");
+					"Count of candles must be greater 1 <= n <=10^5");
 		
 		for (int i = 0; i < ar.length; ++i)
 			if(ar[i] < 1 || ar[i] > 10000000)
