@@ -13,13 +13,30 @@ char** split_string(char*);
 
 // Complete the birthdayCakeCandles function below.
 int birthdayCakeCandles(int ar_count, int* ar) {
-    
+	if(ar_count < 1 || ar_count > 100000)
+		exit(1);
+	for (int i = 0; i < ar_count; ++i)
+		if(*(ar+i) < 1 || *(ar+i) > 10000000)
+			exit(1);
 
+    int max = *ar;
+    int count_candles = 0;
+    for (int i = 0; i < ar_count; ++i, ar++)
+    {
+    	if(max < *ar)
+    	{
+    		max = *ar;
+    		count_candles = 0;	
+    	} 
+		if(max == *ar) count_candles++;
+    }
+    
+    return count_candles;
 }
 
 int main()
 {
-    FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
+  	//FILE* fptr = fopen(getenv("OUTPUT_PATH"), "r");
 
     char* ar_count_endptr;
     char* ar_count_str = readline();
@@ -43,9 +60,9 @@ int main()
 
     int result = birthdayCakeCandles(ar_count, ar);
 
-    fprintf(fptr, "%d\n", result);
+    fprintf(stdout/*fptr*/, "%d\n", result);
 
-    fclose(fptr);
+    //fclose(fptr);
 
     return 0;
 }
