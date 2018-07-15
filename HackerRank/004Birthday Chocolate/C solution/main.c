@@ -13,14 +13,43 @@ char** split_string(char*);
 
 // Complete the solve function below.
 int solve(int s_count, int* s, int d, int m) {
+	// constraints
+	if(s_count < 1 || s_count > 100)
+		exit(1);
+	for (int i = 0; i < s_count; ++i)
+		if(*(s+i) < 1 || *(s+i) > 5)
+			exit(1);
+	if(d < 1 || d > 31)
+		exit(1);
+	if(m < 1 || m > 12)
+		exit(1);
 
+	int total_bar_count = 0;
+	for (int i = 0; i < s_count; ++i)
+	{
+		int d_sum = 0;
+		int m_counter = 0;
+		for (int j = i; j < s_count; ++j)
+		{
+			d_sum += s[j];
+			m_counter++;
+			if(d_sum == d && m_counter == m)
+			{
+				total_bar_count++;
+				break;
+			}
+			if(d_sum > d || m_counter > m)
+				break;
+		}
+	}
 
+	return total_bar_count;
 }
 
 int main()
 {
-    FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
-
+    /*FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
+*/
     char* n_endptr;
     char* n_str = readline();
     int n = strtol(n_str, &n_endptr, 10);
@@ -59,9 +88,9 @@ int main()
 
     int result = solve(s_count, s, d, m);
 
-    fprintf(fptr, "%d\n", result);
+    fprintf(stdout/*fptr*/, "%d\n", result);
 
-    fclose(fptr);
+    //fclose(fptr);
 
     return 0;
 }
