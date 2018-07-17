@@ -5,13 +5,46 @@ import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
+import java.lang.System;
 
 public class Solution {
 
     // Complete the countApplesAndOranges function below.
-    static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) {
+    static void countApplesAndOranges(int s, int t, int a, 
+        int b, int[] apples, int[] oranges) {
+        /***************** CONSTRAINTS *******************/
+        if(s < 1 || t < 1 || a < 1 || b < 1 
+            || apples.length < 1 || oranges.length < 1
+            || s > 100000 || t > 100000 || a > 100000 || b > 100000 
+            || apples.length > 100000 || oranges.length > 100000)
+            throw new IllegalArgumentException("1<=s,t,a,b,m,n<=10^5");
+        if(a > s || a > t || a > b || s > t || s > b || t > b)
+            throw new IllegalArgumentException("a < s < t < b");
+        for (int apple : apples)
+            if(apple < -100000 || apple > 100000)
+                throw new IllegalArgumentException("-10^5 <= d <= 10^5");
+        for (int orange : oranges)
+            if(orange < -100000 || orange > 100000)
+                throw new IllegalArgumentException("-10^5 <= d <= 10^5");
+        /**************************************************/
+        int countApples = 0;
+        for (int apple : apples)
+        {
+            int position = apple + a;   
+            if(position >= s && position <= t)
+                countApples++;
+        }    
+            
+        int countOranges = 0; 
+        for (int orange : oranges)
+        {
+            int position = orange + b; 
+            if(position >= s && position <= t)
+                countOranges++;
+        }
 
-
+        System.out.println(countApples);
+        System.out.println(countOranges);
     }
 
     private static final Scanner scanner = new Scanner(System.in);
