@@ -1,3 +1,5 @@
+#define TRUE 1
+#define FALSE 0
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -8,10 +10,10 @@
  */
 bool isSameTree(struct TreeNode* p, struct TreeNode* q) {
 	if(p == NULL && q == NULL)
-		return true;
+		return TRUE;
 	if(p != NULL && q == NULL || p == NULL && q != NULL
 		|| p != NULL && q != NULL && p->val != q->val)
-		return false;
+		return FALSE;
 	return isSameTree(p->left, q->left) 
 		&& isSameTree(p->right, q->right);    
 }
