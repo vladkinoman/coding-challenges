@@ -7,19 +7,19 @@
 #include <string.h>
 
 char* readline();
-char* itoa_zero(int num, char* s)
+char * itoa_zero(int num, char * s)
 {
 	if(num < 10)
 	{
-		s[0] = '0';
-		s[1] = '0' + num;	
+		*s = '0';
+		*(s+1) = '0' + num;	
 	}
 	else
 	{
-		s[0] = '0'+ (num / 10);
-		s[1] = '0'+ (num % 10);
+		*s = '0'+ (num / 10);
+		*(s+1) = '0'+ (num % 10);
 	}
-	s[2] = '\0';
+	*(s+2) = '\0';
 	return s;
 }
 /*
@@ -43,28 +43,47 @@ char* timeConversion(char* s) {
 	char * hh = strtok(s, ":");
 	char * other_part = strtok(NULL, "AP");
 	char * half = strpbrk(input_str, "AP");
+	strtok(input_str,":");
+	char * mm = strtok(NULL, ":");
+	char * ss = strtok(NULL, ":");
+	if(atoi(hh) < 1 || atoi(hh) > 12)
+		exit(1);
+	if(atoi(mm) < 0 || atoi(mm) > 59)
+		exit(1);
+	if(atoi(ss) < 0 || atoi(ss) > 59)
+		exit(1);
 	char * str = malloc(10);
+	*str = '\0';
 	if     (strcmp(hh, "12") == 0 && strcmp(half, "AM") == 0)
 		str = "00:00:00";
 	else if(strcmp(hh, "12") == 0 && strcmp(half, "PM") == 0
 		|| strcmp(hh, "12") != 0 && strcmp(half, "AM") == 0) 
-		str = input_str;
+	{
+		int ihh = atoi(hh);
+		char shh[3];
+		itoa_zero(ihh, shh);
+		char * colon = malloc(7);
+		*colon = ':';
+		*(colon + 1) = '\0';
+		strcat(colon, other_part);
+		strcat(str, shh);
+		strcat(str, colon);
+	}
 	else if(strcmp(hh, "12") != 0 && strcmp(half, "PM") == 0)
 	{
 		int ihh = atoi(hh);
 		ihh += 12;
-		char * shh = malloc(10 * sizeof(char));
-		shh = itoa_zero(ihh, shh);
-		str = strcat(str, strcat(shh, strcat(":", other_part)));
+		char shh[3];
+		itoa_zero(ihh, shh);
+		printf("shh = %s\n", shh);
+		char * colon = malloc(7);
+		*colon = ':';
+		*(colon + 1) = '\0';
+		strcat(colon, other_part);
+		strcat(str, shh);
+		strcat(str, colon);
 	}
 	return str;
-	//printf("%s\n%s\n%s\n%s\n", hh, mm, ss, half);
-	//printf("%s\n", input_str);
-
-	/*if(strcmp(hh, "12") == 0 
-		&& strcmp(mm, "00") == 0
-		&& strcmp(ss, "00") == 0)
-	*/
 }
 
 
