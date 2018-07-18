@@ -23,13 +23,28 @@ char** split_string(char*);
 // return str;
 //
 char* kangaroo(int x1, int v1, int x2, int v2) {
+	/****************CONSTRAINTS****************/
+	if(x1 < 0 || x1 > 10000 || x2 < 0 || x2 > 10000 || x1 > x2)
+		exit(1);
+	if(v1 < 1 || v1 > 10000)
+		exit(1);
+	if(v2 < 1 || v2 > 10000)
+		exit(1);
 
+	int s2 = v2 * (x1 - x2) / (v2 - v1);
+	int s1 = s2 + x2 - x1;
 
+	char * yes = "YES";
+	char * no = "NO";
+	if(s1 > 0 && s2 > 0 && (s1/v1) == (s2/v2))
+		return yes;
+	else
+		return no;
 }
 
 int main()
 {
-    FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
+    //FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
     char** x1V1X2V2 = split_string(readline());
 
@@ -59,9 +74,9 @@ int main()
 
     char* result = kangaroo(x1, v1, x2, v2);
 
-    fprintf(fptr, "%s\n", result);
+    fprintf(stdout/*fptr*/, "%s\n", result);
 
-    fclose(fptr);
+    //fclose(fptr);
 
     return 0;
 }
