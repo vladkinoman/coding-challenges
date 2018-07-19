@@ -10,6 +10,28 @@
 
 char* readline();
 
+#define PROGRAMMER_DAY 256
+
+static char daytab[2][12] = {
+	{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},
+	{31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
+};
+
+int get_day_and_month(int is_leap, int is_1918, int * month, int * day)
+{
+	for (int i = 0, sum = 0; i < 12; ++i)
+	{
+		if((sum + daytab[is_leap][i]) > PROGRAMMER_DAY)
+		{
+			*day = PROGRAMMER_DAY - sum;
+			*month = i + 1;
+			break;
+		}
+		if(is_1918 && i == 1) sum += daytab[is_leap][i] - 14;
+		else sum += daytab[is_leap][i];
+	}
+}
+
 // Complete the solve function below.
 
 // Please either make the string static or allocate on the heap. For example,
@@ -23,12 +45,36 @@ char* readline();
 //
 char* solve(int year) {
 
+	if(year < 1700 || year > 2700)
+		exit(EXIT_FAILURE);
+	
+	int month;
+	int day;
 
+	if(year < 1918 && (year % 4 == 0))
+		get_day_and_month(1, 0, &month, &day);
+	else if(year > 1918 && (year % 400 == 0 || year % 4 == 0 && year % 100 != 0))
+		get_day_and_month(1, 0, &month, &day);		
+	else if(year == 1918) // isn't a leap year
+		get_day_and_month(0, 1, &month, &day);
+	else
+		get_day_and_month(0, 0, &month, &day);
+
+	char * date = malloc(10);
+	if(day < 10 && month < 10)
+		sprintf(date, "0%d.0%d.%d", day, month, year);
+	else if(day < 10 && month >= 10)
+		sprintf(date, "0%d.%d.%d", day, month, year);
+	else if(day >= 10 && month < 10)
+		sprintf(date, "%d.0%d.%d", day, month, year);
+	else if(day >= 10 && month >= 10)
+		sprintf(date, "%d.%d.%d", day, month, year);
+	return date;
 }
 
 int main()
 {
-    FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
+    //FILE* fptr = fopen(/*getenv("OUTPUT_PATH")*/, "w");
 
     char* year_endptr;
     char* year_str = readline();
@@ -38,9 +84,9 @@ int main()
 
     char* result = solve(year);
 
-    fprintf(fptr, "%s\n", result);
+    fprintf(stdout/*fptr*/, "%s\n", result);
 
-    fclose(fptr);
+    //fclose(fptr);
 
     return 0;
 }
