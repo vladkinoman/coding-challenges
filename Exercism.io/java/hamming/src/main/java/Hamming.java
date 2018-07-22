@@ -1,19 +1,19 @@
 class Hamming {
-	private String leftStrand;
-	private String rightStrand;
+    private String leftStrand;
+    private String rightStrand;
 
     Hamming(String leftStrand, String rightStrand) {
-    	if(leftStrand.length() != rightStrand.length())
-    		throw new IllegalArgumentException("leftStrand and rightStrand must be of equal length.");
-    	this.leftStrand = leftStrand;
-    	this.rightStrand = rightStrand;
+        if(leftStrand.length() != rightStrand.length())
+            throw new IllegalArgumentException("leftStrand and rightStrand must be of equal length.");
+        this.leftStrand = leftStrand;
+        this.rightStrand = rightStrand;
     }
 
     int getHammingDistance() {
-    	int countMutationPoint = 0;
+        int countMutationPoint = 0;
         for (int i = 0; i < leftStrand.length() ; i++)
-        	if(leftStrand.charAt(i) != rightStrand.charAt(i))
-        		countMutationPoint++;
+            if(leftStrand.charAt(i) != rightStrand.charAt(i))
+                countMutationPoint++;
         return countMutationPoint;
     }
 
