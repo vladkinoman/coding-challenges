@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ArmstrongNumbersTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-07-18T18:36:11" hostname="vlad-laptop" time="0.005">
+<testsuite name="ArmstrongNumbersTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-07-22T14:11:50" hostname="vlad-laptop" time="0.005">
   <properties/>
   <testcase name="threeDigitNumberIsNotArmstrongNumber" classname="ArmstrongNumbersTest" time="0.002"/>
   <testcase name="sevenDigitNumberIsNotArmstrongNumber" classname="ArmstrongNumbersTest" time="0.0"/>
