@@ -7,86 +7,55 @@
 #include <string.h>
 
 char* readline();
-char * itoa_zero(int num, char * s)
-{
-	if(num < 10)
-	{
-		*s = '0';
-		*(s+1) = '0' + num;	
-	}
-	else
-	{
-		*s = '0'+ (num / 10);
-		*(s+1) = '0'+ (num % 10);
-	}
-	*(s+2) = '\0';
-	return s;
-}
-/*
- * Complete the timeConversion function below.
- */
 
-/*
- * Please either make the string static or allocate on the heap. For example,
- * static char str[] = "hello world";
- * return str;
- *
- * OR
- *
- * char* str = "hello world";
- * return str;
- *
- */
-char* timeConversion(char* s) {
-	char * input_str = malloc(10*sizeof(char));
-	strcpy(input_str, s);
-	char * hh = strtok(s, ":");
-	char * other_part = strtok(NULL, "AP");
-	char * half = strpbrk(input_str, "AP");
-	strtok(input_str,":");
-	char * mm = strtok(NULL, ":");
-	char * ss = strtok(NULL, ":");
-	if(atoi(hh) < 1 || atoi(hh) > 12)
-		exit(1);
-	if(atoi(mm) < 0 || atoi(mm) > 59)
-		exit(1);
-	if(atoi(ss) < 0 || atoi(ss) > 59)
-		exit(1);
-	char * str = malloc(10);
-	*str = '\0';
-	if     (strcmp(hh, "12") == 0 && strcmp(half, "AM") == 0)
-		str = "00:00:00";
-	else if(strcmp(hh, "12") == 0 && strcmp(half, "PM") == 0
-		|| strcmp(hh, "12") != 0 && strcmp(half, "AM") == 0) 
-	{
-		int ihh = atoi(hh);
-		char shh[3];
-		itoa_zero(ihh, shh);
-		char * colon = malloc(7);
-		*colon = ':';
-		*(colon + 1) = '\0';
-		strcat(colon, other_part);
-		strcat(str, shh);
-		strcat(str, colon);
-	}
-	else if(strcmp(hh, "12") != 0 && strcmp(half, "PM") == 0)
-	{
-		int ihh = atoi(hh);
-		ihh += 12;
-		char shh[3];
-		itoa_zero(ihh, shh);
-		printf("shh = %s\n", shh);
-		char * colon = malloc(7);
-		*colon = ':';
-		*(colon + 1) = '\0';
-		strcat(colon, other_part);
-		strcat(str, shh);
-		strcat(str, colon);
-	}
+char * format_datenumber_with_adding_zero(char * strformat, int number)
+{
+	if(number < 10)
+		strcat(strformat, "0%d");
+	else
+		strcat(strformat,"%d");
+	return strformat;
+}
+
+char * format_militarydate(char * str, int hh, int mm, int ss)
+{
+	char * strformat = malloc(12);
+	*strformat = '\0';
+	strformat = format_datenumber_with_adding_zero(strformat, hh);
+	strcat(strformat, ":");
+	strformat = format_datenumber_with_adding_zero(strformat, mm);
+	strcat(strformat, ":");
+	strformat = format_datenumber_with_adding_zero(strformat, ss);
+	sprintf(str, strformat, hh, mm, ss);
 	return str;
 }
 
+char* timeConversion(char* s) {
+	int hh;
+	int mm;
+	int ss;
+	char half[3];
+	sscanf(s, "%d %*c %d %*c %d %s", &hh, &mm, &ss, half);
+	if(hh < 1 || hh > 12)
+		exit(EXIT_FAILURE);
+	if(mm < 0 || mm > 59)
+		exit(EXIT_FAILURE);
+	if(ss < 0 || ss > 59)
+		exit(EXIT_FAILURE);
 
+	char * str = malloc(10);
+	*str = '\0';
+
+	if     (hh == 12 && strcmp(half, "AM") == 0)
+		str = format_militarydate(str, hh * 0, mm, ss);
+	else if(hh != 12 && strcmp(half, "AM") == 0
+		|| hh == 12 && strcmp(half, "PM") == 0)
+		str = format_militarydate(str, hh, mm, ss);
+	else if(hh != 12 && strcmp(half, "PM") == 0)
+		str = format_militarydate(str, hh + 12, mm, ss);
+	
+	return str;
+}
 
 int main()
 {
