@@ -33,7 +33,7 @@ public class Solution {
                 month = i + 1;
                 break;
             }
-            if(year == 1918 && i == 1) sum += DAYTAB[l][i] - 14;
+            if(year == 1918 && i == 1) sum += DAYTAB[l][i] - 13; // not including February 14th
             else sum += DAYTAB[l][i];
         }
 
