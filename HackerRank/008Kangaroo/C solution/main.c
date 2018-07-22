@@ -31,12 +31,14 @@ char* kangaroo(int x1, int v1, int x2, int v2) {
 	if(v2 < 1 || v2 > 10000)
 		exit(1);
 
+    char * yes = "YES";
+    char * no = "NO";
+    if(v2 - v1 == 0) return no;
 	int s2 = v2 * (x1 - x2) / (v2 - v1);
-	int s1 = s2 + x2 - x1;
-
-	char * yes = "YES";
-	char * no = "NO";
-	if(s1 > 0 && s2 > 0 && (s1/v1) == (s2/v2))
+    int s1 = s2 + x2 - x1;
+    printf("s1 = %d\n", s1);
+    printf("s2 = %d\n", s2);
+	if(s1 > 0 && s2 > 0 && (s1%v1) == (s2%v2))
 		return yes;
 	else
 		return no;

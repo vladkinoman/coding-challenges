@@ -16,13 +16,14 @@ public class Solution {
             throw new IllegalArgumentException("1 <= v1 <= 10000");
         if(v2 < 1 || v2 > 10000)
             throw new IllegalArgumentException("1 <= v2 <= 10000");
-
+        
+        String yes = "YES";
+        String no = "NO";
+        if(v2 - v1 == 0) return no;
         int s2 = v2 * (x1 - x2) / (v2 - v1);
         int s1 = s2 + x2 - x1;
 
-        String yes = "YES";
-        String no = "NO";
-        if(s1 > 0 && s2 > 0 && (s1/v1) == (s2/v2))
+        if(s1 > 0 && s2 > 0 && (s1%v1) == (s2%v2))
             return yes;
         else
             return no;
