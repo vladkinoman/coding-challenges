@@ -27,7 +27,7 @@ int get_day_and_month(int is_leap, int is_1918, int * month, int * day)
 			*month = i + 1;
 			break;
 		}
-		if(is_1918 && i == 1) sum += daytab[is_leap][i] - 14;
+		if(is_1918 && i == 1) sum += daytab[is_leap][i] - 13;
 		else sum += daytab[is_leap][i];
 	}
 }
