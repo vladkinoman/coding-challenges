@@ -32,6 +32,21 @@ struct list_item * list_add(struct list_item * head, struct alist_item * aitem)
 	return head;
 }
 
+void list_print(struct list_item * head)
+{
+	while(head != NULL)
+	{
+		printf("count of anagrams in list: %d\n[", head->count_anagrams);
+		while(head->ahead != NULL)
+		{
+			printf(" %s ", head->ahead->anagram);
+			head->ahead = head->ahead->next;
+		}
+		printf("]\n");
+		head = head->next;
+	}
+}
+
 struct alist_item * alist_init(struct alist_item * ahead)
 {
 	ahead = NULL;
@@ -48,21 +63,28 @@ struct list_item * alist_add(struct list_item * head, char * str)
 	return head;
 }
 
-void list_print(struct list_item * head)
+struct clist_item
 {
-	while(head != NULL)
-	{
-		printf("count of anagrams in list: %d\n[", head->count_anagrams);
-		while(head->ahead != NULL)
-		{
-			printf(" %s ", head->ahead->anagram);
-			head->ahead = head->ahead->next;
-		}
-		printf("]\n");
-		head = head->next;
-	}
+    char c;
+    int is_appeared;
+    struct clist_item * next;
+};
+
+struct clist_item * clist_init(struct clist_item * chead)
+{
+	chead = NULL;
+	return chead;
 }
 
+struct clist_item * clist_add(struct clist_item * chead, char c)
+{
+    struct clist_item * tmp = malloc(sizeof(struct clist_item));
+	tmp->c = c;
+	tmp->is_appeared = 0;
+	tmp->next= chead;
+	chead = tmp;
+	return chead;
+}
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *columnSizes array.
@@ -88,10 +110,28 @@ char*** groupAnagrams(char** strs, int strsSize, int** columnSizes, int* returnS
 			int jlen = strlen(strs[j]);
 			if(ilen != jlen) continue;
 			int k;
+            if(strcmp((strs[i]), (strs[j])) == 0) printf("%s == %s\n",strs[i],strs[j]);
+            struct clist_item * chead;
+            struct clist_item * cfirst;
+            chead = clist_init(chead);
+            
+            for(int p = 0; p < jlen; p++)
+                chead = clist_add(chead, strs[j][p]);
+            cfirst = chead;
 			for (k = 0; k < ilen; ++k)
-				if(strchr(strs[j], strs[i][k]) == NULL)
-					break;
-			if(k < ilen) continue;
+            {
+                int is_found = 0;
+                for(; chead != NULL;chead = chead->next)
+                    if(chead->c == strs[i][k] && !chead->is_appeared)
+                    {
+                        chead->is_appeared = 1;
+                        is_found = 1;
+                        break;
+                    }
+                chead = cfirst;
+                if(!is_found) break;
+            }
+			if(k != ilen) continue;
 			head = alist_add(head, strs[j]);
 			strs[j] = NULL;
 		}
@@ -115,7 +155,6 @@ char*** groupAnagrams(char** strs, int strsSize, int** columnSizes, int* returnS
 	}
 	return strres;
 }
-
 
 int main(int argc, char *argv[])
 {
