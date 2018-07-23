@@ -131,6 +131,16 @@ char*** groupAnagrams(char** strs, int strsSize, int** columnSizes, int* returnS
                 chead = cfirst;
                 if(!is_found) break;
             }
+
+            // free the list with characters from strs[j]
+            struct clist_item * cprev;
+            while(chead != NULL)
+            {
+                cprev = chead;
+                chead=chead->next;
+                free(cprev);
+            }
+
 			if(k != ilen) continue;
 			head = alist_add(head, strs[j]);
 			strs[j] = NULL;
@@ -142,6 +152,8 @@ char*** groupAnagrams(char** strs, int strsSize, int** columnSizes, int* returnS
 	// we don't have to malloc columnSizes because we need to return values to the caller function
     // so we use this model: colSizes -> *colSizes (malloc this) -> array of sizes
     *columnSizes = (int *) malloc(*returnSize * sizeof(int));
+	struct list_item * prev;
+    struct alist_item * aprev;
 	for(int i = 0; head != NULL;i++)
 	{
 		strres[i] = (char **) malloc(head->count_anagrams * sizeof(char *));
@@ -149,9 +161,13 @@ char*** groupAnagrams(char** strs, int strsSize, int** columnSizes, int* returnS
 		for(int j = 0; head->ahead != NULL; j++)
 		{
 			strres[i][j] = head->ahead->anagram;
+			aprev = head->ahead;
 			head->ahead = head->ahead->next;
+			free(aprev);
 		}
+		prev = head;
 		head = head->next;
+        free(prev);
 	}
 	return strres;
 }
