@@ -29,7 +29,7 @@ struct list_item * list_add(struct list_item * head, int value)
     return head;
 }
 
-struct list_item * list_find_max(struct list_item * head)
+struct list_item * list_find_first_max(struct list_item * head)
 {
     int max = 0;
     struct list_item * elem_with_max = NULL;
@@ -38,6 +38,23 @@ struct list_item * list_find_max(struct list_item * head)
     {
         if(head->value > 0 && head->value > max 
             && !head->is_security_activated && !head->is_skipped){
+            max = head->value;
+            elem_with_max = head;
+        }
+        head = head->next;
+    }
+    return elem_with_max;
+}
+
+struct list_item * list_find_max(struct list_item * head)
+{
+    int max = 0;
+    struct list_item * elem_with_max = NULL;
+    struct list_item * first = head;
+    while(head != NULL)
+    {
+        if(head->value > 0 && head->value > max 
+            && !head->is_security_activated){
             max = head->value;
             elem_with_max = head;
         }
@@ -59,12 +76,13 @@ int rob(int* nums, int numsSize) {
     for(int i = 0; i < numsSize; i++, sum = 0)
     {
         struct list_item * house_to_rob;
-        house_to_rob = list_find_max(head);
+        house_to_rob = list_find_first_max(head); // first house to rob
         if(house_to_rob) house_to_rob->is_skipped = 1;
         while(house_to_rob != NULL)
         {
             sum += house_to_rob->value;
             house_to_rob->value = 0;
+            house_to_rob->is_security_activated = 1;
             if(house_to_rob->prev)
                 house_to_rob->prev->is_security_activated = 1;
             if(house_to_rob->next)
