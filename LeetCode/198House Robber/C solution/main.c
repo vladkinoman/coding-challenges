@@ -33,16 +33,17 @@ struct list_item * list_find_first_max(struct list_item * head)
 {
     int max = 0;
     struct list_item * elem_with_max = NULL;
-    struct list_item * first = head;
+    printf("first max:   ");
     while(head != NULL)
     {
-        if(head->value > 0 && head->value > max 
-            && !head->is_security_activated && !head->is_skipped){
+        if(head->value > 0 && head->value >= max && !head->is_skipped){
             max = head->value;
             elem_with_max = head;
+            printf(" %d ", max);
         }
         head = head->next;
     }
+    printf("\n");
     return elem_with_max;
 }
 
@@ -50,16 +51,17 @@ struct list_item * list_find_max(struct list_item * head)
 {
     int max = 0;
     struct list_item * elem_with_max = NULL;
-    struct list_item * first = head;
     while(head != NULL)
     {
-        if(head->value > 0 && head->value > max 
+        if(head->value > 0 && head->value >= max 
             && !head->is_security_activated){
             max = head->value;
             elem_with_max = head;
+            printf(" %d ", max);
         }
         head = head->next;
     }
+    printf("\n");
     return elem_with_max;
 }
 
@@ -100,6 +102,7 @@ int rob(int* nums, int numsSize) {
                 head->next->is_security_activated = 0;
             head = head->next;
         }
+        printf("sum = %d\n", sum);
         head = first;
         if(ressum < sum) ressum = sum;
     }
