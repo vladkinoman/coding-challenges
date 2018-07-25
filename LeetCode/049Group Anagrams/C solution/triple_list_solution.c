@@ -113,6 +113,7 @@ char*** groupAnagrams(char** strs, int strsSize, int** columnSizes, int* returnS
             if(strcmp((strs[i]), (strs[j])) == 0) printf("%s == %s\n",strs[i],strs[j]);
             struct clist_item * chead;
             struct clist_item * cfirst;
+            struct clist_item * cprev;
             chead = clist_init(chead);
             
             for(int p = 0; p < jlen; p++)
@@ -121,19 +122,25 @@ char*** groupAnagrams(char** strs, int strsSize, int** columnSizes, int* returnS
 			for (k = 0; k < ilen; ++k)
             {
                 int is_found = 0;
-                for(; chead != NULL;chead = chead->next)
-                    if(chead->c == strs[i][k] && !chead->is_appeared)
+                for(cprev = NULL; chead != NULL; chead = chead->next)
+                {
+                    if(chead->c == *(*(strs + i ) + k))
                     {
-                        chead->is_appeared = 1;
+                        if(cprev) cprev->next = chead->next;
+                        if(cfirst == chead) cfirst = chead->next;
+                        free(chead);
+                        chead = cprev;
                         is_found = 1;
                         break;
                     }
+                    cprev = chead;
+                }
                 chead = cfirst;
                 if(!is_found) break;
             }
 
             // free the list with characters from strs[j]
-            struct clist_item * cprev;
+            
             while(chead != NULL)
             {
                 cprev = chead;
