@@ -2,7 +2,6 @@
 #include <string.h>
 #include <ctype.h>
 #include <stdlib.h>
-
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *columnSizes array.
@@ -20,7 +19,7 @@ char*** groupAnagrams(char** strs, int strsSize, int** columnSizes, int* returnS
                       ++i, q = 0, count_anagrams_in_cur_list = 0)
     {
         if(*(strs + i) == NULL) continue;
-        
+        int ilen = strlen(*(strs + i));
         *(strres + p) = (char **) malloc(strsSize * sizeof(char *));
         *(*(strres + p) + q) = *(strs + i); // add first anagram in list
         count_anagrams_in_cur_list++;
@@ -29,7 +28,6 @@ char*** groupAnagrams(char** strs, int strsSize, int** columnSizes, int* returnS
         for (int j = i + 1; j < strsSize; ++j)
         {
             if(*(strs + j) == NULL) continue;
-            int ilen = strlen(*(strs + i));
             int jlen = strlen(*(strs + j));
             if(ilen != jlen) continue;
             
