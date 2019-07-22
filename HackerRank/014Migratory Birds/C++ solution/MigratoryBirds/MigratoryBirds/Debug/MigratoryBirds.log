@@ -1,2 +1,4 @@
 ﻿  MigratoryBirds.cpp
+D:\Projects\GitHub\coding-challenges\HackerRank\014Migratory Birds\C++ solution\MigratoryBirds\MigratoryBirds\MigratoryBirds.cpp(33,21): warning C4018:  '<': signed/unsigned mismatch
+D:\Projects\GitHub\coding-challenges\HackerRank\014Migratory Birds\C++ solution\MigratoryBirds\MigratoryBirds\MigratoryBirds.cpp(40,19): warning C4018:  '<': signed/unsigned mismatch
   MigratoryBirds.vcxproj -> D:\Projects\GitHub\coding-challenges\HackerRank\014Migratory Birds\C++ solution\MigratoryBirds\Debug\MigratoryBirds.exe

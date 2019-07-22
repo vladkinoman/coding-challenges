@@ -10,10 +10,47 @@ string ltrim(const string&);
 string rtrim(const string&);
 vector<string> split(const string&);
 
+template<class T> struct bird_type
+{
+	T type_number;
+	T sights;
+};
+
+template <class T> struct bird_type_less
+	: public binary_function<T, T, bool>
+{
+	bool operator()(const T& x, const T& y) const
+	{
+		return x->sights < y->sights
+			|| x->sights == y->sights && x->type_number > y->type_number;
+	}
+};
+
 // Complete the migratoryBirds function below.
-int migratoryBirds(vector<int> arr) {
-	cout << "This is migratoryBirds function." << endl;
-	return 0;
+int migratoryBirds(vector<int> arr) 
+{	
+    int number_of_types = 5;
+	if (arr.capacity() < number_of_types || arr.capacity() > 2 * 100000)
+		throw;
+	
+	vector<bird_type<int>*> v(number_of_types);
+	for (int i = 0; i < number_of_types; i++)
+		v[i] = new bird_type<int>{i + 1, 0};
+	
+	for(int i = 0; i < arr.capacity(); i++)
+		switch (arr.at(i))
+		{
+		case 1: case 2: case 3: case 4: case 5:
+			v[arr.at(i) - 1]->sights++;
+			break;
+		default:
+			throw; 
+			break;
+		}
+
+	sort(v.begin(), v.end(), bird_type_less<bird_type<int>*>());
+	
+	return v[number_of_types - 1]->type_number;
 }
 
 int main()
