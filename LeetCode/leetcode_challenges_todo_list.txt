@@ -1,0 +1,14 @@
+001Two Sum                                          - 100% - completed       - C
+002Two Numbers                                      - 100% - completed       - C 
+003Longest Substring Without Repeating Characters   -   0% - haven't started - C++
+004Median of Two Sorted Arrays                      -   0% - need a check    - C++
+010Regular Expression Matching                      -   0% - haven't started - C++
+037Sudoku Solver                                    -   0% - haven't started - C, Java
+042Trapping Rain Water                              -   0% - haven't started - C++
+049Group Anagrams                                   -  90% - 1 test case     - C
+055Jump Game										-   0% - need a check    - C++
+070Climbing Stairs                                  - 100% - completed       - C
+083Remove Duplicates from Sorted List               -   0% - need a check    - C++
+100Same Tree                                        - 100% - completed       - C, Java
+111Minimum Depth of Binary Tree                     -   0% - haven't started - C++
+198House Robber                                     - 100% - completed       - C, Java 
