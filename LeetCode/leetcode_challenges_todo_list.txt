@@ -6,7 +6,7 @@
 037Sudoku Solver                                    -   0% - haven't started - C, Java
 042Trapping Rain Water                              -   0% - haven't started - C++
 049Group Anagrams                                   -  90% - 1 test case     - C
-055Jump Game										-   0% - need a check    - C++
+055Jump Game                                        -   0% - need a check    - C++
 070Climbing Stairs                                  - 100% - completed       - C
 083Remove Duplicates from Sorted List               -   0% - need a check    - C++
 100Same Tree                                        - 100% - completed       - C, Java
