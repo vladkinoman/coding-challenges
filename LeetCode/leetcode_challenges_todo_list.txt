@@ -10,5 +10,5 @@
 070Climbing Stairs                                  - 100% - completed       - C
 083Remove Duplicates from Sorted List               -   0% - need a check    - C++
 100Same Tree                                        - 100% - completed       - C, Java
-111Minimum Depth of Binary Tree                     -   0% - haven't started - C++
+111Minimum Depth of Binary Tree                     -   0% - need a check    - C++
 198House Robber                                     - 100% - completed       - C, Java 
