@@ -1,19 +1,19 @@
-001Solve me first									- 100% - completed       - C++
-002Simple Array Sum									- 100% - completed       - C++								
-003Birthday Cake Candles							- 100% - completed       - C, Java
-004Birthday Chocolate								- 100% - completed       - C, Java
-005Time Conversion									- 100% - completed       - C
-006Grading Students									- 100% - completed       - C
-007Apple and Orange									- 100% - completed       - Java	
-008Kangaroo											- 100% - completed       - C, Java	
-009Day of the Programmer							- 100% - completed       - C, Java		
-010Forming a Magic Squares 							-   0% - haven't started - C, Java		
-011Queen's Attack II								-   0% - haven't started - C, Java	
-012Matrix Layer Rotation							-   0% - haven't started - C, Java			
-013Between two sets 								-   0% - haven't started - C++
-014Migratory Birds 									-   0% - need a check    - C++							
-015Climbing the Leaderboard                         -   0% - questions       - C++				-> questions about STL
-016Save the Prisoner                                -   0% - questions       - C++				-> questions about IDE
+001Solve me first                                   - 100% - completed       - C++
+002Simple Array Sum                                 - 100% - completed       - C++                              
+003Birthday Cake Candles                            - 100% - completed       - C, Java
+004Birthday Chocolate                               - 100% - completed       - C, Java
+005Time Conversion                                  - 100% - completed       - C
+006Grading Students                                 - 100% - completed       - C
+007Apple and Orange                                 - 100% - completed       - Java 
+008Kangaroo                                         - 100% - completed       - C, Java  
+009Day of the Programmer                            - 100% - completed       - C, Java      
+010Forming a Magic Squares                          -   0% - haven't started - C, Java      
+011Queen's Attack II                                -   0% - haven't started - C, Java  
+012Matrix Layer Rotation                            -   0% - haven't started - C, Java          
+013Between two sets                                 -   0% - haven't started - C++
+014Migratory Birds                                  -   0% - need a check    - C++                          
+015Climbing the Leaderboard                         -   0% - questions       - C++              -> questions about STL
+016Save the Prisoner                                -   0% - questions       - C++              -> questions about IDE
 017Organizing Containers of Balls                   -   0% - haven't started - C++
 018Bigger is Greater                                -   0% - haven't started - C++
 019Encryption                                       -   0% - haven't started - C++
