@@ -12,7 +12,7 @@
 012Matrix Layer Rotation                            -   0% - haven't started - C, Java          
 013Between two sets                                 -   0% - haven't started - C++
 014Migratory Birds                                  - 100% - completed       - C++                          
-015Climbing the Leaderboard                         -  72% - 8/11 passed     - C++              -> Compiler Message: "Terminated due to timeout"
+015Climbing the Leaderboard                         - 100% - completed       - C++              
 016Save the Prisoner                                -  18% - 2/11 passed     - C++              -> solution with loop isn't counted, I tried to build formula
 017Organizing Containers of Balls                   -   0% - haven't started - C++
 018Bigger is Greater                                -   0% - haven't started - C++
