@@ -17,9 +17,6 @@ vector<int> climbingLeaderboard(vector<int> scores, vector<int> alice) {
 	if (!(alice.capacity() >= 1 && alice.capacity() <= 2 * 100000))  // 10^5
 		throw;
 
-	/*if(count_if(scores.begin(), scores.end(),;
-		throw;*/
-
 	vector<int> leader_ranks(scores.size());
 	vector<int> alice_ranks(alice.size());
 
@@ -34,12 +31,12 @@ vector<int> climbingLeaderboard(vector<int> scores, vector<int> alice) {
 	}
 
 	// main part of algorithm
-	for (int i = 0; i < alice.size(); i++)
+	for (int i = 0, j = leader_ranks.size() - 1; i < alice.size(); i++)
 	{
 		if ((i != 0 && alice[i - 1] > alice[i])
 			|| !(alice[i] >= 0 && alice[i] <= 1000000000)) // 10^9
 			throw;
-		for (int j = leader_ranks.size() - 1; j >= 0; j--)
+		for (; true; j--)
 		{
 			if (alice[i] == scores[j])
 			{
@@ -54,7 +51,11 @@ vector<int> climbingLeaderboard(vector<int> scores, vector<int> alice) {
 					alice_ranks[i] = leader_ranks[j] + 1;
 				break;
 			}
-			else if (j == 0) alice_ranks[i] = leader_ranks[j];
+			else if (j == 0)
+			{
+				alice_ranks[i] = leader_ranks[j];
+				break;
+			}
 		}
 	}
 
