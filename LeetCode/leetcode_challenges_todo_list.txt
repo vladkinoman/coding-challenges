@@ -6,9 +6,9 @@
 037Sudoku Solver                                    -   0% - haven't started - C, Java
 042Trapping Rain Water                              -   0% - need to finish  - C++
 049Group Anagrams                                   - 100% - completed       - Java
-055Jump Game                                        -  73% - 55/75 test cases- C++
+055Jump Game                                        -  73% - 55/75 test cases- C++         -> strange problem formulation, 1 example contradicts another, somehow you need to know DP to complete task
 070Climbing Stairs                                  - 100% - completed       - C
 083Remove Duplicates from Sorted List               - 100% - completed       - C++
 100Same Tree                                        - 100% - completed       - C, Java
-111Minimum Depth of Binary Tree                     -  56% - 23/41 test cases- C++
+111Minimum Depth of Binary Tree                     - 100% - completed       - C++
 198House Robber                                     - 100% - completed       - C, Java 
