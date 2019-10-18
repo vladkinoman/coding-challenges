@@ -14,37 +14,6 @@ private:
 
 public:
     int trap(vector<int>& height) {
-
-        for (int i = 0; i < height.size(); i++)
-        {
-            if(height[i] > 0 && !height_of_left_block)
-            {
-                height_of_left_block = height[i];
-            }
-                
-            if(height[i] > 0 && height_of_left_block && height[i] >= height_of_left_block)
-            {
-                height_of_right_block = height[i];
-            }
-              
-            if(height_of_left_block && !height_of_right_block) 
-            {
-                width_between_left_and_right_blocks++;
-                amount_of_filled_blocks_between_left_and_right += height[i];
-            }
-            
-            if(height_of_left_block && height_of_right_block)
-            {
-                amount_of_trapped_water += (height_of_right_block / height_of_left_block)
-                * width_between_left_and_right_blocks - amount_of_filled_blocks_between_left_and_right;
-            
-                height_of_left_block = height_of_right_block;
-                
-                height_of_right_block = width_between_left_and_right_blocks
-                = amount_of_filled_blocks_between_left_and_right = 0;
-            }
-            
-        }
         
         return amount_of_trapped_water;
     }
