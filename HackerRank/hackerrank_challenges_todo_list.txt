@@ -18,3 +18,4 @@
 018Bigger is Greater                                -   0% - haven't started - C++
 019Encryption                                       -   0% - haven't started - C++
 020Sherlock and Squares                             -   0% - haven't started - C++
+021Stranger Counter						            -  63% - 7/11 passed     - Java				-> add a check for t and optimize loops (remove loops?)
