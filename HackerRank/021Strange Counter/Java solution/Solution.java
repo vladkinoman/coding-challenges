@@ -10,27 +10,28 @@ public class Solution {
 
     // Complete the strangeCounter function below.
     static long strangeCounter(long t) {
-        if (t <= 1 || t >= Math.pow(10, 12))
+        if (t < 1 || t > Math.pow(10, 12))
             throw new IllegalArgumentException();
         
         long tFirstSecOfCycle = 1;
         long value = 3;
-        while (true) {
-            tFirstSecOfCycle += value;
+        
+        // Check the first t of the next cycle.
+        while ((tFirstSecOfCycle + value) <= t) {
+            tFirstSecOfCycle += value; 
             value = value * 2;
-            if (tFirstSecOfCycle >= t) break;
         }
-        if (t == tFirstSecOfCycle) return value;
-        tFirstSecOfCycle -= value;
-        for (long i = tFirstSecOfCycle; i < t; i++)
-            value--;
+
+        if (tFirstSecOfCycle == t) return value;
+        value = value - (t - tFirstSecOfCycle);
         return value;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(
+        	System.getenv("OUTPUT_PATH")));
 
         long t = scanner.nextLong();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
