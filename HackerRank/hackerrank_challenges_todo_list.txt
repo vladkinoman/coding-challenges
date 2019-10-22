@@ -19,4 +19,4 @@
 019Encryption                                       -   0% - haven't started - C++
 020Sherlock and Squares                             -   0% - haven't started - C++
 021Stranger Counter						            - 100% - completed       - Java
-022Drawing Book										-  69% - 18/27 passed    - Java
+022Drawing Book										- 100% - completed       - Java

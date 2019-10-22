@@ -6,29 +6,27 @@ import java.util.regex.*;
 
 public class Solution {
 
-    /*
-     * Complete the pageCount function below.
-     */
     static int pageCount(int n, int p) {
         if (n < 1 || n > Math.pow(10, 5))
             throw new IllegalArgumentException();
         if (p < 1 || p > n)
             throw new IllegalArgumentException();
         
+        // We won't iterate if our page is at the front/back of the book
         if (p == 1 || n == p ||
          (n % 2 != 0 && p == n - 1)) return 0;
         
         int leftCount = 1;
-        int rightCount = 1;
     
-        for (int i = 2; i < n; i += 2) {
-            if (i == p || i+1 == p) break;
-            else leftCount++;
+        for (int i = 2; i != p && i+1 != p; i += 2) {
+            leftCount++;
         }
 
-        for (int j = n; j > 1; j -= 2) {
-            if (j == p || j-1 == p) break;
-            else rightCount++;
+        int rightCount = 1;
+
+        for (int j = n % 2 == 0 ? n - 1 : n - 2;
+            j != p && j-1 != p; j -= 2) {
+            rightCount++;
         }
 
         return leftCount < rightCount ? leftCount : rightCount;
