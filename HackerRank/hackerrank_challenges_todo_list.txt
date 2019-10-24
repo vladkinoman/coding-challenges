@@ -20,3 +20,4 @@
 020Sherlock and Squares                             -   0% - haven't started - C++
 021Stranger Counter						            - 100% - completed       - Java
 022Drawing Book										- 100% - completed       - Java
+022Counting Valleys									- 100% - completed       - Java
