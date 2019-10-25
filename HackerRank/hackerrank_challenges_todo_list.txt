@@ -20,4 +20,5 @@
 020Sherlock and Squares                             -   0% - haven't started - C++
 021Stranger Counter						            - 100% - completed       - Java
 022Drawing Book										- 100% - completed       - Java
-022Counting Valleys									- 100% - completed       - Java
+023Counting Valleys									- 100% - completed       - Java
+024Jumping on the Clouds							- 100% - completed       - Java				-> the 8th test case is broken.
