@@ -8,17 +8,41 @@ Exercism is targeted at people with some programming experience (or total beginn
 
 Exercism is 100% free. It is entirely open source and relies on the contributions of thousands of volunteers. The platform is designed to be fun and friendly, and the authors place a strong emphasis on empathetic communication.
 
+###### Achievements
+
+>  ToDO: add later.
+
 ## HackerRank
 
 HackerRank focuses on computer science topics so it provides challenges for several domains such as Algorithms, Mathematics, SQL, Functional Programming, AI, and more. You can solve all the challenge directly online (see example). They provide a discussion and leaderboard for every challenge, and most challenges come with an editorial that explains more about the challenge and how to approach it to come up with a solution.
 
 Also, Interview Preparation Kit was recently added.
 
+###### Achievements
+
+Problem solving badge (silver level):
+
+![Problem Solving silver badge](./_images/hackerrank_problem_solving_badge.png)
+
 ## LeetCode
 
 LeetCode has a collection of some of the best algorithm challenges online today. The topics they cover require knowledge of data structures such as binary trees, heaps, linked lists, etc., which is why their challenges are a bit more advanced than some other websites — but the challenges are great if used when preparing for a software engineering interview.
 
 They also have a Mock Interview section that is specifically for job interview preparation, they host their own coding contests, and they have a section for articles to help you better understand certain problems.
+
+###### Achievements
+
+Ranking: :star:
+
+Contest: finished contests - 0.
+
+Solved Question: 7 / 1236.
+
+Accepted Submission: 14 / 70.
+
+Acceptance Rate: 20 % (14 vs. 56).
+
+---
 
 > Add Codewars and TopCoder later.
 
