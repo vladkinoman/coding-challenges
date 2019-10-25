@@ -20,14 +20,14 @@
 018Bigger is Greater               - implementation           - medium        -   0% - haven't started   - C++
 019Encryption                      - implementation           - medium        -   0% - haven't started   - C++
 020Sherlock and Squares            - implementation           - easy          -   0% - haven't started   - C++
-021Stranger Counter			       - implementation		      - easy          - 100% - completed         - Java
-022Drawing Book				       - implementation		      - easy  	      - 100% - completed         - Java
-023Counting Valleys			       - implementation		      - easy		  - 100% - completed         - Java
-024Jumping on the Clouds	       - implementation		      - easy		  - 100% - completed         - Java				  -> the 8th test case is broken.
-025Find Digits				       - implementation		      - easy          - 100% - completed         - Java
+021Stranger Counter                - implementation           - easy          - 100% - completed         - Java
+022Drawing Book                    - implementation           - easy          - 100% - completed         - Java
+023Counting Valleys                - implementation           - easy          - 100% - completed         - Java
+024Jumping on the Clouds           - implementation           - easy          - 100% - completed         - Java               -> the 8th test case is broken.
+025Find Digits                     - implementation           - easy          - 100% - completed         - Java
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Completed tasks:
+Completed tasks:a
     Easy   →   15 
     Medium →    1
     Hard   →    0
