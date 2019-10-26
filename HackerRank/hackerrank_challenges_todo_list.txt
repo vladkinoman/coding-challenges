@@ -25,14 +25,15 @@
 023Counting Valleys                - implementation           - easy          - 100% - completed         - Java
 024Jumping on the Clouds           - implementation           - easy          - 100% - completed         - Java               -> the 8th test case is broken.
 025Find Digits                     - implementation           - easy          - 100% - completed         - Java
+026Electronics Shop                - implementation           - easy          - 100% - completed         - Java
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Completed tasks:a
-    Easy   →   15 
+Completed tasks:
+    Easy   →   16 
     Medium →    1
     Hard   →    0
     —————————————
-    Sum    =   16
+    Sum    =   17
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
