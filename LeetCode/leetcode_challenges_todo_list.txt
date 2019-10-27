@@ -5,6 +5,7 @@
 003Longest Substring Without Repeating Characters   - medium        -   0% - haven't started   - C++
 004Median of Two Sorted Arrays                      - hard          - 100% - completed         - C++                -> That was first hard problem on LeetCode! :)
 010Regular Expression Matching                      - hard          -   0% - haven't started   - C++
+017Letter Combinations of a Phone Number            - medium        -   0% - started           - Java
 037Sudoku Solver                                    - hard          -   0% - haven't started   - C, Java
 042Trapping Rain Water                              - hard          -   0% - need to finish    - C++
 049Group Anagrams                                   - medium        - 100% - completed         - Java
@@ -26,9 +27,9 @@ Completed tasks:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    1 
-    Medium →    1
+    Medium →    2
     Hard   →    3
     —————————————
-    Sum    =    5
+    Sum    =    6
 
-Number of problems: 14
+Number of problems: 15
