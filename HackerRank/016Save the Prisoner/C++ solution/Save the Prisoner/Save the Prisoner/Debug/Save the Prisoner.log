@@ -1,3 +1,0 @@
-﻿  Save the Prisoner.cpp
-D:\Projects\GitHub\coding-challenges\HackerRank\016Save the Prisoner\C++ solution\Save the Prisoner\Save the Prisoner\Save the Prisoner.cpp(38,37): error C2079:  'fout' uses undefined class 'std::basic_ofstream<char,std::char_traits<char>>'
-D:\Projects\GitHub\coding-challenges\HackerRank\016Save the Prisoner\C++ solution\Save the Prisoner\Save the Prisoner\Save the Prisoner.cpp(38,38): error C2440:  'initializing': cannot convert from 'char *' to 'int'
