@@ -3,13 +3,13 @@
 001  Two Sum                                          - easy          - 100% - completed         - C
 002  Two Numbers                                      - easy          - 100% - completed         - C 
 003  Longest Substring Without Repeating Characters   - medium        -   0% - haven't started   - C++
-004  Median of Two Sorted Arrays                      - hard          - 100% - completed         - C++                -> That was first hard problem on LeetCode! :)
+004  Median of Two Sorted Arrays                      - hard          - 100% - completed         - C++                -> That was the first hard problem on LeetCode! :)
 010  Regular Expression Matching                      - hard          -   0% - haven't started   - C++
-017  Letter Combinations of a Phone Number            - medium        -  96% - 24/25 test cases  - Java               -> Need refactoring.
+017  Letter Combinations of a Phone Number            - medium        - 100% - completed         - Java               -> faster than 64.56%, mem less than 98.63%
 037  Sudoku Solver                                    - hard          -   0% - haven't started   - C, Java
 042  Trapping Rain Water                              - hard          -   0% - need to finish    - C++
 049  Group Anagrams                                   - medium        - 100% - completed         - Java
-055  Jump Game                                        - easy          -  73% - 55/75 test cases  - C++                -> strange problem formulation, 1 example contradicts another, somehow you need to know DP to complete task
+055  Jump Game                                        - easy          -  73% - 55/75 test cases  - C++                -> strange problem formulation, 1 example contradicts another, somehow you need to know DP to complete the task
 070  Climbing Stairs                                  - easy          - 100% - completed         - C
 083  Remove Duplicates from Sorted List               - easy          - 100% - completed         - C++
 100  Same Tree                                        - easy          - 100% - completed         - C, Java
@@ -19,17 +19,17 @@
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
     Easy   →    7 
-    Medium →    1
+    Medium →    2
     Hard   →    1
     —————————————
-    Sum    =    9
+    Sum    =   10
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    1 
-    Medium →    2
+    Medium →    1
     Hard   →    3
     —————————————
-    Sum    =    6
+    Sum    =    5
 
 Number of problems: 15

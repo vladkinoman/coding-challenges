@@ -1,56 +1,60 @@
 ﻿import java.util.*;
 class Solution {
     
-    private final static String[] phone = {"abc", "def", "ghi", "jkl", "mno", "pqrs",
+    private final static String[] PHONE = {"abc", "def", "ghi", "jkl", "mno", "pqrs",
                           "tuv", "wxyz"};
     
-    private int[] recurrentIndexBacktracking(int[] indexArray, int[] iDigits, int i) {
-        if (i == -1) return indexArray;
+    private int[] recurrentIndexBacktracking(int i, int[] arrayOfIndices, int[] arrayOfDigits,
+                    boolean isFrontChanged) {
         
-        if (indexArray[i] == phone[iDigits[i]].length() - 1) {
-            indexArray[i] = 0;
-            i--;
-            return recurrentIndexBacktracking(indexArray, iDigits, i);
+        if (i == -1) return arrayOfIndices;
+        
+        if (arrayOfIndices[i] == PHONE[arrayOfDigits[i]].length() - 1) {
+            arrayOfIndices[i] = 0;
+            return recurrentIndexBacktracking(i - 1, arrayOfIndices, arrayOfDigits, true);
         }
         
-        indexArray[i]++;
+        if (isFrontChanged || i == arrayOfIndices.length - 1) arrayOfIndices[i]++;
         
-        return recurrentIndexBacktracking(indexArray, iDigits, -1);
+        return recurrentIndexBacktracking(-1, arrayOfIndices, arrayOfDigits, false);
     }
     
     public List<String> letterCombinations(String digits) {
         if (digits.isEmpty()) return new Vector<String>();
-        for (int i = 0; i < digits.length(); i++) {
+        int numberOfDigits = digits.length();
+        
+        // Validate.
+        for (int i = 0; i < numberOfDigits; i++) {
             int c = Integer.parseInt(String.valueOf(digits.charAt(i)));
             if (c < 2 || c > 9)
                 throw new IllegalArgumentException();
         }
         
-        
-        int[] iDigits = new int [digits.length()];
+        int[] arrayOfDigits = new int [numberOfDigits];
         int numberOfCombinations = 1;
-        for (int i = 0; i < digits.length(); i++) {
+        for (int i = 0; i < numberOfDigits; i++) {
             int c = Integer.parseInt(String.valueOf(digits.charAt(i)));
-            iDigits[i] = c - 2; // easy access
-            numberOfCombinations *= phone[iDigits[i]].length();
+            arrayOfDigits[i] = c - 2; // easy access
+            numberOfCombinations *= PHONE[arrayOfDigits[i]].length();
         }
         
-        List<String> lOfLetterCombinations = new Vector<>();
-        int[] indexArray = new int [digits.length()];
+        List<String> combinationsOfLetters = new Vector<>();
+        int[] arrayOfIndices = new int [numberOfDigits];
         for (int i = 0; i < numberOfCombinations; i++) {
             String s = "";
             
-            for (int j = 0; j < digits.length(); j++) {
-                s = new String (s + String.valueOf(phone[iDigits[j]]
-                    .charAt(indexArray[j])));    
+            for (int j = 0; j < numberOfDigits; j++) {
+                s = new String (s + String.valueOf(PHONE[arrayOfDigits[j]]
+                    .charAt(arrayOfIndices[j])));    
                 
-                recurrentIndexBacktracking(indexArray, iDigits, j);
+                if (j == numberOfDigits - 1)
+                    recurrentIndexBacktracking(j, arrayOfIndices, arrayOfDigits, false);
             }
             
-            // creating the string containing the letter combination            
-            lOfLetterCombinations.add(s);       
+            // creating the string containing the combination of letters          
+            combinationsOfLetters.add(s);       
         }
         
-        return lOfLetterCombinations;
+        return combinationsOfLetters;
     }
 }
