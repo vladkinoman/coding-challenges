@@ -19,7 +19,7 @@
 017  Organizing Containers of Balls  - implementation           - medium        -   0% - haven't started   - C++
 018  Bigger is Greater               - implementation           - medium        -   0% - haven't started   - C++
 019  Encryption                      - implementation           - medium        -   0% - haven't started   - C++
-020  Sherlock and Squares            - implementation           - easy          -   0% - haven't started   - C++
+020  Sherlock and Squares            - implementation           - easy          - 100% - completed         - Java
 021  Stranger Counter                - implementation           - easy          - 100% - completed         - Java
 022  Drawing Book                    - implementation           - easy          - 100% - completed         - Java
 023  Counting Valleys                - implementation           - easy          - 100% - completed         - Java
@@ -35,16 +35,16 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →   22 
+    Easy   →   23 
     Medium →    1
     Hard   →    0
     —————————————
-    Sum    =   23
+    Sum    =   24
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    3 
+    Easy   →    2 
     Medium →    5
     Hard   →    1
     —————————————
-    Sum    =    9
+    Sum    =    8
