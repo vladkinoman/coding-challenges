@@ -12,7 +12,7 @@
 010  Forming a Magic Squares         - implementation           - medium        -   0% - haven't started   - C, Java             -      
 011  Queen's Attack II               - implementation           - medium        -   0% - haven't started   - C, Java             -  
 012  Matrix Layer Rotation           - implementation           - hard          -   0% - haven't started   - C, Java             -          
-013  Between two sets                - implementation           - easy          -   0% - haven't started   - C++                 -
+013  Between two sets                - implementation           - easy          - 100% - completed         - Java                - 17 + 5c + 5r
 014  Migratory Birds                 - implementation           - easy          - 100% - completed         - C++                 -                          
 015  Climbing the Leaderboard        - implementation           - medium        - 100% - completed         - C++                 -              
 016  Save the Prisoner               - implementation           - easy          -  18% - 2/11 passed       - C++                 -            -> solution with loop isn't counted, I tried to build formula
@@ -32,20 +32,25 @@
 030  Plus Minus Shop                 - warmup                   - easy          - 100% - completed         - C                   -
 031  Staircase                       - warmup                   - easy          - 100% - completed         - C                   -
 032  Mini-Max Sum                    - warmup                   - easy          - 100% - completed         - Java                -
-033  Service Lane                    - implementation           - easy          - 100% - completed         - Java                - 10 + 5 (constraints)
+033  Service Lane                    - implementation           - easy          - 100% - completed         - Java                - 8 + 5c + 2r
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →   24 
+    Easy   →   25 
     Medium →    1
     Hard   →    0
     —————————————
-    Sum    =   25
+    Sum    =   26
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    2 
+    Easy   →    1 
     Medium →    5
     Hard   →    1
     —————————————
-    Sum    =    8
+    Sum    =    7
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Symbols
+
+Time: (coding) + (c - constraints) + (r - reading)
