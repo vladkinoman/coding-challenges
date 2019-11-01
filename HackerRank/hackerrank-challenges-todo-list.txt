@@ -38,24 +38,27 @@
 032  Mini-Max Sum                    - warmup                   - easy          - 100% - completed         - Java                -                         10
 033  Service Lane                    - implementation           - easy          - 100% - completed         - Java                - 15 (8s+5c+2r)           20
 034  Breaking the Records            - implementation           - easy          - 100% - completed         - Java                - 14 (10s+2c+2r)          10
+035  ACM ICPC Team                   - implementation           - easy (medium) - 100% - completed         - Java                - 1.52H (1.42Hs+2c+8r)    25
+	← it was a cool task with combinatorics/binary-ops/ifs/loops, tried to build a program quickly with 3 inner loops, it was a bad strategy from the beginning - NEVER DO THIS AGAIN! :)
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 431
+Points: 456
 
 Completed tasks:
-    Easy   →   26 
+    Easy   →   27 
     Medium →    1
     Hard   →    1
     —————————————
-    Sum    =   27
+    Sum    =   28
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    1 
     Medium →    5
-    Hard   →    1
+    Hard   →    0
     —————————————
-    Sum    =    7
+    Sum    =    6
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
