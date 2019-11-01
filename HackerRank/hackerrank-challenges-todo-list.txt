@@ -11,8 +11,9 @@
 009  Day of the Programmer           - implementation           - easy          - 100% - completed         - C, Java             -                         15
 010  Forming a Magic Squares         - implementation           - medium        -   0% - haven't started   - C, Java             -                         0/20
 011  Queen's Attack II               - implementation           - medium        -   0% - haven't started   - C, Java             -                         0/30
-012  Matrix Layer Rotation           - implementation           - hard          -   0% - haven't started   - C, Java             -                         0/80
-013  Between two sets                - implementation           - easy          - 100% - completed         - Java                - 27 (17s + 5c + 5r)      10
+012  Matrix Layer Rotation           - implementation           - hard          - 100% - completed         - Java                - >5h (2Hs+3Ho+8c+3r)     80
+	← first hard problem on HackerRank; by the way, it was a fantastic problem! :)
+013  Between two sets                - implementation           - easy          - 100% - completed         - Java                - 27 (17s+5c+5r)          10
 014  Migratory Birds                 - implementation           - easy          - 100% - completed         - C++                 -                         10 
 015  Climbing the Leaderboard        - implementation           - medium        - 100% - completed         - C++                 -                         20
 016  Save the Prisoner               - implementation           - easy          -  18% - 2/11 passed       - C++                 -                         0/15
@@ -35,16 +36,16 @@
 030  Plus Minus                      - warmup                   - easy          - 100% - completed         - C                   -                         10
 031  Staircase                       - warmup                   - easy          - 100% - completed         - C                   -                         10 
 032  Mini-Max Sum                    - warmup                   - easy          - 100% - completed         - Java                -                         10
-033  Service Lane                    - implementation           - easy          - 100% - completed         - Java                - 15 (8s + 5c + 2r)       20
-034  Breaking the Records            - implementation           - easy          - 100% - completed         - Java                - 14 (10s + 2c + 2r)      10
+033  Service Lane                    - implementation           - easy          - 100% - completed         - Java                - 15 (8s+5c+2r)           20
+034  Breaking the Records            - implementation           - easy          - 100% - completed         - Java                - 14 (10s+2c+2r)          10
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 351
+Points: 431
 
 Completed tasks:
     Easy   →   26 
     Medium →    1
-    Hard   →    0
+    Hard   →    1
     —————————————
     Sum    =   27
 
@@ -59,4 +60,4 @@ ToDo:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
 
-Time: (s - solving/coding) + (c - constraints) + (r - reading)
+Time: (s - solving/coding) + (o - optimization) + (c - constraints) + (r - reading)
