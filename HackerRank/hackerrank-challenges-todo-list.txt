@@ -1,46 +1,52 @@
- #            Problem                         Subdomain            Difficulty             Progress              Implemented in    Time          Commentaries    
+ #            Problem                         Subdomain            Difficulty             Progress              Implemented in    Time                     Points
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-001  Solve me first                  - warmup                   - easy          - 100% - completed         - C++                 -
-002  Simple Array Sum                - warmup                   - easy          - 100% - completed         - C++                 -                              
-003  Birthday Cake Candles           - warmup                   - easy          - 100% - completed         - C, Java             -
-004  Birthday Chocolate              - implementation           - easy          - 100% - completed         - C, Java             -
-005  Time Conversion                 - warmup                   - easy          - 100% - completed         - C                   -
-006  Grading Students                - implementation           - easy          - 100% - completed         - C                   -
-007  Apple and Orange                - implementation           - easy          - 100% - completed         - Java                - 
-008  Kangaroo                        - implementation           - easy          - 100% - completed         - C, Java             -  
-009  Day of the Programmer           - implementation           - easy          - 100% - completed         - C, Java             -      
-010  Forming a Magic Squares         - implementation           - medium        -   0% - haven't started   - C, Java             -      
-011  Queen's Attack II               - implementation           - medium        -   0% - haven't started   - C, Java             -  
-012  Matrix Layer Rotation           - implementation           - hard          -   0% - haven't started   - C, Java             -          
-013  Between two sets                - implementation           - easy          - 100% - completed         - Java                - 17 + 5c + 5r
-014  Migratory Birds                 - implementation           - easy          - 100% - completed         - C++                 -                          
-015  Climbing the Leaderboard        - implementation           - medium        - 100% - completed         - C++                 -              
-016  Save the Prisoner               - implementation           - easy          -  18% - 2/11 passed       - C++                 -            -> solution with loop isn't counted, I tried to build formula
-017  Organizing Containers of Balls  - implementation           - medium        -   0% - haven't started   - C++                 -
-018  Bigger is Greater               - implementation           - medium        -   0% - haven't started   - C++                 -
-019  Encryption                      - implementation           - medium        -   0% - haven't started   - C++                 -
-020  Sherlock and Squares            - implementation           - easy          - 100% - completed         - Java                -
-021  Stranger Counter                - implementation           - easy          - 100% - completed         - Java                -
-022  Drawing Book                    - implementation           - easy          - 100% - completed         - Java                -
-023  Counting Valleys                - implementation           - easy          - 100% - completed         - Java                -
-024  Jumping on the Clouds           - implementation           - easy          - 100% - completed         - Java                -           -> the 8th test case is broken.
-025  Find Digits                     - implementation           - easy          - 100% - completed         - Java                -
-026  Electronics Shop                - implementation           - easy          - 100% - completed         - Java                -
-027  Compare the Triplets            - warmup                   - easy          - 100% - completed         - Java                -           -> forget to add this solution (and the next 5 warmup solutions) 
-028  A Very Big Sum                  - warmup                   - easy          - 100% - completed         - C                   -
-029  Diagonal Difference             - warmup                   - easy          - 100% - completed         - C                   -
-030  Plus Minus Shop                 - warmup                   - easy          - 100% - completed         - C                   -
-031  Staircase                       - warmup                   - easy          - 100% - completed         - C                   -
-032  Mini-Max Sum                    - warmup                   - easy          - 100% - completed         - Java                -
-033  Service Lane                    - implementation           - easy          - 100% - completed         - Java                - 8 + 5c + 2r
+001  Solve me first                  - warmup                   - easy          - 100% - completed         - C++                 -                          1
+002  Simple Array Sum                - warmup                   - easy          - 100% - completed         - C++                 -                         10
+003  Birthday Cake Candles           - warmup                   - easy          - 100% - completed         - C, Java             -                         10
+004  Birthday Chocolate              - implementation           - easy          - 100% - completed         - C, Java             -                         10
+005  Time Conversion                 - warmup                   - easy          - 100% - completed         - C                   -                         15
+006  Grading Students                - implementation           - easy          - 100% - completed         - C                   -                         10
+007  Apple and Orange                - implementation           - easy          - 100% - completed         - Java                -                         10
+008  Kangaroo                        - implementation           - easy          - 100% - completed         - C, Java             -                         10
+009  Day of the Programmer           - implementation           - easy          - 100% - completed         - C, Java             -                         15
+010  Forming a Magic Squares         - implementation           - medium        -   0% - haven't started   - C, Java             -                         0/20
+011  Queen's Attack II               - implementation           - medium        -   0% - haven't started   - C, Java             -                         0/30
+012  Matrix Layer Rotation           - implementation           - hard          -   0% - haven't started   - C, Java             -                         0/80
+013  Between two sets                - implementation           - easy          - 100% - completed         - Java                - 27 (17s + 5c + 5r)      10
+014  Migratory Birds                 - implementation           - easy          - 100% - completed         - C++                 -                         10 
+015  Climbing the Leaderboard        - implementation           - medium        - 100% - completed         - C++                 -                         20
+016  Save the Prisoner               - implementation           - easy          -  18% - 2/11 passed       - C++                 -                         0/15
+    ← solution with loop isn't counted, I tried to build a formula.
+017  Organizing Containers of Balls  - implementation           - medium        -   0% - haven't started   - C++                 -                         0/30
+018  Bigger is Greater               - implementation           - medium        -   0% - haven't started   - C++                 -                         0/35
+019  Encryption                      - implementation           - medium        -   0% - haven't started   - C++                 -                         0/30
+020  Sherlock and Squares            - implementation           - easy          - 100% - completed         - Java                -                         20
+021  Stranger Counter                - implementation           - easy          - 100% - completed         - Java                -                         30
+022  Drawing Book                    - implementation           - easy          - 100% - completed         - Java                -                         10
+023  Counting Valleys                - implementation           - easy          - 100% - completed         - Java                -                         15
+024  Jumping on the Clouds           - implementation           - easy          - 100% - completed         - Java                -                         15
+    ← the 8th test case is broken.
+025  Find Digits                     - implementation           - easy          - 100% - completed         - Java                -                         25
+026  Electronics Shop                - implementation           - easy          - 100% - completed         - Java                -                         15
+027  Compare the Triplets            - warmup                   - easy          - 100% - completed         - Java                -                         10
+    ← forget to add this solution (and the next 5 warmup solutions) 
+028  A Very Big Sum                  - warmup                   - easy          - 100% - completed         - C                   -                         10
+029  Diagonal Difference             - warmup                   - easy          - 100% - completed         - C                   -                         10
+030  Plus Minus                      - warmup                   - easy          - 100% - completed         - C                   -                         10
+031  Staircase                       - warmup                   - easy          - 100% - completed         - C                   -                         10 
+032  Mini-Max Sum                    - warmup                   - easy          - 100% - completed         - Java                -                         10
+033  Service Lane                    - implementation           - easy          - 100% - completed         - Java                - 15 (8s + 5c + 2r)       20
+034  Breaking the Records            - implementation           - easy          - 100% - completed         - Java                - 14 (10s + 2c + 2r)      10
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Points: 351
+
 Completed tasks:
-    Easy   →   25 
+    Easy   →   26 
     Medium →    1
     Hard   →    0
     —————————————
-    Sum    =   26
+    Sum    =   27
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
@@ -53,4 +59,4 @@ ToDo:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
 
-Time: (coding) + (c - constraints) + (r - reading)
+Time: (s - solving/coding) + (c - constraints) + (r - reading)
