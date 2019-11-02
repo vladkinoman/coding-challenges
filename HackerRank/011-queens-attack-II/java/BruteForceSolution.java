@@ -6,30 +6,17 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
-    // Fast solution based on BinarySearch for the 2D array
-    private static boolean isObstacleFound(int i, int j, int[][] obstacles) {
-        int lo = 0; int hi = obstacles.length - 1;
-        while (lo <= hi) {
-            int mid = lo + (hi - lo) / 2;
-            if      (i < obstacles[mid][0]) hi = mid - 1;
-            else if (i > obstacles[mid][0]) lo = mid + 1;
-            else {
-                if        (j > obstacles[mid][1]) {
-                    for (int k = mid; k < obstacles.length && obstacles[k][0] == i 
-                    && obstacles[k][1] <= j; k++)        
-                        if (j == obstacles[k][1]) return true;
-                    return false;
-                } else if (j < obstacles[mid][1]) {
-                    for (int k = mid; k >= 0 && obstacles[k][0] == i 
-                    && obstacles[k][1] >= j ; --k)
-                        if (j == obstacles[k][1]) return true;
-                    return false;
-                } else                            return true;
+public class BruteForceSolution {
+    private static boolean isObstacleFound(int i, int j, int k,
+            int[][] obstacles) {
+        boolean isObstacleFound = false;
+        for (int p = 0; p < k; p++) {
+            if (i == obstacles[p][0] && j == obstacles[p][1]) {
+                isObstacleFound = true;
+                break;
             }
         }
-
-        return false;
+        return isObstacleFound;
     }
 
     // Complete the queensAttack function below.
@@ -42,18 +29,6 @@ public class Solution {
                 throw new IllegalArgumentException();
         }
 
-        Arrays.sort(obstacles, new java.util.Comparator<int[]>() {
-            public int compare(int[] a, int[] b) {
-                if      (Integer.compare(a[0], b[0]) < 0) return -1;
-                else if (Integer.compare(a[0], b[0]) > 0) return +1;
-                else return Integer.compare(a[1], b[1]);
-            }
-        });
-
-        for (int i = 0; i < k; i++) {
-            System.out.println(obstacles[i][0] + " " + obstacles[i][1]);
-        }
-
         int nOfSquaresQueenCanAttack = 0;
         // Top left corner.
         /*
@@ -64,14 +39,12 @@ public class Solution {
         int i = r_q + 1;
         int j = c_q - 1;
         // Indexing starts at 1.
-        
         for (; j >= 1 && i <= n; i++, --j) {
-            if (!isObstacleFound(i, j, obstacles))
+            if (!isObstacleFound(i, j, k, obstacles))
                 nOfSquaresQueenCanAttack++;
             else break;
         }
         
-         
         
         // Left middle corner.
         /*
@@ -82,7 +55,7 @@ public class Solution {
         i = r_q;
         j = c_q - 1;
         for (; j >= 1; --j) {
-            if (!isObstacleFound(i, j, obstacles))
+            if (!isObstacleFound(i, j, k, obstacles))
                 nOfSquaresQueenCanAttack++;
             else break;
         }
@@ -97,7 +70,7 @@ public class Solution {
         i = r_q - 1;
         j = c_q - 1;
         for (; j >= 1 && i >= 1; --i, --j) {
-            if (!isObstacleFound(i, j, obstacles))
+            if (!isObstacleFound(i, j, k, obstacles))
                 nOfSquaresQueenCanAttack++;
             else break;
         }
@@ -112,7 +85,7 @@ public class Solution {
         i = r_q - 1;
         j = c_q;
         for (; i >= 1; --i) {
-            if (!isObstacleFound(i, j, obstacles))
+            if (!isObstacleFound(i, j, k, obstacles))
                 nOfSquaresQueenCanAttack++;
             else break;
         }
@@ -126,7 +99,7 @@ public class Solution {
         i = r_q - 1;
         j = c_q + 1;
         for (; i >= 1 && j <= n; --i, j++) {
-            if (!isObstacleFound(i, j, obstacles))
+            if (!isObstacleFound(i, j, k, obstacles))
                 nOfSquaresQueenCanAttack++;
             else break;
         }
@@ -140,7 +113,7 @@ public class Solution {
         i = r_q;
         j = c_q + 1;
         for (; j <= n; j++) {
-            if (!isObstacleFound(i, j, obstacles))
+            if (!isObstacleFound(i, j, k, obstacles))
                 nOfSquaresQueenCanAttack++;
             else break;
         }
@@ -154,7 +127,7 @@ public class Solution {
         i = r_q + 1;
         j = c_q + 1;
         for (; i <= n && j <= n; i++, j++) {
-            if (!isObstacleFound(i, j, obstacles))
+            if (!isObstacleFound(i, j, k, obstacles))
                 nOfSquaresQueenCanAttack++;
             else break;
         }
@@ -168,7 +141,7 @@ public class Solution {
         i = r_q + 1;
         j = c_q;
         for (; i <= n; i++) {
-            if (!isObstacleFound(i, j, obstacles))
+            if (!isObstacleFound(i, j, k, obstacles))
                 nOfSquaresQueenCanAttack++;
             else break;
         }

@@ -10,7 +10,8 @@
 008  Kangaroo                        - implementation           - easy          - 100% - completed         - C, Java             -                         10
 009  Day of the Programmer           - implementation           - easy          - 100% - completed         - C, Java             -                         15
 010  Forming a Magic Squares         - implementation           - medium        -   0% - haven't started   - C, Java             -                         0/20
-011  Queen's Attack II               - implementation           - medium        -   0% - haven't started   - C, Java             -                         0/30
+011  Queen's Attack II               - implementation           - medium(hard-o)- 100% - completed         - Java                - 3.51H(1.38Hs+2Ho+10c+3r)30
+    ← optimized and solved it with BinarySearch  
 012  Matrix Layer Rotation           - implementation           - hard          - 100% - completed         - Java                - >5h (2Hs+3Ho+8c+3r)     80
 	← first hard problem on HackerRank; by the way, it was a fantastic problem! :)
 013  Between two sets                - implementation           - easy          - 100% - completed         - Java                - 27 (17s+5c+5r)          10
@@ -47,18 +48,18 @@ Points: 456
 
 Completed tasks:
     Easy   →   27 
-    Medium →    1
+    Medium →    2
     Hard   →    1
     —————————————
-    Sum    =   28
+    Sum    =   29
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    1 
-    Medium →    5
+    Medium →    4
     Hard   →    0
     —————————————
-    Sum    =    6
+    Sum    =    5
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
