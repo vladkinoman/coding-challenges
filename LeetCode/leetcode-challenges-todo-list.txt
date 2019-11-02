@@ -19,6 +19,7 @@
 111  Minimum Depth of Binary Tree                     - easy          - 100% - completed         - C++                -
 198  House Robber                                     - easy          - 100% - completed         - C, Java            -
 1243 Array Transformation                             - easy          - 100% - completed         - Java               - 30 (20s+5c+5r)
+1244 Design A Leaderboard                             - medium        -   0% - need to finish    - Java               - 42 (30s+2c+10r)...
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
@@ -31,9 +32,9 @@ Completed tasks:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    1 
-    Medium →    1
+    Medium →    2
     Hard   →    3
     —————————————
-    Sum    =    5
+    Sum    =    6
 
-Number of problems: 16
+Number of problems: 17
