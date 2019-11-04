@@ -20,7 +20,7 @@
 016  Save the Prisoner               - implementation           - easy          -  18% - 2/11 passed       - C++                 -                         0/15
     ← solution with loop isn't counted, I tried to build a formula.
 017  Organizing Containers of Balls  - implementation           - medium        -   0% - haven't started   - C++                 -                         0/30
-018  Bigger is Greater               - implementation           - medium        - 100% - completed         - Java                -                         35
+018  Bigger is Greater               - implementation           - medium        - 100% - completed         - Java                - 2.55H (2.5Hs+3c+2r)     35
 	← amazing exercise!    
 019  Encryption                      - implementation           - medium        -   0% - haven't started   - C++                 -                         0/30
 020  Sherlock and Squares            - implementation           - easy          - 100% - completed         - Java                -                         20
@@ -42,17 +42,18 @@
 034  Breaking the Records            - implementation           - easy          - 100% - completed         - Java                - 14 (10s+2c+2r)          10
 035  ACM ICPC Team                   - implementation           - easy (medium) - 100% - completed         - Java                - 1.52H (1.42Hs+2c+8r)    25
 	← it was a cool task with combinatorics/binary-ops/ifs/loops, tried to build a program quickly with 3 inner loops, it was a bad strategy from the beginning - NEVER DO THIS AGAIN! :)
-
+036  Taum and B'day                  - implementation           - easy          - 100% - completed         - Java                - 30 (7s+3c+20r)          25
+	← the most boring exercise that can be done easily without Greedy Technique
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 521
+Points: 546
 
 Completed tasks:
-    Easy   →   27 
+    Easy   →   28 
     Medium →    3
     Hard   →    1
     —————————————
-    Sum    =   31
+    Sum    =   32
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
