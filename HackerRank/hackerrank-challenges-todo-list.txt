@@ -22,7 +22,7 @@
 017  Organizing Containers of Balls  - implementation           - medium        -   0% - haven't started   - C++                 -                         0/30
 018  Bigger is Greater               - implementation           - medium        - 100% - completed         - Java                - 2.55H (2.5Hs+3c+2r)     35
 	← amazing exercise!    
-019  Encryption                      - implementation           - medium        -   0% - haven't started   - C++                 -                         0/30
+019  Encryption                      - implementation           - medium        - 100% - completed         - Java                - 1H + background         30
 020  Sherlock and Squares            - implementation           - easy          - 100% - completed         - Java                -                         20
 021  Stranger Counter                - implementation           - easy          - 100% - completed         - Java                -                         30
 022  Drawing Book                    - implementation           - easy          - 100% - completed         - Java                -                         10
@@ -46,22 +46,22 @@
 	← the most boring exercise that can be done easily without Greedy Technique
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 546
+Points: 576
 
 Completed tasks:
     Easy   →   28 
-    Medium →    3
+    Medium →    4
     Hard   →    1
     —————————————
-    Sum    =   32
+    Sum    =   33
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    1 
-    Medium →    3
+    Medium →    2
     Hard   →    0
     —————————————
-    Sum    =    4
+    Sum    =    3
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
