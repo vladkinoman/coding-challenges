@@ -19,7 +19,7 @@
 015  Climbing the Leaderboard        - implementation           - medium        - 100% - completed         - C++                 -                         20
 016  Save the Prisoner               - implementation           - easy          -  18% - 2/11 passed       - C++                 -                         0/15
     ← solution with loop isn't counted, I tried to build a formula.
-017  Organizing Containers of Balls  - implementation           - medium        -   0% - haven't started   - C++                 -                         0/30
+017  Organizing Containers of Balls  - implementation           - medium        -   0% - started (tough)   - Java                - >2H                     0/30
 018  Bigger is Greater               - implementation           - medium        - 100% - completed         - Java                - 2.55H (2.5Hs+3c+2r)     35
 	← amazing exercise!    
 019  Encryption                      - implementation           - medium        - 100% - completed         - Java                - 1H + background         30
@@ -44,16 +44,17 @@
 	← it was a cool task with combinatorics/binary-ops/ifs/loops, tried to build a program quickly with 3 inner loops, it was a bad strategy from the beginning - NEVER DO THIS AGAIN! :)
 036  Taum and B'day                  - implementation           - easy          - 100% - completed         - Java                - 30 (7s+3c+20r)          25
 	← the most boring exercise that can be done easily without Greedy Technique
+036  Modified Kaprekar Numbers       - implementation           - easy(+-medium)- 100% - completed         - Java                - 51 (37s+6c+8r)          30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 576
+Points: 606
 
 Completed tasks:
-    Easy   →   28 
+    Easy   →   29 
     Medium →    4
     Hard   →    1
     —————————————
-    Sum    =   33
+    Sum    =   34
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
