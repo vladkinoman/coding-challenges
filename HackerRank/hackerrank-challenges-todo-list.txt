@@ -17,8 +17,8 @@
 013  Between two sets                - implementation           - easy          - 100% - completed         - Java                - 27 (17s+5c+5r)          10
 014  Migratory Birds                 - implementation           - easy          - 100% - completed         - C++                 -                         10 
 015  Climbing the Leaderboard        - implementation           - medium        - 100% - completed         - C++                 -                         20
-016  Save the Prisoner               - implementation           - easy          -  18% - 2/11 passed       - C++                 -                         0/15
-    ← solution with loop isn't counted, I tried to build a formula.
+016  Save the Prisoner               - implementation           - easy(medium-o)- 100% - completed         - Java                - 1.24H (41s+38o+2c+3r)   0/15
+    ← solutions with loop + queues aren't counted, I tried to build a formula. Revealed the tutorial and didn'n get the points.
 017  Organizing Containers of Balls  - implementation           - medium        -   0% - started (tough)   - Java                - >2H                     0/30
 018  Bigger is Greater               - implementation           - medium        - 100% - completed         - Java                - 2.55H (2.5Hs+3c+2r)     35
 	← amazing exercise!    
@@ -50,19 +50,19 @@
 Points: 606
 
 Completed tasks:
-    Easy   →   29 
+    Easy   →   30 
     Medium →    4
     Hard   →    1
     —————————————
-    Sum    =   34
+    Sum    =   35
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    1 
+    Easy   →    0 
     Medium →    2
     Hard   →    0
     —————————————
-    Sum    =    3
+    Sum    =    2
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
