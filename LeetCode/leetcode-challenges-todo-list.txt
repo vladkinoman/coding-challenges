@@ -11,8 +11,8 @@
 037  Sudoku Solver                                    - hard          -   0% - haven't started   - C, Java            -         
 042  Trapping Rain Water                              - hard          -   0% - need to finish    - C++                -
 049  Group Anagrams                                   - medium        - 100% - completed         - Java               -
-055  Jump Game                                        - easy          -  73% - 55/75 test cases  - C++                -
-    ← strange problem formulation, 1 example contradicts another, somehow you need to know DP to complete the task
+055  Jump Game                                        - medium        -  99% - 74/75 test cases  - C++, Java          -
+    ← you need to know Dynamic Programming  to complete the task
 070  Climbing Stairs                                  - easy          - 100% - completed         - C                  -
 083  Remove Duplicates from Sorted List               - easy          - 100% - completed         - C++                -
 100  Same Tree                                        - easy          - 100% - completed         - C, Java            -

@@ -5,15 +5,29 @@
 using namespace std;
 
 class Solution {
+private: bool jumpToNextIndex(vector<int>& nums, int index) {
+        int n = nums.size() - 1;
+        
+        if (index >= n)
+            return true;
+        
+        int furthestJump = std::min(index + nums[index], n);
+        for (int nextIndex = furthestJump; nextIndex > index; --nextIndex) {
+            if (jumpToNextIndex(nums, nextIndex))
+                return true;
+        }
+        
+        return false;
+    }
+    
 public:
     bool canJump(vector<int>& nums) {
-        bool is_reachable = false;
-        int i = 0;
-        for(; i < nums.size() - 1; i += nums[i])
-	    if(nums[i] == 0) break;
-        if(i == nums.size() - 1)
-            is_reachable = true;
-	return is_reachable;
+        int n = nums.size() - 1;
+        for (int i = 0; i < n; i++)
+            if (nums[i] < 0)
+                throw std::invalid_argument("Array should contain non-negative integers.");
+        
+        return jumpToNextIndex(nums, 0);
     }
 };
 
