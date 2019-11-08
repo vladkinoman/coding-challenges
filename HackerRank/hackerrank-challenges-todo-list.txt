@@ -44,17 +44,18 @@
 	← it was a cool task with combinatorics/binary-ops/ifs/loops, tried to build a program quickly with 3 inner loops, it was a bad strategy from the beginning - NEVER DO THIS AGAIN! :)
 036  Taum and B'day                  - implementation           - easy          - 100% - completed         - Java                - 30 (7s+3c+20r)          25
 	← the most boring exercise that can be done easily without Greedy Technique
-036  Modified Kaprekar Numbers       - implementation           - easy(+-medium)- 100% - completed         - Java                - 51 (37s+6c+8r)          30
+037  Modified Kaprekar Numbers       - implementation           - easy(+-medium)- 100% - completed         - Java                - 51 (37s+6c+8r)          30
+038  Beautiful Triplets              - implementation           - easy          - 100% - completed         - Java                - 30 (15s+10o+4c+1r)      20
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 606
+Points: 626
 
 Completed tasks:
-    Easy   →   30 
+    Easy   →   31 
     Medium →    4
     Hard   →    1
     —————————————
-    Sum    =   35
+    Sum    =   36
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
