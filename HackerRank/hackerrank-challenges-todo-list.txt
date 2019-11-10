@@ -22,7 +22,7 @@
 017  Organizing Containers of Balls  - implementation           - medium        -   0% - started (tough)   - Java                - >2H                     0/30
 018  Bigger is Greater               - implementation           - medium        - 100% - completed         - Java                - 2.55H (2.5Hs+3c+2r)     35
 	← amazing exercise!    
-019  Encryption                      - implementation           - medium        - 100% - completed         - Java                - 1H + background         30
+019  Encryption                      - implementation           - medium        - 100% - completed         - Java                - 1H + back               30
 020  Sherlock and Squares            - implementation           - easy          - 100% - completed         - Java                -                         20
 021  Stranger Counter                - implementation           - easy          - 100% - completed         - Java                -                         30
 022  Drawing Book                    - implementation           - easy          - 100% - completed         - Java                -                         10
@@ -46,16 +46,18 @@
 	← the most boring exercise that can be done easily without Greedy Technique
 037  Modified Kaprekar Numbers       - implementation           - easy(+-medium)- 100% - completed         - Java                - 51 (37s+6c+8r)          30
 038  Beautiful Triplets              - implementation           - easy          - 100% - completed         - Java                - 30 (15s+10o+4c+1r)      20
+039  Cavity Map                      - implementation           - easy          - 100% - completed         - Java                - 40 (37s+1c+2r)+back     30
+040  Manasa and Stones               - implementation           - easy          - 100% - completed         - Java                - 1.31H (30s+1c+1Hr)+back 30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 626
+Points: 686
 
 Completed tasks:
-    Easy   →   31 
+    Easy   →   33 
     Medium →    4
     Hard   →    1
     —————————————
-    Sum    =   36
+    Sum    =   38
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
