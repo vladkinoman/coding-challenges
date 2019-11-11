@@ -48,16 +48,17 @@
 038  Beautiful Triplets              - implementation           - easy          - 100% - completed         - Java                - 30 (15s+10o+4c+1r)      20
 039  Cavity Map                      - implementation           - easy          - 100% - completed         - Java                - 40 (37s+1c+2r)+back     30
 040  Manasa and Stones               - implementation           - easy          - 100% - completed         - Java                - 1.31H (30s+1c+1Hr)+back 30
+041  Minimum Distances               - implementation           - easy          - 100% - completed         - C++                 - 30 + back               20
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 686
+Points: 706
 
 Completed tasks:
-    Easy   →   33 
+    Easy   →   34 
     Medium →    4
     Hard   →    1
     —————————————
-    Sum    =   38
+    Sum    =   39
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
