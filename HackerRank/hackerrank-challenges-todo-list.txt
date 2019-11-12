@@ -26,7 +26,7 @@
 020  Sherlock and Squares            - implementation           - easy          - 100% - completed         - Java                -                         20
 021  Stranger Counter                - implementation           - easy          - 100% - completed         - Java                -                         30
 022  Drawing Book                    - implementation           - easy          - 100% - completed         - Java                -                         10
-023  Counting Valleys                - implementation           - easy          - 100% - completed         - Java                -                         15
+023  Counting Valleys                - IPK: Warm-up Challenges  - easy          - 100% - completed         - Java                -                         15
 024  Jumping on the Clouds           - implementation           - easy          - 100% - completed         - Java                -                         15
     ← the 8th test case is broken.
 025  Find Digits                     - implementation           - easy          - 100% - completed         - Java                -                         25
@@ -49,16 +49,17 @@
 039  Cavity Map                      - implementation           - easy          - 100% - completed         - Java                - 40 (37s+1c+2r)+back     30
 040  Manasa and Stones               - implementation           - easy          - 100% - completed         - Java                - 1.31H (30s+1c+1Hr)+back 30
 041  Minimum Distances               - implementation           - easy          - 100% - completed         - C++                 - 30 + back               20
+042  Sock Merchant                   - IPK: Warm-up Challenges  - easy          - 100% - completed         - Java                - 20 + back               10
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 706
+Points: 716
 
 Completed tasks:
-    Easy   →   34 
+    Easy   →   35 
     Medium →    4
     Hard   →    1
     —————————————
-    Sum    =   39
+    Sum    =   40
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
