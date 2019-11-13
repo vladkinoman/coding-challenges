@@ -50,16 +50,18 @@
 040  Manasa and Stones               - implementation           - easy          - 100% - completed         - Java                - 1.31H (30s+1c+1Hr)+back 30
 041  Minimum Distances               - implementation           - easy          - 100% - completed         - C++                 - 30 + back               20
 042  Sock Merchant                   - IPK: Warm-up Challenges  - easy          - 100% - completed         - Java                - 20 + back               10
+043  The Time in Words               - implementation           - medium        - 100% - completed         - Java                - 1.5H + back             25
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 716
+Points: 741
+Rank: 119556
 
 Completed tasks:
     Easy   →   35 
-    Medium →    4
+    Medium →    5
     Hard   →    1
     —————————————
-    Sum    =   40
+    Sum    =   41
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
