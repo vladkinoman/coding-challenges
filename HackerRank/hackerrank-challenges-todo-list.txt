@@ -52,17 +52,18 @@
 042  Sock Merchant                   - IPK: Warm-up Challenges  - easy          - 100% - completed         - Java                - 20 + back               10
 043  The Time in Words               - implementation           - medium        - 100% - completed         - Java                - 1.5H + back             25
 044  Chocolate Feast                 - implementation           - easy          - 100% - completed         - Java                - 40 + back               25
+045  Angry Professor                 - implementation           - easy          - 100% - completed         - Java                - 20 + back               20
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 766
-Rank: 115110
+Points: 786
+Rank: 111811
 
 Completed tasks:
-    Easy   →   36 
+    Easy   →   37 
     Medium →    5
     Hard   →    1
     —————————————
-    Sum    =   42
+    Sum    =   43
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
