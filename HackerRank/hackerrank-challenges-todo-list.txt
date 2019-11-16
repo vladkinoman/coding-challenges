@@ -54,17 +54,18 @@
 044  Chocolate Feast                 - implementation           - easy          - 100% - completed         - Java                - 40 + back               25
 045  Angry Professor                 - implementation           - easy          - 100% - completed         - Java                - 20 + back               20
 046  Jumping on the Clouds           - IPK: Warm-up Challenges  - easy          - 100% - completed         - C++                 - 20 (recur)              20
+047  Repeated String                 - IPK: Warm-up Challenges  - easy          - 100% - completed         - C++                 - 20                      20
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 806
-Rank: 108923
+Points: 826
+Rank: 106204
 
 Completed tasks:
-    Easy   →   38 
+    Easy   →   39 
     Medium →    5
     Hard   →    1
     —————————————
-    Sum    =   44
+    Sum    =   45
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
