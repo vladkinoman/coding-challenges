@@ -17,9 +17,10 @@
 013  Between two sets                - implementation           - easy          - 100% - completed         - Java                - 27 (17s+5c+5r)          10
 014  Migratory Birds                 - implementation           - easy          - 100% - completed         - C++                 -                         10 
 015  Climbing the Leaderboard        - implementation           - medium        - 100% - completed         - C++                 -                         20
-016  Save the Prisoner               - implementation           - easy(medium-o)- 100% - completed         - Java                - 1.24H (41s+38o+2c+3r)   0/15
+016  Save the Prisoner               - implementation           - easy(medium-o)- 100% - completed         - Java                - 1.24H (41s+38o+2c+3r)   15
     ← solutions with loop + queues aren't counted, I tried to build a formula. Revealed the tutorial and didn'n get the points.
-017  Organizing Containers of Balls  - implementation           - medium (hard) -  28% - 2/7 test cases    - Java, C++           - >5H                     0/30
+017  Organizing Containers of Balls  - implementation           - medium        - 100% - completed         - C++                 - >5H                     30
+	← hard, but EZ :)
 018  Bigger is Greater               - implementation           - medium        - 100% - completed         - Java                - 2.55H (2.5Hs+3c+2r)     35
 	← amazing exercise!    
 019  Encryption                      - implementation           - medium        - 100% - completed         - Java                - 1H + back               30
@@ -57,23 +58,23 @@
 047  Repeated String                 - IPK: Warm-up Challenges  - easy          - 100% - completed         - C++                 - 20                      20
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 826
-Rank: 106204
+Points: 856
+Rank: 101250
 
 Completed tasks:
     Easy   →   39 
-    Medium →    5
+    Medium →    6
     Hard   →    1
     —————————————
-    Sum    =   45
+    Sum    =   46
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    0 
-    Medium →    2
+    Medium →    1
     Hard   →    0
     —————————————
-    Sum    =    2
+    Sum    =    1
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols

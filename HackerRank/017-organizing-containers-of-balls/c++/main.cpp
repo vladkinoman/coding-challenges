@@ -6,38 +6,6 @@
 
 using namespace std;
 
-template<class Iter, class T>
-Iter binary_find(Iter begin, Iter end, T val)
-{
-    // Finds the lower bound in at most log(last - first) + 1 comparisons
-    Iter i = std::lower_bound(begin, end, val);
-
-    if (i != end && !(val < *i))
-        return i; // found
-    else
-        return end; // not found
-}
-
-bool isDiagonalMatrix(vector<vector<int>> mat, vector<int> nOfItemsOfType) {
-    int n = mat.size();
-    
-    int found = 0;
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            vector<int>::iterator key = binary_find(nOfItemsOfType.begin(),
-             nOfItemsOfType.end(), mat[i][j]);
-            if (key != nOfItemsOfType.end()) {
-                found++;
-                *key = -1;
-                sort(nOfItemsOfType.begin(), nOfItemsOfType.end());
-            }   
-        }
-    }
-    cout << "found = " << found << endl;
-    if (found == n) return true;
-    return false; 
-} 
-
 string organizingContainers(vector<vector<int>> container) {
     int n = container.size();
     if (n < 1 || n > 100)
@@ -48,65 +16,28 @@ string organizingContainers(vector<vector<int>> container) {
                 invalid_argument("");
         }
     }
-
-    vector<int> nOfItemsOfType(n);
+    
+    vector<int> box_totals(n);
     for (int i = 0; i < n; i++) {
-        nOfItemsOfType[i] = 0;
+        box_totals[i] = 0;
         for (int j = 0; j < n; j++) {
-            nOfItemsOfType[i] += container[j][i];
+            box_totals[i] += container[i][j];
         }
     }
-    sort(nOfItemsOfType.begin(), nOfItemsOfType.end());
-    while (true) {
-        if (isDiagonalMatrix(container, nOfItemsOfType)) {
-            
-            break;
-        }
     
-        int i = 0, j = 0;
-        while (true) {
-            bool isFound = false;
-            for (; i < n; i++) {
-                for (j = 0; j < n; j++) {
-                    if (container[i][j] != 0) {
-                        cout << "OK" << endl;
-                        isFound = true;
-                        break;
-                    }
-                }
-                if (isFound) break;
-            }
-            if (!isFound) return "Impossible";
-            isFound = false;
-            for (int p = 0; p < n; p++) {
-                if (p == i) continue;
-                for (int q = 0; q < n; q++) {
-                    if (q == j || (i % 2 != (p + q) % 2 
-                    && container[i][q] == 0 
-                    && container[p][j] == 0)) 
-                        continue;
-                    
-                    if (container[p][q] == container[i][j]) {
-                        
-                        isFound = true;
-                        container[i][q] += container[p][q];
-                        container[p][q] = 0;
-                        container[p][j] += container[i][j];
-                        container[i][j] = 0;
-                        for (int k = 0; k < n; k++) {
-                            for (int l = 0; l < n; l++) {
-                                cout << container[k][l] << " ";
-                            }
-                            cout << endl;
-                        }
-                        break;
-                    }
-                }
-                if (isFound) break;
-            }
-            if (isFound) break;
-            i++;
+    vector<int> ball_totals(n);
+    for (int i = 0; i < n; i++) {
+        ball_totals[i] = 0;
+        for (int j = 0; j < n; j++) {
+            ball_totals[i] += container[j][i];
         }
+    }
+    
+    sort(box_totals.begin(), box_totals.end());
+    sort(ball_totals.begin(), ball_totals.end());
+    for (int i = 0; i < n; i++) {
+        if (box_totals[i] != ball_totals[i])
+            return "Impossible"; 
     }
     return "Possible";
 }
