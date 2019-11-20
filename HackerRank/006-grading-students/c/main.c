@@ -23,10 +23,10 @@ char* readline();
  */
 int* gradingStudents(int grades_count, int* grades, int* result_count) {
     if(grades_count < 1 || grades_count > 60)
-        exit(1);
+        exit(EXIT_FAILURE);
     for(int i = 0; i < grades_count; i++)
         if(*(grades + i) < 0 || *(grades + i) > 100)
-            exit(1);
+            exit(EXIT_FAILURE);
     
     int * a = malloc(grades_count*sizeof(int));
     *result_count = grades_count;

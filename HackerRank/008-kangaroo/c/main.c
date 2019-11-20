@@ -25,11 +25,11 @@ char** split_string(char*);
 char* kangaroo(int x1, int v1, int x2, int v2) {
 	/****************CONSTRAINTS****************/
 	if(x1 < 0 || x1 > 10000 || x2 < 0 || x2 > 10000 || x1 > x2)
-		exit(1);
+		exit(EXIT_FAILURE);
 	if(v1 < 1 || v1 > 10000)
-		exit(1);
+		exit(EXIT_FAILURE);
 	if(v2 < 1 || v2 > 10000)
-		exit(1);
+		exit(EXIT_FAILURE);
 
     char * yes = "YES";
     char * no = "NO";

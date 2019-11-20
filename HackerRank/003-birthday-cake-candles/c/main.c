@@ -14,10 +14,10 @@ char** split_string(char*);
 // Complete the birthdayCakeCandles function below.
 int birthdayCakeCandles(int ar_count, int* ar) {
 	if(ar_count < 1 || ar_count > 100000)
-		exit(1);
+		exit(EXIT_FAILURE);
 	for (int i = 0; i < ar_count; ++i)
 		if(*(ar+i) < 1 || *(ar+i) > 10000000)
-			exit(1);
+			exit(EXIT_FAILURE);
 
     int max = *ar;
     int count_candles = 0;

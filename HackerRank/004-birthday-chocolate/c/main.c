@@ -15,14 +15,14 @@ char** split_string(char*);
 int solve(int s_count, int* s, int d, int m) {
 	// constraints
 	if(s_count < 1 || s_count > 100)
-		exit(1);
+		exit(EXIT_FAILURE);
 	for (int i = 0; i < s_count; ++i)
 		if(*(s+i) < 1 || *(s+i) > 5)
-			exit(1);
+			exit(EXIT_FAILURE);
 	if(d < 1 || d > 31)
-		exit(1);
+		exit(EXIT_FAILURE);
 	if(m < 1 || m > 12)
-		exit(1);
+		exit(EXIT_FAILURE);
 
 	int total_bar_count = 0;
 	for (int i = 0; i < s_count; ++i)
