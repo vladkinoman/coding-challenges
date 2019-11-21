@@ -136,9 +136,15 @@ The site is great for **beginners**.
 
 > Link to profile: [link](https://www.hackerrank.com/vladkinoman).
 
-- Problem solving badge (silver level):
+- Problem solving badge (gold level):
 
-![Problem Solving silver badge](./_images/hackerrank_problem_solving_badge.png)
+  ![Problem Solving silver badge](./_images/hackerrank_problem_solving_badge.png)
+
+- 10 days of statistics badge (bronze level):
+
+  ![10 days of statistics badge](./_images/hackerrank_10_days_of_statistics_badge.png)
+
+
 
 ## InterviewBit
 
