@@ -59,17 +59,21 @@
 048  2D Array - DS                   - IPK: Arrays              - easy          - 100% - completed         - C++                 - 1H (30s + 30r)          15
 049  Arrays: Left Rotation           - IPK: Arrays              - easy          - 100% - completed         - C++                 - 1.32H(1.30Hs + 2r)+back 20
 050  Pangrams                        - Strings                  - easy          - 100% - completed         - C++                 - 1H + back               20
+051  Bon Appétit                     - implementation           - easy          - 100% - completed         - C++                 - 20 + back               10
+052  The Hurdle Race                 - implementation           - easy          - 100% - completed         - C++                 - 25 (5s+20r) + back      15
+053  Sequence Equation               - implementation           - easy          - 100% - completed         - C++                 - 40 (20s+20r) + back     20
+054  Cats and a Mouse                - implementation           - easy          - 100% - completed         - C++                 - 12 (2s+10r) + back      15
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 911
-Rank: 91355
+Points: 971
+Rank: 83115
 
 Completed tasks:
-    Easy   →   42 
+    Easy   →   46 
     Medium →    6
     Hard   →    1
     —————————————
-    Sum    =   49
+    Sum    =   53
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
