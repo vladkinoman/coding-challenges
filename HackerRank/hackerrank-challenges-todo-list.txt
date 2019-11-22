@@ -56,19 +56,20 @@
 045  Angry Professor                 - implementation           - easy          - 100% - completed         - Java                - 20 + back               20
 046  Jumping on the Clouds           - IPK: Warm-up Challenges  - easy          - 100% - completed         - C++                 - 20 (recur)              20
 047  Repeated String                 - IPK: Warm-up Challenges  - easy          - 100% - completed         - C++                 - 20                      20
-048  2D Array - DS                   - IPK: Arrays 			    - easy          - 100% - completed         - C++                 - 1H (30s + 30r)          15
-049  Arrays: Left Rotation           - IPK: Arrays 			    - easy          - 100% - completed         - C++                 - 1.32H(1.30Hs + 2r)+back 20
+048  2D Array - DS                   - IPK: Arrays              - easy          - 100% - completed         - C++                 - 1H (30s + 30r)          15
+049  Arrays: Left Rotation           - IPK: Arrays              - easy          - 100% - completed         - C++                 - 1.32H(1.30Hs + 2r)+back 20
+050  Pangrams                        - Strings                  - easy          - 100% - completed         - C++                 - 1H + back               20
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 871
-Rank: 98019
+Points: 911
+Rank: 91355
 
 Completed tasks:
-    Easy   →   41 
+    Easy   →   42 
     Medium →    6
     Hard   →    1
     —————————————
-    Sum    =   48
+    Sum    =   49
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
