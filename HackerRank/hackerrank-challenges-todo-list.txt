@@ -64,17 +64,19 @@
 053  Sequence Equation               - implementation           - easy          - 100% - completed         - C++                 - 40 (20s+20r) + back     20
 054  Cats and a Mouse                - implementation           - easy          - 100% - completed         - C++                 - 12 (2s+10r) + back      15
 055  Dynamic Array                   - Arrays                   - easy          - 100% - completed         - C++                 - 1H (40s+20r) + back     15
+056  Equalize the Array              - implementation           - easy          - 100% - completed         - C++                 - 32 (30s+2r) + back      20
+057  Sherlock and The Beast          - Greedy                   - easy          - 100% - completed         - C++                 - 40 (40s+2r) + back      30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 986
-Rank: 81248
+Points: 1036
+Rank: 75492
 
 Completed tasks:
-    Easy   →   47 
+    Easy   →   49 
     Medium →    6
     Hard   →    1
     —————————————
-    Sum    =   54
+    Sum    =   56
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
