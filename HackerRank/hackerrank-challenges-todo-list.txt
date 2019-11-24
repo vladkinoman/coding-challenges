@@ -9,7 +9,8 @@
 007  Apple and Orange                - implementation           - easy          - 100% - completed         - Java                -                         10
 008  Kangaroo                        - implementation           - easy          - 100% - completed         - C, Java             -                         10
 009  Day of the Programmer           - implementation           - easy          - 100% - completed         - C, Java             -                         15
-010  Forming a Magic Squares         - implementation           - medium        -   0% - haven't started   - C, Java             -                         0/20
+010  Forming a Magic Squares         - implementation           - medium        - 100% - completed         - C++                 - 4H + back               20
+    ← strange exercise which isn't straightforward with these amount of points and requires addiotnal knowledge. So, I used solution on Python from forums 
 011  Queen's Attack II               - implementation           - medium(hard-o)- 100% - completed         - Java                - 3.51H(1.38Hs+2Ho+10c+3r)30
     ← optimized and solved it with BinarySearch  
 012  Matrix Layer Rotation           - implementation           - hard          - 100% - completed         - Java                - >5h (2Hs+3Ho+8c+3r)     80
@@ -69,23 +70,23 @@
 058  Absolute Permutation            - implementation           - medium        - 100% - completed         - C++, Java           - 4H (4Hs) + back         40
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1076
-Rank: 71258
+Points: 1096
+Rank: 69280
 
 Completed tasks:
     Easy   →   49 
-    Medium →    7
+    Medium →    8
     Hard   →    1
     —————————————
-    Sum    =   57
+    Sum    =   58
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    0 
-    Medium →    1
+    Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    1
+    Sum    =    0
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
