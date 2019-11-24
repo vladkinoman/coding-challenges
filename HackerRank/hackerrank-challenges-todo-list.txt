@@ -66,17 +66,18 @@
 055  Dynamic Array                   - Arrays                   - easy          - 100% - completed         - C++                 - 1H (40s+20r) + back     15
 056  Equalize the Array              - implementation           - easy          - 100% - completed         - C++                 - 32 (30s+2r) + back      20
 057  Sherlock and The Beast          - Greedy                   - easy          - 100% - completed         - C++                 - 40 (40s+2r) + back      30
+058  Absolute Permutation            - implementation           - medium        - 100% - completed         - C++, Java           - 4H (4Hs) + back         40
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1036
-Rank: 75492
+Points: 1076
+Rank: 71258
 
 Completed tasks:
     Easy   →   49 
-    Medium →    6
+    Medium →    7
     Hard   →    1
     —————————————
-    Sum    =   56
+    Sum    =   57
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
