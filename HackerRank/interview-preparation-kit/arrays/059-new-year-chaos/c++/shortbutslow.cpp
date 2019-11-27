@@ -4,17 +4,20 @@ using namespace std;
 
 vector<string> split_string(string);
 
-// solution from discussions
+// My favorite solution. It's short and slow.
 void minimumBribes(vector<int> q) {
     int n = q.size();
     int bribes = 0;
     for (int i = n - 1; i >= 0; i--) {
-        if (q[i] - i - 1 > 2) {
+        if (q[i] == i + 1) continue;
+        auto max_in_left_subarray = max_element(q.begin(), q.begin() + i);
+        int bribes_of_ith = distance(max_in_left_subarray, q.begin() + i);
+        if (bribes_of_ith > 2) {
             cout << "Too chaotic" << endl;
             return;
         }
-        for (int j = max(0, q[i] - 2); j < i; j++)
-            if (q[j] > q[i]) bribes++;
+        q.erase(max_in_left_subarray);
+        bribes += bribes_of_ith;
     }
     cout << bribes << endl;
 }

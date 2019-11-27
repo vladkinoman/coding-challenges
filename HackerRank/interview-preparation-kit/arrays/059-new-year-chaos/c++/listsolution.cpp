@@ -4,17 +4,30 @@ using namespace std;
 
 vector<string> split_string(string);
 
-// solution from discussions
+// Tried to optimize solution with list to pass through time test cases.
 void minimumBribes(vector<int> q) {
-    int n = q.size();
+    list<int> lq(q.begin(), q.end());
+    int n = lq.size();
     int bribes = 0;
-    for (int i = n - 1; i >= 0; i--) {
-        if (q[i] - i - 1 > 2) {
+    list<int>::reverse_iterator it_i = lq.rbegin();
+    for (int i = n - 1; i >= 0; i--, it_i = lq.rbegin()) {
+        if (*it_i == i + 1) continue;
+        int max_index = 0;
+        auto max_in_left_subarray = lq.begin();
+        auto it_j = lq.begin();
+        for (int j = 0; j <= i; j++, it_j++) {
+            if (*it_j > *max_in_left_subarray) {
+                max_in_left_subarray = it_j;
+                max_index = j;
+            }
+        }
+        int bribes_of_ith = i - max_index;
+        if (bribes_of_ith > 2) {
             cout << "Too chaotic" << endl;
             return;
         }
-        for (int j = max(0, q[i] - 2); j < i; j++)
-            if (q[j] > q[i]) bribes++;
+        lq.erase(max_in_left_subarray); // only O(n)
+        bribes += bribes_of_ith;
     }
     cout << bribes << endl;
 }

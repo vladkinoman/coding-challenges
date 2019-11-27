@@ -14,16 +14,16 @@
 011  Queen's Attack II               - implementation           - medium(hard-o)- 100% - completed         - Java                - 3.51H(1.38Hs+2Ho+10c+3r)30
     ← optimized and solved it with BinarySearch  
 012  Matrix Layer Rotation           - implementation           - hard          - 100% - completed         - Java                - >5h (2Hs+3Ho+8c+3r)     80
-	← first hard problem on HackerRank; by the way, it was a fantastic problem! :)
+    ← first hard problem on HackerRank; by the way, it was a fantastic problem! :)
 013  Between two sets                - implementation           - easy          - 100% - completed         - Java                - 27 (17s+5c+5r)          10
 014  Migratory Birds                 - implementation           - easy          - 100% - completed         - C++                 -                         10 
 015  Climbing the Leaderboard        - implementation           - medium        - 100% - completed         - C++                 -                         20
 016  Save the Prisoner               - implementation           - easy(medium-o)- 100% - completed         - Java                - 1.24H (41s+38o+2c+3r)   15
     ← solutions with loop + queues aren't counted, I tried to build a formula. Revealed the tutorial and didn'n get the points.
 017  Organizing Containers of Balls  - implementation           - medium        - 100% - completed         - C++                 - >5H                     30
-	← hard, but EZ :)
+    ← hard, but EZ :)
 018  Bigger is Greater               - implementation           - medium        - 100% - completed         - Java                - 2.55H (2.5Hs+3c+2r)     35
-	← amazing exercise!    
+    ← amazing exercise!    
 019  Encryption                      - implementation           - medium        - 100% - completed         - Java                - 1H + back               30
 020  Sherlock and Squares            - implementation           - easy          - 100% - completed         - Java                -                         20
 021  Stranger Counter                - implementation           - easy          - 100% - completed         - Java                -                         30
@@ -43,9 +43,9 @@
 033  Service Lane                    - implementation           - easy          - 100% - completed         - Java                - 15 (8s+5c+2r)           20
 034  Breaking the Records            - implementation           - easy          - 100% - completed         - Java                - 14 (10s+2c+2r)          10
 035  ACM ICPC Team                   - implementation           - easy (medium) - 100% - completed         - Java                - 1.52H (1.42Hs+2c+8r)    25
-	← it was a cool task with combinatorics/binary-ops/ifs/loops, tried to build a program quickly with 3 inner loops, it was a bad strategy from the beginning - NEVER DO THIS AGAIN! :)
+    ← it was a cool task with combinatorics/binary-ops/ifs/loops, tried to build a program quickly with 3 inner loops, it was a bad strategy from the beginning - NEVER DO THIS AGAIN! :)
 036  Taum and B'day                  - implementation           - easy          - 100% - completed         - Java                - 30 (7s+3c+20r)          25
-	← the most boring exercise that can be done easily without Greedy Technique
+    ← the most boring exercise that can be done easily without Greedy Technique
 037  Modified Kaprekar Numbers       - implementation           - easy(+-medium)- 100% - completed         - Java                - 51 (37s+6c+8r)          30
 038  Beautiful Triplets              - implementation           - easy          - 100% - completed         - Java                - 30 (15s+10o+4c+1r)      20
 039  Cavity Map                      - implementation           - easy          - 100% - completed         - Java                - 40 (37s+1c+2r)+back     30
@@ -68,26 +68,26 @@
 056  Equalize the Array              - implementation           - easy          - 100% - completed         - C++                 - 32 (30s+2r) + back      20
 057  Sherlock and The Beast          - Greedy                   - easy          - 100% - completed         - C++                 - 40 (40s+2r) + back      30
 058  Absolute Permutation            - implementation           - medium        - 100% - completed         - C++, Java           - 4H (4Hs) + back         40
-058  New Year Chaos                  - IPK: Arrays              - medium        -   0% - started           - C++                 - > 4H + back             40
-
+059  New Year Chaos                  - IPK: Arrays              - medium (hard) - 100% - completed         - C++                 - > 7H + back             40
+    ← complete exersise using solution from Discussions, couldn't go through time test cases (I do like my short solution more than the main one)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1096
-Rank: 69280
+Points: 1136
+Rank: 65683
 
 Completed tasks:
     Easy   →   49 
-    Medium →    8
+    Medium →    9
     Hard   →    1
     —————————————
-    Sum    =   58
+    Sum    =   59
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    0 
-    Medium →    1
+    Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    1
+    Sum    =    0
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
