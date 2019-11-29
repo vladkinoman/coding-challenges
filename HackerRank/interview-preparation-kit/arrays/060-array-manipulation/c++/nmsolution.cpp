@@ -4,8 +4,24 @@ using namespace std;
 
 vector<string> split_string(string);
 
+// Complete the arrayManipulation function below.
 long arrayManipulation(int n, vector<vector<int>> queries) {
-    
+    int m = queries.size();
+    vector<long> overlapped_items(n);
+    long max = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            int a = queries[j][0];
+            int b = queries[j][1];
+            int k = queries[j][2];
+            if (k == 0) continue;
+            if ((i+1) >= a && (i+1) <= b) {
+                overlapped_items[i] += k;
+            }
+        }
+        if (overlapped_items[i] > max) max = overlapped_items[i];
+    }
+    return max;
 }
 
 int main()

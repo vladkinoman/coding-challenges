@@ -5,7 +5,26 @@ using namespace std;
 vector<string> split_string(string);
 
 long arrayManipulation(int n, vector<vector<int>> queries) {
-    
+    int m = queries.size();
+    map<int, long> overlapped_items;
+    // time complexity is O(m*n*log n)
+    for (int i = 0; i < m; i++) {
+        int a = queries[i][0];
+        int b = queries[i][1];
+        int k = queries[i][2];
+	if (k == 0) continue;
+        for (int j = a; j <= b; j++) {
+	    // it is better to use at() instead of []
+            // complexity is log n
+            overlapped_items[j] += k;
+        }   
+    }
+    long max_value = 0;
+    for (auto it = overlapped_items.begin();
+        it != overlapped_items.end(); it++) {
+        if (max_value < it->second) max_value = it->second;
+    }
+    return max_value;
 }
 
 int main()
