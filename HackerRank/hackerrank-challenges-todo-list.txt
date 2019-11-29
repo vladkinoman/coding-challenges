@@ -70,27 +70,27 @@
 058  Absolute Permutation            - implementation           - medium        - 100% - completed         - C++, Java           - 4H (4Hs) + back         40
 059  New Year Chaos                  - IPK: Arrays              - medium (hard) - 100% - completed         - C++                 - > 7H + back             40
     ← complete exersise using solution from Discussions, couldn't go through time test cases (I do like my short solution more than the main one)
-060  Array Manipulation              - IPK: Arrays              - hard          -  44% - 7/16 passed       - C++                 - 4H + back               24/60
-    ← add solutions with O(m*n*log n) and O(m * n) time complexity
+060  Array Manipulation              - IPK: Arrays              - hard          - 100% - completed         - C++                 - 5H + back               60
+    ← add solutions with O(m*n*log n) and O(m * n) time complexity, the main solution I took from Discussions and it is O(n) - impressive! 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1160
-Rank: 63659
+Points: 1196
+Rank: 60603
 
 Completed tasks:
     Easy   →   49 
     Medium →    9
-    Hard   →    1
+    Hard   →    2
     —————————————
-    Sum    =   59
+    Sum    =   60
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    0 
     Medium →    0
-    Hard   →    1
+    Hard   →    0
     —————————————
-    Sum    =    1
+    Sum    =    0
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols

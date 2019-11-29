@@ -5,7 +5,23 @@ using namespace std;
 vector<string> split_string(string);
 
 long arrayManipulation(int n, vector<vector<int>> queries) {
-    
+    int m = queries.size();
+    vector<long> v(n+1);
+    // Time complexity is O(n).
+    for (int i = 0; i < m; i++) {
+        int a = queries[i][0];
+        int b = queries[i][1];
+        int k = queries[i][2];
+        v[a] += k;
+        if ((b+1) <= n) v[b+1] -= k;
+    }
+
+    long x = 0, max = 0;
+    for (int i = 1; i <= n; i++) {
+        x += v[i];
+        if (max < x) max=x;
+    }
+    return max;
 }
 
 int main()
