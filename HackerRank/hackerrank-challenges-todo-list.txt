@@ -74,9 +74,10 @@
     ← add solutions with O(m*n*log n) and O(m * n) time complexity, the main solution I took from Discussions and it is O(n) - impressive! 
 061  Minimum Swaps 2                 - IPK: Arrays              - medium (EASY?)- 100% - completed         - C++                 - 2H + back               0/40
     ← I can't understand levels of difficulty on HackerRank, this ain't medium problem and I made it hard when it was easy ¯\_(ツ)_/¯
+062  Bonetrousle                     - Constructive Algorithms  - medium        -   0% - started           - C++                 - 30                      0/50
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1196
-Rank: 60603
+Rank: 60717
 
 Completed tasks:
     Easy   →   49 
@@ -88,10 +89,10 @@ Completed tasks:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    0 
-    Medium →    0
+    Medium →    1
     Hard   →    0
     —————————————
-    Sum    =    0
+    Sum    =    1
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
