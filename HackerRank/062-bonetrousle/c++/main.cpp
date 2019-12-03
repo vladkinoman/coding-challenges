@@ -21,19 +21,44 @@ For each trip to the store:
         trailing spaces or extra newlines.
 */
 vector<long> bonetrousle(long n, long k, int b) {
-    vector<long> boxes_in_store(n);
-    for (long i = 0; i < n; i++) {
-        boxes_in_store[i] = i + 1;
+    set<long> boxes_in_store;
+    set<long> intact_boxes;
+    for (long i = 0; i < k; i++) {
+        intact_boxes.emplace(i + 1);
+        boxes_in_store.emplace(i + 1);
     }
+    
     long sticks_we_can_buy = 0;
-    for (long i = 0, j = n - 1; i < k && j >= 0; i++, --j) {
+    auto rev_box_iter = boxes_in_store.rbegin();
+    for (long i = 0; i < k && rev_box_iter != boxes_in_store.rend();
+        i++, rev_box_iter++) {
         // i - an amount of boxes we can buy
         // j - an index to the box
-        sticks_we_can_buy += boxes_in_store[j];
+        sticks_we_can_buy += *rev_box_iter;
     }
     if (sticks_we_can_buy < n) return vector<long>() = {-1};
-    vector<long> boxes_we_can_buy;
-
+    
+    vector<long> boxes_we_can_buy(b);
+    short start = 0;
+    while (true) {
+        long sum = 0;
+        auto it = intact_boxes.begin();
+        for (int i = 0; i < start; i++, it++) ;
+        for (int j = 0; j < b - 1; it++, j++) {
+            if (it == intact_boxes.end()) 
+                it = intact_boxes.begin();
+            sum += *it;
+            boxes_we_can_buy[j] = *it;
+            it = intact_boxes.erase(it);
+        }
+        auto last_item = intact_boxes.find(n - sum);
+        if (last_item != intact_boxes.end()) {
+            boxes_we_can_buy[b-1] = *last_item;
+            break;
+        }
+        intact_boxes = boxes_in_store;
+        start++;
+    }
     return boxes_we_can_buy;
 }
 
