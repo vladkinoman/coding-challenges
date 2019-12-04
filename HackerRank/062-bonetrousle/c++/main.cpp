@@ -23,9 +23,13 @@ For each trip to the store:
 vector<long> bonetrousle(long n, long k, int b) {
     set<long> boxes_in_store;
     set<long> intact_boxes;
+    auto it_boxes_in_store = boxes_in_store.begin();
+    auto it_intact_boxes = intact_boxes.begin();
     for (long i = 0; i < k; i++) {
-        intact_boxes.emplace(i + 1);
-        boxes_in_store.emplace(i + 1);
+        it_boxes_in_store = boxes_in_store
+            .emplace_hint(it_boxes_in_store, i + 1);
+        it_intact_boxes = intact_boxes
+            .emplace_hint(it_intact_boxes, i + 1);
     }
     
     long sticks_we_can_buy = 0;
@@ -37,26 +41,30 @@ vector<long> bonetrousle(long n, long k, int b) {
         sticks_we_can_buy += *rev_box_iter;
     }
     if (sticks_we_can_buy < n) return vector<long>() = {-1};
-    
     vector<long> boxes_we_can_buy(b);
-    short start = 0;
+    int start = 0;
     while (true) {
         long sum = 0;
         auto it = intact_boxes.begin();
         for (int i = 0; i < start; i++, it++) ;
-        for (int j = 0; j < b - 1; it++, j++) {
+        // (k-1) * amortized constant
+        for (int j = 0; j < b - 1; j++) {
             if (it == intact_boxes.end()) 
                 it = intact_boxes.begin();
             sum += *it;
             boxes_we_can_buy[j] = *it;
-            it = intact_boxes.erase(it);
+            it = intact_boxes.erase(it); // amortized constant
         }
-        auto last_item = intact_boxes.find(n - sum);
+        //cout << sum << endl;
+        auto last_item = intact_boxes.find(n - sum); // lg k
         if (last_item != intact_boxes.end()) {
             boxes_we_can_buy[b-1] = *last_item;
             break;
+        } else if (last_item == intact_boxes.end() 
+            && k == b) {
+            return vector<long>() = {-1};
         }
-        intact_boxes = boxes_in_store;
+        intact_boxes = boxes_in_store; // k
         start++;
     }
     return boxes_we_can_buy;
