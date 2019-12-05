@@ -72,20 +72,21 @@
     ← complete exersise using solution from Discussions, couldn't go through time test cases (I do like my short solution more than the main one)
 060  Array Manipulation              - IPK: Arrays              - hard          - 100% - completed         - C++                 - 5H + back               60
     ← add solutions with O(m*n*log n) and O(m * n) time complexity, the main solution I took from Discussions and it is O(n) - impressive! 
-061  Minimum Swaps 2                 - IPK: Arrays              - medium (EASY?)- 100% - completed         - C++                 - 2H + back               0/40
+061  Minimum Swaps 2                 - IPK: Arrays              - medium (EASY?)- 100% - completed         - C++                 - 2H + back               -/40
     ← I can't understand levels of difficulty on HackerRank, this ain't medium problem and I made it hard when it was easy ¯\_(ツ)_/¯
 062  Bonetrousle                     - Constructive Algorithms  - medium        -  47% - 4/15 tests passed - C++                 - 1H (2Hs+1Ho)         12.5/50
+063  Sorting: Bubble Sort            - IPK: Sorting             - easy          - 100% - completed         - C++                 - 10                      -/30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1211 
 Rank: 59632
 
 Completed tasks:
-    Easy   →   49 
+    Easy   →   50 
     Medium →   10
     Hard   →    2
     —————————————
-    Sum    =   60
+    Sum    =   61
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
