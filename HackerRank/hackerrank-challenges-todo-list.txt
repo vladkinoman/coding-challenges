@@ -75,18 +75,19 @@
 061  Minimum Swaps 2                 - IPK: Arrays              - medium (EASY?)- 100% - completed         - C++                 - 2H + back               -/40
     ← I can't understand levels of difficulty on HackerRank, this ain't medium problem and I made it hard when it was easy ¯\_(ツ)_/¯
 062  Bonetrousle                     - Constructive Algorithms  - medium        -  47% - 4/15 tests passed - C++                 - 1H (2Hs+1Ho)         12.5/50
-063  Sorting: Bubble Sort            - IPK: Sorting             - easy          - 100% - completed         - C++                 - 10                      -/30
+063  Sorting: Bubble Sort            - IPK: Sorting             - easy          - 100% - completed         - C++                 - 10                      ?/30
+064  Mark and Toys                   - IPK: Sorting             - easy          - 100% - completed         - C++                 - 10                      35
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1211 
-Rank: 59632
+Points: 1246 
+Rank: 57054
 
 Completed tasks:
-    Easy   →   50 
+    Easy   →   51 
     Medium →   10
     Hard   →    2
     —————————————
-    Sum    =   61
+    Sum    =   62
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
