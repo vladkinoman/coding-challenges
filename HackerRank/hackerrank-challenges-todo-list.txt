@@ -77,7 +77,8 @@
 062  Bonetrousle                     - Constructive Algorithms  - medium        -  47% - 4/15 tests passed - C++                 - 1H (2Hs+1Ho)         12.5/50
 063  Sorting: Bubble Sort            - IPK: Sorting             - easy          - 100% - completed         - C++                 - 10                      ?/30
 064  Mark and Toys                   - IPK: Sorting             - easy          - 100% - completed         - C++                 - 10                      35
-065  Flipping the Matrix             - Constructive Algorithms  - medium        -   0% - haven't started   - C++                 - 10                      0/30
+065  Flipping the Matrix             - Constructive Algorithms  - medium        -   0% - haven't started   - C++                 -                         0/30
+066  The Bomberman Game              - implementation           - medium        -   0% - haven't started   - C++                 -                         0/40
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1246 
@@ -93,10 +94,10 @@ Completed tasks:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    0 
-    Medium →    2
+    Medium →    3
     Hard   →    0
     —————————————
-    Sum    =    2
+    Sum    =    3
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
