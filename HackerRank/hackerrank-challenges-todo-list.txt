@@ -59,14 +59,14 @@
 047  Repeated String                 - IPK: Warm-up Challenges  - easy          - 100% - completed         - C++                 - 20                      20
 048  2D Array - DS                   - IPK: Arrays              - easy          - 100% - completed         - C++                 - 1H (30s + 30r)          15
 049  Arrays: Left Rotation           - IPK: Arrays              - easy          - 100% - completed         - C++                 - 1.32H(1.30Hs + 2r)+back 20
-050  Pangrams                        - Strings                  - easy          - 100% - completed         - C++                 - 1H + back               20
+050  Pangrams                        - strings                  - easy          - 100% - completed         - C++                 - 1H + back               20
 051  Bon Appétit                     - implementation           - easy          - 100% - completed         - C++                 - 20 + back               10
 052  The Hurdle Race                 - implementation           - easy          - 100% - completed         - C++                 - 25 (5s+20r) + back      15
 053  Sequence Equation               - implementation           - easy          - 100% - completed         - C++                 - 40 (20s+20r) + back     20
 054  Cats and a Mouse                - implementation           - easy          - 100% - completed         - C++                 - 12 (2s+10r) + back      15
-055  Dynamic Array                   - Arrays                   - easy          - 100% - completed         - C++                 - 1H (40s+20r) + back     15
+055  Dynamic Array                   - arrays                   - easy          - 100% - completed         - C++                 - 1H (40s+20r) + back     15
 056  Equalize the Array              - implementation           - easy          - 100% - completed         - C++                 - 32 (30s+2r) + back      20
-057  Sherlock and The Beast          - Greedy                   - easy          - 100% - completed         - C++                 - 40 (40s+2r) + back      30
+057  Sherlock and The Beast          - greedy                   - easy          - 100% - completed         - C++                 - 40 (40s+2r) + back      30
 058  Absolute Permutation            - implementation           - medium        - 100% - completed         - C++, Java           - 4H (4Hs) + back         40
 059  New Year Chaos                  - IPK: Arrays              - medium (hard) - 100% - completed         - C++                 - > 7H + back             40
     ← complete exersise using solution from Discussions, couldn't go through time test cases (I do like my short solution more than the main one)
@@ -74,12 +74,13 @@
     ← add solutions with O(m*n*log n) and O(m * n) time complexity, the main solution I took from Discussions and it is O(n) - impressive! 
 061  Minimum Swaps 2                 - IPK: Arrays              - medium (EASY?)- 100% - completed         - C++                 - 2H + back               -/40
     ← I can't understand levels of difficulty on HackerRank, this ain't medium problem and I made it hard when it was easy ¯\_(ツ)_/¯
-062  Bonetrousle                     - Constructive Algorithms  - medium        -  47% - 4/15 tests passed - C++                 - 1H (2Hs+1Ho)         12.5/50
+062  Bonetrousle                     - constructive algorithms  - medium        -  47% - 4/15 tests passed - C++                 - 1H (2Hs+1Ho)         12.5/50
 063  Sorting: Bubble Sort            - IPK: Sorting             - easy          - 100% - completed         - C++                 - 10                      ?/30
 064  Mark and Toys                   - IPK: Sorting             - easy          - 100% - completed         - C++                 - 10                      35
-065  Flipping the Matrix             - Constructive Algorithms  - medium        -   0% - haven't started   - C++                 -                         0/30
+065  Flipping the Matrix             - constructive algorithms  - medium        -   0% - haven't started   - C++                 -                         0/30
 066  The Bomberman Game              - implementation           - medium        -   0% - haven't started   - C++                 -                         0/40
 067  Greedy Florist                  - greedy                   - medium        -   0% - haven't started   - C++                 -                         0/35
+068  Yet Another KMP Problem         - constructive algorithms  - medium        -   0% - haven't started   - C++                 -                         0/60
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1246 
@@ -95,10 +96,10 @@ Completed tasks:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    0 
-    Medium →    4
+    Medium →    5
     Hard   →    0
     —————————————
-    Sum    =    4
+    Sum    =    5
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
