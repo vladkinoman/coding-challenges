@@ -81,10 +81,13 @@
 066  The Bomberman Game              - implementation           - medium        -   0% - haven't started   - C++                 -                         0/40
 067  Greedy Florist                  - greedy                   - medium        -   0% - haven't started   - C++                 -                         0/35
 068  Yet Another KMP Problem         - constructive algorithms  - medium        -   0% - haven't started   - C++                 -                         0/60
+069  Permuting Two Arrays            - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/40
+070  Priyanka and Toys               - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/30
+071  Jim and the Orders              - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/40
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1246 
-Rank: 57054
+Rank: 57440
 
 Completed tasks:
     Easy   →   51 
@@ -95,11 +98,11 @@ Completed tasks:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    0 
+    Easy   →    2 
     Medium →    5
     Hard   →    0
     —————————————
-    Sum    =    5
+    Sum    =    7
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
