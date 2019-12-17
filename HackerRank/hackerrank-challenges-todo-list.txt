@@ -84,6 +84,7 @@
 069  Permuting Two Arrays            - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/40
 070  Priyanka and Toys               - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/30
 071  Jim and the Orders              - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/40
+072  Reverse Shuffle Merge           - greedy                   - advanced      -   0% - haven't started   - C++                 -                         0/50
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1246 
@@ -101,8 +102,9 @@ ToDo:
     Easy   →    2 
     Medium →    5
     Hard   →    0
+    Advanc →    1
     —————————————
-    Sum    =    7
+    Sum    =    8
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
