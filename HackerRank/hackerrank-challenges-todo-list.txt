@@ -86,6 +86,7 @@
 071  Jim and the Orders              - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/40
 072  Reverse Shuffle Merge           - greedy                   - advanced      -   0% - haven't started   - C++                 -                         0/50
 073  Max Min                         - greedy                   - medium        -   0% - haven't started   - C++                 -                         0/35
+074  Beautiful 3 Set                 - constructive algorithms  - hard          -   0% - haven't started   - C++                 -                         0/60
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1246 
@@ -102,10 +103,10 @@ Completed tasks:
 ToDo:
     Easy   →    2 
     Medium →    6
-    Hard   →    0
+    Hard   →    1
     Advanc →    1
     —————————————
-    Sum    =    9
+    Sum    =   10
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
