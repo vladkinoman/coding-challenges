@@ -89,6 +89,7 @@
 074  Lonely Integer                  - bit manipulation         - easy          -   0% - haven't started   - C++                 -                         0/20
 075  Beautiful 3 Set                 - constructive algorithms  - hard          -   0% - haven't started   - C++                 -                         0/60
 076  Largest Permutation             - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/30
+077  Unfriendly Numbers              - number theory            - hard          -   0% - haven't started   - C++                 -                         0/80
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1246 
@@ -105,10 +106,10 @@ Completed tasks:
 ToDo:
     Easy   →    4 
     Medium →    6
-    Hard   →    1
+    Hard   →    2
     Advanc →    1
     —————————————
-    Sum    =   12
+    Sum    =   13
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
