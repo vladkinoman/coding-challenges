@@ -93,6 +93,7 @@
 078  Luck Balance                    - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/20
 079  Maximum Perimeter Triangle      - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/20
 080  Minimum Absolute Difference in A- greedy                   - easy          -   0% - haven't started   - C++                 -                         0/15
+081  Sherlock and MiniMax            - greedy                   - hard          -   0% - haven't started   - C++                 -                         0/70
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1246 
@@ -109,10 +110,10 @@ Completed tasks:
 ToDo:
     Easy   →    7 
     Medium →    6
-    Hard   →    2
+    Hard   →    3
     Advanc →    1
     —————————————
-    Sum    =   16
+    Sum    =   17
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
