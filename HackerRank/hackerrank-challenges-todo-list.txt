@@ -92,34 +92,34 @@
 077  Unfriendly Numbers              - number theory            - hard          -   0% - haven't started   - C++                 -                         0/80
 078  Luck Balance                    - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/20
 079  Maximum Perimeter Triangle      - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/20
-080  Minimum Absolute Difference in A- greedy                   - easy          - 100% - completed         - C++                 -                        15/15
+080  Minimum Absolute Difference in A- greedy                   - easy          - 100% - completed         - C++                 - 1h                      15
 081  Sherlock and MiniMax            - greedy                   - hard          -   0% - haven't started   - C++                 -                         0/70
 082  Pseudo-Isomorphic Substrings    - strings                  - expert        -   0% - haven't started   - C++                 -                         0/100
 083  Two Characters                  - strings                  - easy          -   0% - haven't started   - C++                 -                         0/20
 084  The Coin Change Problem         - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/60
-085  Grid Challenge                  - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/20
+085  Grid Challenge                  - greedy                   - easy          - 100% - completed         - C++                 - 15                      20
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1261 
-Rank: 57636
+Points: 1281 
+Rank: 55718
 
 Completed tasks:
-    Easy   →   52 
+    Easy   →   53 
     Medium →   10
     Hard   →    2
     Expert →    0
     —————————————
-    Sum    =   63
+    Sum    =   64
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    8 
+    Easy   →    7 
     Medium →    7
     Hard   →    3
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   20
+    Sum    =   19
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
