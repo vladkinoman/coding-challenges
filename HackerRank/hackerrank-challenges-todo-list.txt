@@ -88,7 +88,7 @@
 073  Max Min                         - greedy                   - medium        -   0% - haven't started   - C++                 -                         0/35
 074  Lonely Integer                  - bit manipulation         - easy          -   0% - haven't started   - C++                 -                         0/20
 075  Beautiful 3 Set                 - constructive algorithms  - hard          -   0% - haven't started   - C++                 -                         0/60
-076  Largest Permutation             - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/30
+076  Largest Permutation             - greedy                   - easy          -   0% - started           - C++                 -                         0/30
 077  Unfriendly Numbers              - number theory            - hard          -   0% - haven't started   - C++                 -                         0/80
 078  Luck Balance                    - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/20
 079  Maximum Perimeter Triangle      - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/20
@@ -99,7 +99,7 @@
 084  The Coin Change Problem         - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/60
 085  Grid Challenge                  - greedy                   - easy          - 100% - completed         - C++                 - 15                      20
 086  Beautiful Pairs                 - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/30
-
+087  Cutting Boards                  - greedy                   - hard          -   0% - haven't started   - C++                 -                         0/60
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1281 
@@ -117,7 +117,7 @@ Completed tasks:
 ToDo:
     Easy   →    8 
     Medium →    7
-    Hard   →    3
+    Hard   →    4
     Advanc →    1
     Expert →    1
     —————————————
