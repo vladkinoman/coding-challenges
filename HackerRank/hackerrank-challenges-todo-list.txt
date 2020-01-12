@@ -102,6 +102,7 @@
 087  Cutting Boards                  - greedy                   - hard          -   0% - haven't started   - C++                 -                         0/60
 088  Summing the N series            - math fundamentals        - medium        -   0% - haven't started   - C++                 -                         0/20
 089  The Maximum Subarray            - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/50
+090  Fibonacci Modified              - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/45
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1281 
@@ -118,7 +119,7 @@ Completed tasks:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    8 
-    Medium →    9
+    Medium →   10
     Hard   →    4
     Advanc →    1
     Expert →    1
