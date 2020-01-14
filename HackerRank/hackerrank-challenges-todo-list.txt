@@ -103,10 +103,11 @@
 088  Summing the N series            - math fundamentals        - medium        -   0% - haven't started   - C++                 -                         0/20
 089  The Maximum Subarray            - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/50
 090  Fibonacci Modified              - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/45
+091  Fibonacci Modified              - greedy                   - hard          -   0% - haven't started   - C++                 -                         0/65
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1281 
-Rank: 55718
+Rank: 56092
 
 Completed tasks:
     Easy   →   53 
@@ -120,11 +121,11 @@ Completed tasks:
 ToDo:
     Easy   →    8 
     Medium →   10
-    Hard   →    4
+    Hard   →    5
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   22
+    Sum    =   23
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
