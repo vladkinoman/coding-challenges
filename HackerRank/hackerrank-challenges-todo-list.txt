@@ -103,7 +103,8 @@
 088  Summing the N series            - math fundamentals        - medium        -   0% - haven't started   - C++                 -                         0/20
 089  The Maximum Subarray            - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/50
 090  Fibonacci Modified              - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/45
-091  Fibonacci Modified              - greedy                   - hard          -   0% - haven't started   - C++                 -                         0/65
+091  Chief Hopper                    - greedy                   - hard          -   0% - haven't started   - C++                 -                         0/65
+092  Ice Cream Parlor                - search                   - easy          -   0% - haven't started   - C++                 -                         0/30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1281 
@@ -119,13 +120,13 @@ Completed tasks:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    8 
+    Easy   →    9 
     Medium →   10
     Hard   →    5
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   23
+    Sum    =   24
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
