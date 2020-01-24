@@ -83,7 +83,7 @@
 068  Yet Another KMP Problem         - constructive algorithms  - medium        -   0% - haven't started   - C++                 -                         0/60
 069  Permuting Two Arrays            - greedy                   - easy          - 100% - completed         - C++                 -                         40
 070  Priyanka and Toys               - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/30
-071  Jim and the Orders              - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/40
+071  Jim and the Orders              - greedy                   - easy          - 100% - completed         - C++                 -                         40
 072  Reverse Shuffle Merge           - greedy                   - advanced      -   0% - haven't started   - C++                 -                         0/50
 073  Max Min                         - greedy                   - medium        -   0% - haven't started   - C++                 -                         0/35
 074  Lonely Integer                  - bit manipulation         - easy          -   0% - haven't started   - C++                 -                         0/20
@@ -109,26 +109,26 @@
 094  HackerRank in a String!         - strings                  - easy          -   0% - haven't started   - C++                 -                         0/20
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1321 
-Rank: 55343
+Points: 1361 
+Rank: 52638
 
 Completed tasks:
-    Easy   →   54 
+    Easy   →   55 
     Medium →   10
     Hard   →    2
     Expert →    0
     —————————————
-    Sum    =   65
+    Sum    =   66
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →   10 
+    Easy   →    9 
     Medium →   10
     Hard   →    5
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   25
+    Sum    =   24
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
