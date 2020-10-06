@@ -86,7 +86,8 @@
 071  Jim and the Orders              - greedy                   - easy          - 100% - completed         - C++                 -                         40
 072  Reverse Shuffle Merge           - greedy                   - advanced      -   0% - haven't started   - C++                 -                         0/50
 073  Max Min                         - greedy                   - medium        -   0% - haven't started   - C++                 -                         0/35
-074  Lonely Integer                  - bit manipulation         - easy          -   0% - haven't started   - C++                 -                         0/20
+074  Lonely Integer                  - bit manipulation         - easy          - 100% - completed         - C++                 -                         20
+    ← solved this using sorting. This is not what Hackerrank expected (I need to use XOR and Caching next time)
 075  Beautiful 3 Set                 - constructive algorithms  - hard          -   0% - haven't started   - C++                 -                         0/60
 076  Largest Permutation             - greedy                   - easy          -   0% - started           - C++                 -                         0/30
 077  Unfriendly Numbers              - number theory            - hard          -   0% - haven't started   - C++                 -                         0/80
@@ -110,26 +111,26 @@
 344  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1391 
-Rank: 63610
+Points: 1411/2200 
+Rank: 62218
 
 Completed tasks:
-    Easy   →   56 
+    Easy   →   57 
     Medium →   10
     Hard   →    2
     Expert →    0
     —————————————
-    Sum    =   67
+    Sum    =   68
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    9 
+    Easy   →    8 
     Medium →   10
     Hard   →    5
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   24
+    Sum    =   23
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
