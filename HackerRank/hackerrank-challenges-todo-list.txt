@@ -105,32 +105,33 @@
 089  The Maximum Subarray            - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/50
 090  Fibonacci Modified              - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/45
 091  Chief Hopper                    - greedy                   - hard          -   0% - haven't started   - C++                 -                         0/65
-092  Ice Cream Parlor                - search                   - easy          -   0% - haven't started   - C++                 -                         0/30
+092  Ice Cream Parlor                - search                   - easy          - 100% - completed         - C++                 - 3H (2.5Hs+0.5Ho)        30
+	← Welp, that was pretty hard. However, I finally figured out the lower_bound function from the STL.
 093  Sherlock and Array              - search                   - easy          -   0% - haven't started   - C++                 -                         0/40
 094  HackerRank in a String!         - strings                  - easy          -   0% - haven't started   - C++                 -                         0/20
 344  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1411/2200 
-Rank: 62218
+Points: 1441/2200 
+Rank: 60094
 
 Completed tasks:
-    Easy   →   57 
+    Easy   →   56 
     Medium →   10
     Hard   →    2
     Expert →    0
     —————————————
-    Sum    =   68
+    Sum    =   69
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    8 
+    Easy   →    7 
     Medium →   10
     Hard   →    5
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   23
+    Sum    =   22
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols

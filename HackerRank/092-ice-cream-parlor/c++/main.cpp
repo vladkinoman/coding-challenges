@@ -6,8 +6,27 @@ vector<string> split_string(string);
 
 // Complete the icecreamParlor function below.
 vector<int> icecreamParlor(int m, vector<int> arr) {
+	vector<int> a(arr);
+    int n = a.size();
+    sort(a.begin(), a.end());
 
+    int i = 0, j = n-1;
+    for (int k = 1; true; i = 0, j = n-1, k++) {
+        j = lower_bound(a.begin(), a.begin()+n, m-k) - a.begin();
+        i = lower_bound(a.begin(), a.begin()+j, k)   - a.begin();
 
+        if (i < n && a[i] == k && j < n && a[j] == m-k) break;    
+    }
+    
+    int p = 0, q = 0;
+    // Johnny never buys the same flavor that Sunny does
+    p = find(arr.begin(), arr.end(), a[i]) - arr.begin();
+    q = find(arr.begin(), arr.end(), a[j]) - arr.begin();
+    if (a[i] == a[j]) {
+        q = find(arr.begin()+q+1, arr.end(), a[j]) - arr.begin();    
+    }
+    if (p > q) swap(q, p);
+    return { p+1, q+1 };
 }
 
 int main()
