@@ -87,7 +87,7 @@
 072  Reverse Shuffle Merge           - greedy                   - advanced      -   0% - haven't started   - C++                 -                         0/50
 073  Max Min                         - greedy                   - medium        -   0% - haven't started   - C++                 -                         0/35
 074  Lonely Integer                  - bit manipulation         - easy          - 100% - completed         - C++                 -                         20
-    ← solved this using sorting. This is not what Hackerrank expected (I need to use XOR and Caching next time)
+    ← solved this using sorting. After that I used bitsets and caching (kind of). The correct way to solve this is to use XOR.
 075  Beautiful 3 Set                 - constructive algorithms  - hard          -   0% - haven't started   - C++                 -                         0/60
 076  Largest Permutation             - greedy                   - easy          -   0% - started           - C++                 -                         0/30
 077  Unfriendly Numbers              - number theory            - hard          -   0% - haven't started   - C++                 -                         0/80
