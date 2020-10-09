@@ -109,7 +109,7 @@
 	← Welp, that was pretty hard. However, I finally figured out the lower_bound function from the STL.
 093  Sherlock and Array              - search                   - easy          -   0% - haven't started   - C++                 -                         0/40
 094  HackerRank in a String!         - strings                  - easy          -   0% - haven't started   - C++                 -                         0/20
-344  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
+095  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1441/2200 
