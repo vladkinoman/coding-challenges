@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <numeric>
 
 using namespace std;
 
@@ -6,10 +7,30 @@ string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
 
+string is_pivot_found(vector<int> arr, int n, int h) {
+    while (h >= 1) {
+        for (int i = 1; i < n-1; i+=h) {
+            int sum_left = 0, sum_right = 0;
+            sum_left  = accumulate(arr.begin(),     arr.begin()+i,   0);
+            sum_right = accumulate(arr.begin()+i+1, arr.begin()+n,   0);
+            if (sum_left == sum_right) return "YES";
+        }
+        h /= 3;
+    }
+    return "NO";
+}
 // Complete the balancedSums function below.
 string balancedSums(vector<int> arr) {
-    if (arr.size() == 1) return "YES";
-    
+    int n = arr.size();
+    // checking the leftmost and the rightmost elements
+    if (0 == accumulate(arr.begin()+1, arr.begin()+n, 0)
+          || accumulate(arr.begin(), arr.begin()+n-1, 0) == 0) {
+        return "YES";
+    }
+    // improving running time with shellsort 3x+1 increment sequence
+    int h = 1;
+    while (h < n/3) h = 3*h + 1;
+    return is_pivot_found(arr, n, h);
 }
 
 int main()

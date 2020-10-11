@@ -106,14 +106,17 @@
 090  Fibonacci Modified              - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/45
 091  Chief Hopper                    - greedy                   - hard          -   0% - haven't started   - C++                 -                         0/65
 092  Ice Cream Parlor                - search                   - easy          - 100% - completed         - C++                 - 3H (2.5Hs+0.5Ho)        30
-	← Welp, that was pretty hard. However, I finally figured out the lower_bound function from the STL.
-093  Sherlock and Array              - search                   - easy          -   0% - haven't started   - C++                 -                         0/40
-094  HackerRank in a String!         - strings                  - easy          -   0% - haven't started   - C++                 -                         0/20
+    ← Welp, that was pretty hard. However, I finally figured out the lower_bound 
+function from the STL.
+093  Sherlock and Array              - search                   - easy          - 75% - completed          - C++                 -                         22.22/40
+    ← solved this one but can't beat the last two test cases because of high running time; tried to solve this using shellsort 3x+1 increment sequence but it didn't work out
+094  HackerRank in a String!         - strings                  - easy          -   
+0% - haven't started   - C++                 -                         0/20
 095  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1441/2200 
-Rank: 60094
+Points: 1463.22/2200 
+Rank: 58754
 
 Completed tasks:
     Easy   →   56 
