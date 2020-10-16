@@ -4,12 +4,15 @@ using namespace std;
 
 // Complete the hackerrankInString function below.
 string hackerrankInString(string s) {
-    string hr_s = "hackerrank";
-    int count = 0;
-    for (int i = 0; i < s.size(); i++) {
-        auto it = find(hr_s.begin()+count, hr_s.end(), s[i]);
-        if (it != hr_s.end()) count++;
-        if (count == hr_s.size()) return "YES";
+    string s_hr = "hackerrank";
+    string::size_type count = 0;
+    string::iterator it = s.begin()-1;
+    // use string::size_type to avoid warning
+    for (string::size_type i = 0; i < s_hr.size(); i++) {
+        it = find(it+1, s.end(), s_hr[i]);
+        if (it != s.end()) count++;
+        else break;
+        if (count == s_hr.size()) return "YES";
     }
     return "NO";
 }
