@@ -110,12 +110,12 @@
 function from the STL.
 093  Sherlock and Array              - search                   - easy          - 100% - completed         - C++                 -                         40
     ← completed this using the function partial_sum, the running time of the alg is O(n)
-094  HackerRank in a String!         - strings                  - easy          -   0% - haven't started   - C++                 -                         0/20
+094  HackerRank in a String!         - strings                  - easy          -  75% - started           - C++                 - 20                      10/20
 095  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1481/2200 
-Rank: 57538
+Points: 1491/2200 
+Rank: 57028
 
 Completed tasks:
     Easy   →   57 
