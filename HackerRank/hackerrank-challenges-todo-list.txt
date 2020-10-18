@@ -96,7 +96,7 @@
 080  Minimum Absolute Difference in A- greedy                   - easy          - 100% - completed         - C++                 - 1h                      15
 081  Sherlock and MiniMax            - greedy                   - hard          -   0% - haven't started   - C++                 -                         0/70
 082  Pseudo-Isomorphic Substrings    - strings                  - expert        -   0% - haven't started   - C++                 -                         0/100
-083  Two Characters                  - strings                  - easy          -   0% -         started   - C++                 -                         0/20
+083  Two Characters                  - strings                  - easy          -  78% -         started   - C++                 -                         15.33/20
 084  The Coin Change Problem         - dynamic programming      - medium        -   0% - haven't started   - C++                 -                         0/60
 085  Grid Challenge                  - greedy                   - easy          - 100% - completed         - C++                 - 15                      20
 086  Beautiful Pairs                 - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/30
@@ -114,8 +114,8 @@ function from the STL.
 095  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1501/2200 
-Rank: 56424
+Points: 1516.33/2200 
+Rank: 55525
 
 Completed tasks:
     Easy   →   58 
