@@ -89,7 +89,8 @@
 074  Lonely Integer                  - bit manipulation         - easy          - 100% - completed         - C++                 -                         20
     ← solved this using sorting. After that I used bitsets and caching (kind of). The correct way to solve this is to use XOR.
 075  Beautiful 3 Set                 - constructive algorithms  - hard          -   0% - haven't started   - C++                 -                         0/60
-076  Largest Permutation             - greedy                   - easy          -   0% - started           - C++                 -                         0/30
+076  Largest Permutation             - greedy                   - easy          -  44% - started           - C++                 -                         9.47/30
+    ← looks like a bug with the input code
 077  Unfriendly Numbers              - number theory            - hard          -   0% - haven't started   - C++                 -                         0/80
 078  Luck Balance                    - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/20
 079  Maximum Perimeter Triangle      - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/20
@@ -116,7 +117,7 @@ function from the STL.
 095  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1516.33/2200 
+Points: 1525.8/2200 
 Rank: 55567
 
 Completed tasks:
