@@ -10,20 +10,34 @@ public class Solution {
 
     // Complete the largestPermutation function below.
     static int[] largestPermutation(int k, int[] arr) {
+        int n = arr.length;
         int[] result = arr.clone();
-        int n = result.length;
-        for (int i = 0; i < n-1 && k > 0; i++, --k) {
-            int max = i, left = max;
-            int j = i + 1;
-            while (j < n) {
-                if (result[j] > result[max]) max = j; 
-                j++;
-            }
-            int swap = result[left];
-            result[left] = result[max];
-            result[max] = swap;
+        int[] sorted_arr = arr.clone();
+        Arrays.sort(sorted_arr);
+        reverseArray(sorted_arr);
+        
+        int p = 0;
+        for (int i = 0; p < k && i < n; i++) {
+            if (sorted_arr[i] == result[i]) continue;
+            int j = i;
+            while (result[j] != sorted_arr[i]) j++;
+            
+            int swap = result[i];
+            result[i] = result[j];
+            result[j] = swap;
+            
+            p++;
         }
+        
         return result;
+    }
+
+    private static void reverseArray(int[] arr) {
+        for(int i = 0; i < arr.length / 2; i++) {
+            int temp = arr[i];
+            arr[i] = arr[arr.length - i - 1];
+            arr[arr.length - i - 1] = temp;
+        }
     }
 
     private static final Scanner scanner = new Scanner(System.in);

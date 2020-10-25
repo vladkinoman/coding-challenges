@@ -6,18 +6,18 @@ vector<string> split_string(string);
 
 // Complete the largestPermutation function below.
 vector<int> largestPermutation(int k, vector<int> arr) {
-    vector<int> sorted_arr = arr, result = arr;
+    vector<int> result = arr;
     vector<int>::size_type n = result.size();
-    sort(sorted_arr.begin(), sorted_arr.begin()+n, greater<int>());
-
-    int j = 0;
-    for (vector<int>::size_type i = 0; j < k && i < n; i++) {
-        if (sorted_arr[i] == result[i]) continue;
-        auto it = find(result.begin()+i, result.begin()+n, sorted_arr[i]);
-        iter_swap(&result[i], it);
-        j++;
+    for (vector<int>::size_type i = 0; i < n-1 && k > 0; i++) {
+        int max = i, left = max;
+        for (vector<int>::size_type j = max + 1; j < n; j++) {
+            if (result[j] > result[max]) max = j;
+        }
+        if (left != max) {
+            iter_swap(&result[left], &result[max]);
+            --k;
+        }
     }
-
     return result;
 }
 
@@ -92,5 +92,4 @@ vector<string> split_string(string input_string) {
 
     return splits;
 }
-
 
