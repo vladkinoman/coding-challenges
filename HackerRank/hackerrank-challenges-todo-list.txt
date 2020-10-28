@@ -91,7 +91,8 @@
 075  Beautiful 3 Set                 - constructive algorithms  - hard          -   0% - haven't started   - C++                 -                         0/60
 076  Largest Permutation             - greedy                   - easy          - 100% - completed         - C++, Java           - 2h (10s + 2Ho)          30
 077  Unfriendly Numbers              - number theory            - hard          -   0% - haven't started   - C++                 -                         0/80
-078  Luck Balance                    - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/20
+078  Luck Balance                    - greedy                   - easy          - 100% - completed         - C++, Java           - 1h                      20
+    ← an exercise on the use of predicates (C++) and comparators (Java)
 079  Maximum Perimeter Triangle      - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/20
 080  Minimum Absolute Difference in A- greedy                   - easy          - 100% - completed         - C++                 - 1h                      15
 081  Sherlock and MiniMax            - greedy                   - hard          -   0% - haven't started   - C++                 -                         0/70
@@ -116,11 +117,11 @@ function from the STL.
 095  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1546.33/2200 
-Rank: 53906
+Points: 1566.33/2200 
+Rank: 52784
 
 Completed tasks:
-    Easy   →   59 
+    Easy   →   60 
     Medium →   10
     Hard   →    2
     Expert →    0
@@ -129,13 +130,13 @@ Completed tasks:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    4 
+    Easy   →    3 
     Medium →   10
     Hard   →    5
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   19
+    Sum    =   18
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols

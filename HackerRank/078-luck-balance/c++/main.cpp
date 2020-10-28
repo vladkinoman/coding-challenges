@@ -4,10 +4,29 @@ using namespace std;
 
 vector<string> split_string(string);
 
+template <class T> struct comp_luck_and_importance
+    : public binary_function<T, T, bool> {
+    bool operator()(const T& x, const T& y) const {
+        return x[1] < y[1] || x[1] == y[1] && x[0] > y[0];
+    }
+};
+
 // Complete the luckBalance function below.
 int luckBalance(int k, vector<vector<int>> contests) {
-
-
+    vector<vector<int>> vv = contests;
+    sort(vv.begin(), vv.end(), comp_luck_and_importance<vector<int>>());
+    int max_luck_balance = 0;
+    for (vector<int> v : vv) {
+        if        (v[1] == 0) {
+            max_luck_balance += v[0];
+        } else if (k > 0) {
+            max_luck_balance += v[0];
+            --k;
+        } else {
+            max_luck_balance -= v[0];
+        }
+    }
+    return max_luck_balance;
 }
 
 int main()
