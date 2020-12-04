@@ -115,10 +115,11 @@ function from the STL.
     ← completed this using the function partial_sum, the running time of the alg is O(n)
 094  HackerRank in a String!         - strings                  - easy          - 100% - completed         - C++                 - 1.5H (when it's easy :))20
 095  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
+096  Non-Divisible Subset            - implementation           - medium        -   0% - haven't started   - C++                 -                         0/20
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1566.33/2200 
-Rank: 52784
+Rank: 53724
 
 Completed tasks:
     Easy   →   60 
@@ -131,12 +132,12 @@ Completed tasks:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    3 
-    Medium →   10
+    Medium →   11
     Hard   →    5
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   18
+    Sum    =   19
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
