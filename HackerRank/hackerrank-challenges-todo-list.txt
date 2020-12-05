@@ -116,6 +116,7 @@ function from the STL.
 094  HackerRank in a String!         - strings                  - easy          - 100% - completed         - C++                 - 1.5H (when it's easy :))20
 095  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
 096  Non-Divisible Subset            - implementation           - medium        -   0% - haven't started   - C++                 -                         0/20
+097  Hash Tables: Ice Cream Parlor   - search                   - medium        -   0% - haven't started   - C++                 -                         0/35
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1566.33/2200 
@@ -132,12 +133,12 @@ Completed tasks:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    3 
-    Medium →   11
+    Medium →   12
     Hard   →    5
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   19
+    Sum    =   20
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
