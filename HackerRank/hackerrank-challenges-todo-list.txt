@@ -117,6 +117,11 @@ function from the STL.
 095  Correctness and the Loop Inv    - sorting                  - easy          - 100% - completed         - C                   -                         30
 096  Non-Divisible Subset            - implementation           - medium        -   0% - haven't started   - C++                 -                         0/20
 097  Hash Tables: Ice Cream Parlor   - search                   - medium        -   0% - haven't started   - C++                 -                         0/35
+098  KnightL on a Chessboard         - search                   - medium        -   0% - haven't started   - C++                 -                         0/35
+099  Gridland Metro                  - search                   - medium        -   0% - haven't started   - C++                 -                         0/25
+100  Minimum Loss                    - search                   - medium        -   0% - haven't started   - C++                 -                         0/35
+101  Missing Numbers                 - search                   - easy          -   0% - haven't started   - C++                 -                         0/45
+102  Pairs                           - search                   - medium        -   0% - haven't started   - C++                 -                         0/50
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1566.33/2200 
@@ -133,12 +138,12 @@ Completed tasks:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    3 
-    Medium →   12
+    Medium →   17
     Hard   →    5
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   20
+    Sum    =   25
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
