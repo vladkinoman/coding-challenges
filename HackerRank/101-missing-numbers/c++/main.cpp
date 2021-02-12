@@ -6,8 +6,17 @@ vector<string> split_string(string);
 
 // Complete the missingNumbers function below.
 vector<int> missingNumbers(vector<int> arr, vector<int> brr) {
-
-
+    int n_arr = arr.size();
+    int n_brr = brr.size();
+    vector<int> result;
+    int count = 0;
+    for (int i = 0; i < n_arr; i++, count = 0) {
+        for (int j = 0; j < n_brr; j++) {
+            if (arr[i] == arr[j]) count++;
+        }
+        if (count == 1) result.push_back(arr[i]);
+    }
+    return result;
 }
 
 int main()
