@@ -9,13 +9,30 @@ vector<int> missingNumbers(vector<int> arr, vector<int> brr) {
     int n_arr = arr.size();
     int n_brr = brr.size();
     vector<int> result;
+    int counts_arr[10001];
+    int counts_brr[10001];
     int count = 0;
-    for (int i = 0; i < n_arr; i++, count = 0) {
-        for (int j = 0; j < n_brr; j++) {
-            if (arr[i] == arr[j]) count++;
+    
+    for (int i = 0; i < n_arr; i++) {
+        if (counts_arr[arr[i]] != 0) continue;
+        for (int j = i+1; j < n_arr; j++) {
+            if (arr[i] == arr[j]) counts_arr[arr[i]]++;
         }
-        if (count == 1) result.push_back(arr[i]);
     }
+    
+    for (int i = 0; i < n_brr; i++) {
+        if (counts_brr[brr[i]] != 0) continue;
+        for (int j = i+1; j < n_brr; j++) {
+            if (brr[i] == brr[j]) counts_brr[brr[i]]++;
+        }
+    }
+    
+    for (int i = 1; i <= 10000; i++) {
+        if (counts_arr[i] != 0 && (counts_arr[i] - counts_brr[i]) != 0) { 
+            result.push_back(i);
+        }
+    }
+    
     return result;
 }
 
