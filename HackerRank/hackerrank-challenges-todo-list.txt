@@ -120,30 +120,30 @@ function from the STL.
 098  KnightL on a Chessboard         - search                   - medium        -   0% - haven't started   - C++                 -                         0/35
 099  Gridland Metro                  - search                   - medium        -   0% - haven't started   - C++                 -                         0/25
 100  Minimum Loss                    - search                   - medium        -   0% - haven't started   - C++                 -                         0/35
-101  Missing Numbers                 - search                   - easy          -   0% - haven't started   - C++                 -                         0/45
+101  Missing Numbers                 - search                   - easy          - 100% - completed         - C++                 -                         45
 102  Pairs                           - search                   - medium        -   0% - haven't started   - C++                 -                         0/50
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1566.33/2200 
-Rank: 53724
+Points: 1611.33/2200 
+Rank: 53115
 
 Completed tasks:
-    Easy   →   60 
+    Easy   →   61 
     Medium →   10
     Hard   →    2
     Expert →    0
     —————————————
-    Sum    =   72
+    Sum    =   73
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    3 
+    Easy   →    2 
     Medium →   17
     Hard   →    5
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   25
+    Sum    =   24
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
