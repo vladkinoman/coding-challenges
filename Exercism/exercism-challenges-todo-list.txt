@@ -46,6 +46,11 @@ Python
 001 Hello World                        - text formatting                       - easy          - 100% - completed         - 
 002 Two Fer                            - text formatting                       - easy          - 100% - completed         -
 003 Raindrops                          - conditionals, text formatting         - easy          - 100% - completed         -
+004 High Scores                        - sequences, text formatting, classes   - easy          -   0% - haven't started   -
+005 Matrix                             - loops, matrices, classes              - easy          -   0% - haven't started   -
+006 Hamming                            - sequences, text formatting, classes   - easy          -   0% - haven't started   -
+007 Isogram                            - algorithms, conditionals, filtering   - easy          -   0% - haven't started   -
+008 Twelve Days                        - lists, strings, text formatting       - medium        -   0% - haven't started   -
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
@@ -57,8 +62,8 @@ Completed tasks:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    0 
-    Medium →    0
+    Easy   →    4 
+    Medium →    1
     Hard   →    0
     —————————————
-    Sum    =    0
+    Sum    =    5
