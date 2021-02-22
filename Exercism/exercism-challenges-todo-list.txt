@@ -48,22 +48,22 @@ Python
 003 Raindrops                          - conditionals, text formatting         - easy          - 100% - completed         -
 004 High Scores                        - sequences, text formatting, classes   - easy          - 100% - completed         -
 005 Matrix                             - loops, matrices, classes              - easy          - 100% - completed         -
-006 Hamming                            - sequences, text formatting, classes   - easy          -   0% - haven't started   -
-007 Isogram                            - algorithms, conditionals, filtering   - easy          -   0% - haven't started   -
-008 Twelve Days                        - lists, strings, text formatting       - medium        -   0% - haven't started   -
+006 Hamming                            - sequences, text formatting, classes   - easy          - 100% - completed         -
+007 Isogram                            - algorithms, conditionals, filtering   - easy          - 100% - completed         -
+008 Twelve Days                        - lists, strings, text formatting       - medium        - 100% - completed         -
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →    5
-    Medium →    0
-    Hard   →    0
-    —————————————
-    Sum    =    5
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-ToDo:
-    Easy   →    2 
+    Easy   →    7
     Medium →    1
     Hard   →    0
     —————————————
-    Sum    =    3
+    Sum    =    8
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ToDo:
+    Easy   →    0 
+    Medium →    0
+    Hard   →    0
+    —————————————
+    Sum    =    0
