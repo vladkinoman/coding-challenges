@@ -51,14 +51,15 @@ Python
 006 Hamming                            - sequences, text formatting, classes   - easy          - 100% - completed         -
 007 Isogram                            - algorithms, conditionals, filtering   - easy          - 100% - completed         -
 008 Twelve Days                        - lists, strings, text formatting       - medium        - 100% - completed         -
+009 Word Count                         - algorithms, strings, text formatting  - easy          - 100% - completed         - It's hard! A conditional hell!
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →    7
+    Easy   →    8
     Medium →    1
     Hard   →    0
     —————————————
-    Sum    =    8
+    Sum    =    9
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
