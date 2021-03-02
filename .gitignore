@@ -244,6 +244,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+
+package-lock.json
 ########################### Python ###########################
 # Byte-compiled / optimized / DLL files
 __pycache__/
