@@ -32,6 +32,5 @@
     "lint": "eslint ."
   },
   "license": "MIT",
-  "dependencies": {},
   "version": "1.0.0"
 }
