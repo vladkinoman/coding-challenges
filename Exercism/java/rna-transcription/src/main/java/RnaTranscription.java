@@ -1,12 +1,28 @@
 class RnaTranscription {
 
     String transcribe(String dnaStrand) {
-        s = dnaStrand.clone();
-        s1 = dnaStrand.replace('G', 'C');
-        s2 = dnaStrand.replace('C', 'G');
-        s1 = .replace('T', 'A');
-        s2 = ;
-        return
-            .replace('A', 'U');
+        int n = dnaStrand.length();
+        StringBuilder s = new StringBuilder();
+        for (int i = 0; i < n; i++) {
+            char c;
+            switch (c = dnaStrand.charAt(i)) {
+                case 'G':
+                    s.append('C');
+                    break;
+                case 'C':
+                    s.append('G');
+                    break;
+                case 'T':
+                    s.append('A');
+                    break;
+                case 'A':
+                    s.append('U');
+                    break;
+                default:
+                    s.append(c);
+                    break;
+            }
+        }
+        return s.toString();
     }
 }
