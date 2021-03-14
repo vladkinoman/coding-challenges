@@ -28,14 +28,15 @@ Java
 004 Leap                               - booleans, integers, logic             - easy          - 100% - completed         -                              
 005 Darts                              - games, conditionals                   - easy          - 100% - completed         -                              
 006 RNA Transcription                  - loops, maps, strings                  - easy          - 100% - completed         - solved using loop and switch                            
+007 D&D Character                      - integers, randomness, games           - easy          - 100% - completed         -
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →    6
+    Easy   →    7
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    6
+    Sum    =    7
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
