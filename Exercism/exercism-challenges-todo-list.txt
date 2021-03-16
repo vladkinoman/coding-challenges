@@ -32,24 +32,24 @@ Java
 008 Armstrong Numbers                  - integers, math                        - easy          - 100% - completed         - 
 009 RNA Transcription                  - loops, maps, strings                  - easy          - 100% - completed         - solved using loop and switch                            
 010 D&D Character                      - integers, randomness, games           - easy          - 100% - completed         -
-011 Grains                             - loops, math                           - easy          -   0% - started           -
+011 Grains                             - loops, math                           - easy          - 100% - completed         -
 012 Pangram                            - pattern matching                      - easy          -   0% - started           -
 013 Hamming                            - integers, loops, strings              - easy          - 100% - completed         -                              
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →   11
+    Easy   →   12
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =   11
+    Sum    =   12
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    2 
+    Easy   →    1 
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    2
+    Sum    =    1
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 JavaScript
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
