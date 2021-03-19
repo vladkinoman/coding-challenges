@@ -17,28 +17,28 @@ static void test_brown_and_black(void)
 
 static void test_blue_and_grey(void)
 {
-   TEST_IGNORE();               // delete this line to run test
+   
    uint16_t actual = color_code((resistor_band_t[]){ BLUE, GREY });
    TEST_ASSERT_EQUAL_UINT16(68, actual);
 }
 
 static void test_yellow_and_violet(void)
 {
-   TEST_IGNORE();
+   
    uint16_t actual = color_code((resistor_band_t[]){ YELLOW, VIOLET });
    TEST_ASSERT_EQUAL_UINT16(47, actual);
 }
 
 static void test_orange_and_orange(void)
 {
-   TEST_IGNORE();
+   
    uint16_t actual = color_code((resistor_band_t[]){ ORANGE, ORANGE });
    TEST_ASSERT_EQUAL_UINT16(33, actual);
 }
 
 static void test_ignore_additional_colors(void)
 {
-   TEST_IGNORE();
+   
    uint16_t actual = color_code((resistor_band_t[]){ GREEN, BROWN, ORANGE });
    TEST_ASSERT_EQUAL_UINT16(51, actual);
 }

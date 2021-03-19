@@ -25,7 +25,7 @@ C
 002 Armstrong Numbers                  - control flow, loops, math, logic      - easy          - 100% - completed         - 
 003 Darts                              - control flow, math, logic             - easy          - 100% - completed         - 
 004 Resistor Color                     - arrays, enums, pointers               - easy          - 100% - completed         -
-005 Resistor Color Duo                 - arrays, enums                         - easy          -   0% - haven't started   -
+005 Resistor Color Duo                 - arrays, enums                         - easy          - 100% - completed         -
 006 Resistor Color Trio                - arrays, enums, structs                - easy          -   0% - haven't started   -
 007 Isogram                            - arrays                                - easy          -   0% - haven't started   -
 008 Acronym                            - control flow, loops                   - easy          -   0% - haven't started   -
@@ -43,19 +43,19 @@ C
 0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →    5
+    Easy   →    6
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    5
+    Sum    =    6
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →   14
+    Easy   →   13
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =   14
+    Sum    =   13
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Java
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
