@@ -23,23 +23,39 @@ C
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 001 Hello World                        - strings                               - easy          - 100% - completed         - 
 002 Armstrong Numbers                  - control flow, loops, math, logic      - easy          - 100% - completed         - 
+003 Darts                              - control flow, math, logic             - easy          - 100% - completed         - 
+004 Resistor Color                     - arrays, enums, pointers               - easy          -   0% - haven't started   -
+005 Resistor Color Duo                 - arrays, enums                         - easy          -   0% - haven't started   -
+006 Resistor Color Trio                - arrays, enums, structs                - easy          -   0% - haven't started   -
+007 Isogram                            - arrays                                - easy          -   0% - haven't started   -
+008 Acronym                            - control flow, loops                   - easy          -   0% - haven't started   -
+009 Word Count                         - filtering, memory management          - easy          -   0% - haven't started   -
+010 Pangram                            - control flow, loops, strings          - easy          -   0% - haven't started   -
+011 Gigasecond                         - dates                                 - easy          -   0% - haven't started   -
+012 Space Age                          - functions                             - easy          -   0% - haven't started   -
+013 Meetup                             - preprocessor x macros, structs, time f- medium        -   0% - haven't started   -
+014 Hamming                            - arrays, control flow, loops, strings  - easy          -   0% - haven't started   -
+015 RNA Transcription                  - control flow, case statements, strings- easy          -   0% - haven't started   -
+016 Nucleotide Count                   - memory management, strings, text form.- easy          -   0% - haven't started   -
+017 Grains                             - bitwise, loops, performance optimizat.- easy          -   0% - haven't started   -
+018 Leap                               - conrol flow, if else, logic           - easy          -   0% - haven't started   -
 
-00? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
+0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →    3
+    Easy   →    4
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    3
+    Sum    =    4
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    0 
+    Easy   →   15
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    0
+    Sum    =   15
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Java
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
