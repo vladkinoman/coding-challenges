@@ -30,7 +30,7 @@ C
 007 Isogram                            - arrays                                - easy          - 100% - completed         - cool use of nested expressions
 008 Acronym                            - control flow, loops                   - easy          - 100% - completed         - I could use a structure inside the f()
 009 Word Count                         - filtering, memory management          - easy          -   0% - haven't started   -
-010 Pangram                            - control flow, loops, strings          - easy          -   0% - haven't started   -
+010 Pangram                            - control flow, loops, strings          - easy          - 100% - completed         -
 011 Gigasecond                         - dates                                 - easy          -   0% - haven't started   -
 012 Space Age                          - functions                             - easy          -   0% - haven't started   -
 013 Meetup                             - preprocessor x macros, structs, time f- medium        -   0% - haven't started   -
@@ -43,19 +43,19 @@ C
 0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →    9
-    Medium →    0
-    Hard   →    0
-    —————————————
-    Sum    =    9
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-ToDo:
     Easy   →   10
     Medium →    0
     Hard   →    0
     —————————————
     Sum    =   10
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ToDo:
+    Easy   →    9
+    Medium →    0
+    Hard   →    0
+    —————————————
+    Sum    =    9
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Java
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
