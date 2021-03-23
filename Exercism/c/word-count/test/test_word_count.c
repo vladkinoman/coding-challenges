@@ -59,7 +59,6 @@ static void test_count_one_word(void)
 
 static void test_count_one_of_each_word(void)
 {
-   TEST_IGNORE();               // delete this line to run test
    int index = 0;
    int actual_word_count;
    char *input_text = "one of each";
@@ -87,7 +86,6 @@ static void test_count_one_of_each_word(void)
 
 static void test_multiple_occurrences_of_a_word(void)
 {
-   TEST_IGNORE();
    int index = 0;
    int actual_word_count;
    char *input_text = "one fish two fish red fish blue fish";
@@ -120,7 +118,6 @@ static void test_multiple_occurrences_of_a_word(void)
 
 static void test_handles_cramped_lists(void)
 {
-   TEST_IGNORE();
    int index = 0;
    int actual_word_count;
    char *input_text = "one,two,three";
@@ -147,7 +144,6 @@ static void test_handles_cramped_lists(void)
 
 static void test_handles_expanded_lists(void)
 {
-   TEST_IGNORE();
    int index = 0;
    int actual_word_count;
    char *input_text = "one,\ntwo,\nthree";
@@ -174,7 +170,6 @@ static void test_handles_expanded_lists(void)
 
 static void test_ignore_punctuation(void)
 {
-   TEST_IGNORE();
    int index = 0;
    int actual_word_count;
    char *input_text = "car: carpet as java: javascript!!&@$%^&";
@@ -207,7 +202,6 @@ static void test_ignore_punctuation(void)
 
 static void test_include_numbers(void)
 {
-   TEST_IGNORE();
    int index = 0;
    int actual_word_count;
    char *input_text = "testing, 1, 2 testing";
@@ -234,7 +228,6 @@ static void test_include_numbers(void)
 
 static void test_normalize_case(void)
 {
-   TEST_IGNORE();
    int index = 0;
    int actual_word_count;
    char *input_text = "go Go GO Stop stop";
@@ -258,7 +251,6 @@ static void test_normalize_case(void)
 
 static void test_with_apostrophes(void)
 {
-   TEST_IGNORE();
    int index = 0;
    int actual_word_count;
    char *input_text = "First: don't laugh. Then: don't cry.";
@@ -291,7 +283,6 @@ static void test_with_apostrophes(void)
 
 static void test_with_quotations(void)
 {
-   TEST_IGNORE();
    int index = 0;
    int actual_word_count;
    char *input_text = "Joe can't tell between 'large' and large.";
@@ -325,9 +316,43 @@ static void test_with_quotations(void)
                   expected_word_count, actual_solution, actual_word_count);
 }
 
+static void test_with_quotations2(void)
+{
+   int index = 0;
+   int actual_word_count;
+   char *input_text = "Joe can't tell between 'large' large.and ";
+   const int expected_word_count = 6;
+
+   // build the expected solution
+   memset(expected_solution, 0, sizeof(expected_solution));     // clear to start with a known value
+   memset(actual_solution, 0, sizeof(actual_solution));
+
+   expected_solution[index].count = 1;
+   strncpy(expected_solution[index++].text, "joe", STRING_SIZE);
+
+   expected_solution[index].count = 1;
+   strncpy(expected_solution[index++].text, "can't", STRING_SIZE);
+
+   expected_solution[index].count = 1;
+   strncpy(expected_solution[index++].text, "tell", STRING_SIZE);
+
+   expected_solution[index].count = 1;
+   strncpy(expected_solution[index++].text, "between", STRING_SIZE);
+
+   expected_solution[index].count = 2;
+   strncpy(expected_solution[index++].text, "large", STRING_SIZE);
+
+   expected_solution[index].count = 1;
+   strncpy(expected_solution[index++].text, "and", STRING_SIZE);
+
+   actual_word_count = count_words(input_text, actual_solution);
+
+   check_solution(expected_solution,
+                  expected_word_count, actual_solution, actual_word_count);
+}
+
 static void test_substrings_from_the_beginning(void)
 {
-   TEST_IGNORE();
    int index = 0;
    int actual_word_count;
    char *input_text = "Joe can't tell between app, apple and a.";
@@ -369,7 +394,6 @@ static void test_substrings_from_the_beginning(void)
 
 static void test_multiple_spaces_not_detected_as_a_word(void)
 {
-   TEST_IGNORE();
    int actual_word_count;
    int index = 0;
    char *input_text = " multiple   whitespaces";
@@ -394,7 +418,6 @@ static void test_multiple_spaces_not_detected_as_a_word(void)
 
 static void test_alternating_word_separators_not_detected_as_a_word(void)
 {
-   TEST_IGNORE();
    int actual_word_count;
    int index = 0;
    char *input_text = ",\n,one,\n ,two \n 'three'";
@@ -434,6 +457,7 @@ int main(void)
    RUN_TEST(test_normalize_case);
    RUN_TEST(test_with_apostrophes);
    RUN_TEST(test_with_quotations);
+   RUN_TEST(test_with_quotations2);
    RUN_TEST(test_substrings_from_the_beginning);
    RUN_TEST(test_multiple_spaces_not_detected_as_a_word);
    RUN_TEST(test_alternating_word_separators_not_detected_as_a_word);
