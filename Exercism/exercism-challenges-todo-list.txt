@@ -96,21 +96,25 @@ JavaScript
 004 Resistor Color Duo                 - arrays, strings                       - easy          - 100% - completed         -
 005 Gigasecond                         - time                                  - easy          - 100% - completed         -
 006 RNA Transcription                  - loops, maps, strings                  - easy          - 100% - completed         - solved using loop, switch and join('')                            
+007 Space Age                          - functions                             - easy          -   0% - haven't started   - Too easy.
+008 Pangram                            - pattern matching                      - easy          -   0% - haven't started   -
+009 Bank Account                       - classesm conditionals                 - easy          - 100% - completed         - OOP :)
+010 Matrix                             - arrays, matrices, text formatting     - easy          -   0% - haven't started   -
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →    6
+    Easy   →    7
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    6
+    Sum    =    7
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    0 
+    Easy   →    3 
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    0
+    Sum    =    3
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Python
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
