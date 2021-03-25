@@ -1,5 +1,8 @@
 .vscode
-
+.eslintrc
+.npmrc
+babel.config.js
+package.json
 ########################### C ###########################
 # Prerequisites
 *.d
