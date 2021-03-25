@@ -3,6 +3,8 @@
 
 #include <stdint.h>
 
+#define YEAR_ON_EARTH_IN_SECONDS 31557600
+
 typedef enum planet {
    MERCURY,
    VENUS,
