@@ -95,13 +95,14 @@ JavaScript
 003 Resistor Color                     - arrays, strings                       - easy          - 100% - completed         -
 004 Resistor Color Duo                 - arrays, strings                       - easy          - 100% - completed         -
 005 Gigasecond                         - time                                  - easy          - 100% - completed         -
+006 RNA Transcription                  - loops, maps, strings                  - easy          - 100% - completed         - solved using loop, switch and join('')                            
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →    5
+    Easy   →    6
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    5
+    Sum    =    6
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
