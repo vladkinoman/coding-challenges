@@ -99,22 +99,22 @@ JavaScript
 007 Space Age                          - functions                             - easy          - 100% - completed         - Too easy.
 008 Pangram                            - pattern matching                      - easy          - 100% - completed         -
 009 Bank Account                       - classesm conditionals                 - easy          - 100% - completed         - OOP :)
-010 Matrix                             - arrays, matrices, text formatting     - easy          -   0% - haven't started   -
+010 Matrix                             - arrays, matrices, text formatting     - easy          - 100% - completed         - used the split() func., probably an efficient solution would be a conventional pass-through.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →    9
+    Easy   →   10
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    9
+    Sum    =   10
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    1 
+    Easy   →    0 
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    1
+    Sum    =    0
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Python
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
