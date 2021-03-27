@@ -7,7 +7,7 @@ LIBS = -lm
 CFLAGS  = -std=c99
 CFLAGS += -g
 CFLAGS += -Wall
-CFLAGS += -Wextra
+#CFLAGS += -Wextra
 CFLAGS += -pedantic
 CFLAGS += -Werror
 CFLAGS += -Wmissing-declarations

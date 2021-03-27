@@ -33,7 +33,7 @@ C
 010 Pangram                            - control flow, loops, strings          - easy          - 100% - completed         -
 011 Gigasecond                         - dates                                 - easy          - 100% - completed         - Too easy. Is this a joke?
 012 Space Age                          - functions                             - easy          - 100% - completed         - Too easy.
-013 Meetup                             - preprocessor x macros, structs, time f- medium        -   0% - haven't started   -
+013 Meetup                             - preprocessor x macros, structs, time f- medium        - 100% - completed         - Cool exercise (refactoring is required!)
 014 Hamming                            - arrays, control flow, loops, strings  - easy          -   0% - haven't started   -
 015 RNA Transcription                  - control flow, case statements, strings- easy          -   0% - haven't started   -
 016 Nucleotide Count                   - memory management, strings, text form.- easy          -   0% - haven't started   -
@@ -43,19 +43,19 @@ C
 0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →   13
+    Easy   →   14
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =   13
+    Sum    =   14
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    6
+    Easy   →    5
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    6
+    Sum    =    5
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Java
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
