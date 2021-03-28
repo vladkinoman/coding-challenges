@@ -35,7 +35,7 @@ C
 012 Space Age                          - functions                             - easy          - 100% - completed         - Too easy.
 013 Meetup                             - preprocessor x macros, structs, time f- medium        - 100% - completed         - Cool exercise. Refactored. I probably applied a lot of unnecessary macros. I don't know where else to apply them in this exercise.
 014 Hamming                            - arrays, control flow, loops, strings  - easy          - 100% - completed         -
-015 RNA Transcription                  - control flow, case statements, strings- easy          -   0% - haven't started   -
+015 RNA Transcription                  - control flow, case statements, strings- easy          - 100% - completed         -
 016 Nucleotide Count                   - memory management, strings, text form.- easy          -   0% - haven't started   -
 017 Grains                             - bitwise, loops, performance optimizat.- easy          -   0% - haven't started   -
 018 Leap                               - conrol flow, if else, logic           - easy          -   0% - haven't started   -
@@ -44,18 +44,18 @@ C
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
     Easy   →   15
-    Medium →    0
+    Medium →    1
     Hard   →    0
     —————————————
-    Sum    =   15
+    Sum    =   16
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    4
+    Easy   →    3
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    4
+    Sum    =    3
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Java
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
