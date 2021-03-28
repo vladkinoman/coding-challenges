@@ -33,7 +33,7 @@ C
 010 Pangram                            - control flow, loops, strings          - easy          - 100% - completed         -
 011 Gigasecond                         - dates                                 - easy          - 100% - completed         - Too easy. Is this a joke?
 012 Space Age                          - functions                             - easy          - 100% - completed         - Too easy.
-013 Meetup                             - preprocessor x macros, structs, time f- medium        - 100% - completed         - Cool exercise (refactoring is required!)
+013 Meetup                             - preprocessor x macros, structs, time f- medium        - 100% - completed         - Cool exercise. Refactored. I probably applied a lot of unnecessary macros. I don't know where else to apply them in this exercise.
 014 Hamming                            - arrays, control flow, loops, strings  - easy          -   0% - haven't started   -
 015 RNA Transcription                  - control flow, case statements, strings- easy          -   0% - haven't started   -
 016 Nucleotide Count                   - memory management, strings, text form.- easy          -   0% - haven't started   -

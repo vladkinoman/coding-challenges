@@ -1,106 +1,87 @@
 #include "meetup.h"
 
-int meetup_day_of_month(unsigned int year, unsigned int month, 
-    const char *week, const char *day_of_week) {
-    
-    int is_teenth = 0, which_day = 0;
-    if (strcmp(week, "teenth") == 0) is_teenth++;
-    
-    if (strcmp(week, "first") == 0) {
-        which_day = 1;
-    } else if (strcmp(week, "second") == 0) {
-        which_day = 2;
-    } else if (strcmp(week, "third") == 0) {
-        which_day = 3;
-    } else if (strcmp(week, "fourth") == 0) {
-        which_day = 4;
-    } else if (strcmp(week, "fifth") == 0) {
-        which_day = 5;
-    } else if (strcmp(week, "last") == 0) {
-        which_day = -1;
-    }
+struct tm init_time_str(unsigned int year, unsigned int month,
+        unsigned int day, unsigned mday);
 
-    // Too repetetive:
-    int day;
-    if        (strcmp(day_of_week, "Monday") == 0) {
-        day = 1;
-    } else if (strcmp(day_of_week, "Tuesday") == 0) {
-        day = 2;
-    } else if (strcmp(day_of_week, "Wednesday") == 0) {
-        day = 3;
-    } else if (strcmp(day_of_week, "Thursday") == 0) {
-        day = 4;
-    } else if (strcmp(day_of_week, "Friday") == 0) {
-        day = 5;
-    } else if (strcmp(day_of_week, "Saturday") == 0) {
-        day = 6;
+int meetup_day_of_month(unsigned int year, unsigned int month, 
+        const char *week, const char *day_of_week) {
+    if (!week || !day_of_week) return 0;
+    
+    
+    #define LOOP(char_a_p, char_a_q, var) \
+        for (int i = 0; i < 7; i++) {\
+            if (!strcmp(char_a_p, char_a_q[var = i])) break;\
+        }
+
+    int which_mday = 0;
+    char * weeks[] = {"first"/*0*/, "second", "third", "fourth",
+        "fifth", "teenth"/*5*/, "last"/*6*/};
+    LOOP(week, weeks, which_mday);
+
+    int day = 0;
+    char * days_of_week[] = {"Sunday", "Monday", "Tuesday", "Wednesday",
+        "Thursday", "Friday", "Saturday"};
+    LOOP(day_of_week, days_of_week, day);
+    #undef LOOP
+
+
+    struct tm time_str;
+    #define IS_MONTH_WRONG time_str.tm_mon != month - 1
+    #define INIT_TS(day) time_str = init_time_str(year, month, day, day);
+    // 6 corresponds to "last"
+    if (which_mday == 6) {
+        INIT_TS(31);
+        if (IS_MONTH_WRONG) {
+            INIT_TS(30);
+            if (IS_MONTH_WRONG) {
+                INIT_TS(29);
+                if (IS_MONTH_WRONG) {
+                    INIT_TS(28);
+                }
+            }
+        }
     } else {
-        day = 0;
+        INIT_TS(1);
     }
+    #undef IS_MONTH_WRONG
+    #undef INIT_TS
+
+
+    int day_counter = time_str.tm_mday;
+    if (which_mday == 6) {
+        for (int i = time_str.tm_wday; day_counter > 0; --i, --day_counter) {
+            if (i == -1)  i = 6;
+            if (i == day) break; // Found last day.
+        }
+    } else {
+        int encounters = 0;
+        for (int i = time_str.tm_wday; day_counter < 32; i++, day_counter++) {
+            if (i == 7) i = 0;
+            // 5 corresponds to "teenth"
+            if (which_mday == 5 && i == day && day_counter >= 13 && day_counter <= 19) {
+                break; // Found teenth day.
+            }
+            if (which_mday < 5 && i == day) {
+                // +1 - remember the weeks array
+                if (++encounters == which_mday+1) break;
+            }
+        }
+    }
+    
+    return day_counter;
+}
+
+struct tm init_time_str(unsigned int year, unsigned int month,
+        unsigned int day, unsigned mday) {
     struct tm time_str;
     time_str.tm_year = year - 1900;
     time_str.tm_mon = month - 1;
-    if (which_day == -1) time_str.tm_mday = 31; // possible bug
-    else time_str.tm_mday = 1; // We start from the first day of the month
+    time_str.tm_mday = mday;
     time_str.tm_hour = 0;
     time_str.tm_min = 0;
     time_str.tm_sec = 1;
     time_str.tm_isdst = -1;
     time_str.tm_wday = day;
-    time_t t = mktime(&time_str);
-    printf("%s", ctime(&t));
-    if (time_str.tm_mon != month - 1) {
-        time_str.tm_mday = 30;
-        time_str.tm_year = year - 1900;
-        time_str.tm_mon = month - 1;
-        time_str.tm_hour = 0;
-        time_str.tm_min = 0;
-        time_str.tm_sec = 1;
-        time_str.tm_isdst = -1;
-        time_str.tm_wday = day;
-        t = mktime(&time_str);
-        if (time_str.tm_mon != month - 1) {
-            time_str.tm_mday = 29;
-            time_str.tm_year = year - 1900;
-            time_str.tm_mon = month - 1;
-            time_str.tm_hour = 0;
-            time_str.tm_min = 0;
-            time_str.tm_sec = 1;
-            time_str.tm_isdst = -1;
-            time_str.tm_wday = day;
-            t = mktime(&time_str);
-            if (time_str.tm_mon != month - 1) {
-                time_str.tm_mday = 28;
-                time_str.tm_year = year - 1900;
-                time_str.tm_mon = month - 1;
-                time_str.tm_hour = 0;
-                time_str.tm_min = 0;
-                time_str.tm_sec = 1;
-                time_str.tm_isdst = -1;
-                time_str.tm_wday = day;
-                t = mktime(&time_str);
-            }
-        }
-    }
-        
-
-    int day_counter = time_str.tm_mday;
-    if (which_day == -1) {
-        for (int i = time_str.tm_wday; day_counter > 0; --i, --day_counter) {
-            if (i == -1) i = 6;
-            if (i == day) return day_counter;
-        }
-    }
-    int encounters = 0;
-    for (int i = time_str.tm_wday; day_counter < 32; i++, day_counter++) {
-        if (i == 7) i = 0;
-        if (is_teenth && i == day && day_counter >= 13 && day_counter <= 19) {
-            break;
-        }
-        if (which_day && i == day) {
-            encounters++;
-            if (encounters == which_day) break;
-        }
-    }
-    return day_counter;
+    mktime(&time_str);
+    return time_str; 
 }

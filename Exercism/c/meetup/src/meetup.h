@@ -1,7 +1,6 @@
 #ifndef MEETUP_H
 #define MEETUP_H
 #include <time.h>
-#include <stdio.h>
 #include <string.h>
 
 int meetup_day_of_month(unsigned int year, unsigned int month, const char *week,
