@@ -6,5 +6,6 @@ uint64_t square(uint8_t index) {
 }
 
 uint64_t total(void) {
-    return -1 | (1ull << 63); // -1 = ~1 + 1
+    // the left side can be -1 which is ~1 + 1
+    return ((1ull << 63) - 1ull) | (1ull << 63);
 }
