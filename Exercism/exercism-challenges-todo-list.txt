@@ -39,15 +39,16 @@ C
 016 Nucleotide Count                   - memory management, strings, text form.- easy          - 100% - completed         - Used calloc() here.
 017 Grains                             - bitwise, loops, performance optimizat.- easy          - 100% - completed         -
 018 Leap                               - conrol flow, if else, logic           - easy          - 100% - completed         -
+019 Beer Song                          - conrol flow, if else, loops, strings  - easy          - 100% - completed         -
 
 0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →   18
+    Easy   →   19
     Medium →    1
     Hard   →    0
     —————————————
-    Sum    =   19
+    Sum    =   20
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
