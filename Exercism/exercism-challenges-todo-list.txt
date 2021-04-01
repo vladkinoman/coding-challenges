@@ -40,15 +40,16 @@ C
 017 Grains                             - bitwise, loops, performance optimizat.- easy          - 100% - completed         -
 018 Leap                               - conrol flow, if else, logic           - easy          - 100% - completed         -
 019 Beer Song                          - conrol flow, if else, loops, strings  - easy          - 100% - completed         - A very good exercise on refactoring (but it may be too hard — Easy becomes Medium)
+020 Rain Drops                         - conrol flow, strings, modulo          - easy          - 100% - completed         -
 
 0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →   19
+    Easy   →   20
     Medium →    1
     Hard   →    0
     —————————————
-    Sum    =   20
+    Sum    =   21
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
