@@ -42,15 +42,16 @@ C
 019 Beer Song                          - conrol flow, if else, loops, strings  - easy          - 100% - completed         - A very good exercise on refactoring (but it may be too hard — Easy becomes Medium)
 020 Rain Drops                         - conrol flow, strings, modulo          - easy          - 100% - completed         -
 021 Bob                                - conrol flow, if else, strings         - medium        - 100% - completed         - It was actually pretty Easy (TDD did the trick!)
+022 Difference Of Squares              - conrol flow, loops, math              - easy          - 100% - completed         -
 
 0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →   20
+    Easy   →   21
     Medium →    2
     Hard   →    0
     —————————————
-    Sum    =   22
+    Sum    =   23
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
