@@ -43,15 +43,16 @@ C
 020 Rain Drops                         - conrol flow, strings, modulo          - easy          - 100% - completed         -
 021 Bob                                - conrol flow, if else, strings         - medium        - 100% - completed         - It was actually pretty Easy (TDD did the trick!)
 022 Difference Of Squares              - conrol flow, loops, math              - easy          - 100% - completed         -
+023 Sum Of Multiples                   - conrol flow, loops, math              - medium        - 100% - completed         - easy but it's a good exercise on the loop statement
 
 0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
     Easy   →   21
-    Medium →    2
+    Medium →    3
     Hard   →    0
     —————————————
-    Sum    =   23
+    Sum    =   24
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
