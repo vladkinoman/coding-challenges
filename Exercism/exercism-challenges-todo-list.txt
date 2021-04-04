@@ -44,15 +44,16 @@ C
 021 Bob                                - conrol flow, if else, strings         - medium        - 100% - completed         - It was actually pretty Easy (TDD did the trick!)
 022 Difference Of Squares              - conrol flow, loops, math              - easy          - 100% - completed         -
 023 Sum Of Multiples                   - conrol flow, loops, math              - medium        - 100% - completed         - easy but it's a good exercise on the loop statement
+024 Square Root                        - conrol flow, loops, bitwise ops, math - medium        - 100% - completed         - implemented it using https://www.wikiwand.com/en/Methods_of_computing_square_roots#/Exponential_identity
 
 0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
     Easy   →   21
-    Medium →    3
+    Medium →    4
     Hard   →    0
     —————————————
-    Sum    =   24
+    Sum    =   25
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
