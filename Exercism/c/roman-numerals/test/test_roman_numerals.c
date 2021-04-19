@@ -54,73 +54,61 @@ static void test_nine_yields_IX(void)
 
 static void test_twenty_seven_yields_XXVII(void)
 {
-   TEST_IGNORE();
    test_conversion(27, "XXVII");
 }
 
 static void test_forty_eight_yields_XLVIII(void)
 {
-   TEST_IGNORE();
    test_conversion(48, "XLVIII");
 }
 
 static void test_forty_nine_yields_XLIX(void)
 {
-   TEST_IGNORE();
    test_conversion(49, "XLIX");
 }
 
 static void test_fifty_nine_yields_LIX(void)
 {
-   TEST_IGNORE();
    test_conversion(59, "LIX");
 }
 
 static void test_ninety_three_yields_XCIII(void)
 {
-   TEST_IGNORE();
    test_conversion(93, "XCIII");
 }
 
 static void test_one_hundred_forty_one_yields_CXLI(void)
 {
-   TEST_IGNORE();
    test_conversion(141, "CXLI");
 }
 
 static void test_one_hundred_sixty_three_yields_CLXIII(void)
 {
-   TEST_IGNORE();
    test_conversion(163, "CLXIII");
 }
 
 static void test_four_hundred_two_yields_CDII(void)
 {
-   TEST_IGNORE();
    test_conversion(402, "CDII");
 }
 
 static void test_five_hundred_seventy_five_yields_DLXXV(void)
 {
-   TEST_IGNORE();
    test_conversion(575, "DLXXV");
 }
 
 static void test_nine_hundred_eleven_yields_CMXI(void)
 {
-   TEST_IGNORE();
    test_conversion(911, "CMXI");
 }
 
 static void test_one_thousand_twenty_four_yields_MXXIV(void)
 {
-   TEST_IGNORE();
    test_conversion(1024, "MXXIV");
 }
 
 static void test_three_thousand_yields_MMM(void)
 {
-   TEST_IGNORE();
    test_conversion(3000, "MMM");
 }
 

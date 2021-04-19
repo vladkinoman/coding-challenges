@@ -48,24 +48,24 @@ C
 025 Grade School                       - cflow, if, loops, structs, sorting    - easy          - 100% - completed         - more like a Medium exercise 
 026 Binary Search                      - cflow, if, loops, arrays, searching   - easy          - 100% - completed         -
 027 Anagram                            - filtering, strings, structs           - medium        -  69% - 5 failures        - not all the cases were covered + I forgot what anagram is
-028 Roman Numerals                     - arrays, loops, strings, structs       - easy          -  36% - 12 ignored        - 
+028 Roman Numerals                     - arrays, loops, strings, structs       - easy          - 100% - completed         - a Medium problem if you want to automize it. I implemented a lazy approach.
 
 0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →   23
+    Easy   →   24
     Medium →    4
     Hard   →    0
     —————————————
-    Sum    =   27
+    Sum    =   28
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    1
+    Easy   →    0
     Medium →    1
     Hard   →    0
     —————————————
-    Sum    =    2
+    Sum    =    1
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Java
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
