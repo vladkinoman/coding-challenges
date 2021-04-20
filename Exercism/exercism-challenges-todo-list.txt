@@ -49,23 +49,26 @@ C
 026 Binary Search                      - cflow, if, loops, arrays, searching   - easy          - 100% - completed         -
 027 Anagram                            - filtering, strings, structs           - medium        -  69% - 5 failures        - not all the cases were covered + I forgot what anagram is
 028 Roman Numerals                     - arrays, loops, strings, structs       - easy          - 100% - completed         - a Medium problem if you want to automize it. I implemented a lazy approach.
+029 Circular Buffer                    - pointers, structs, flex amemb, buffers- easy          -   0% - haven't started   -
+030 List Ops                           - loops, memm, func ps, flex amemb, arrs- easy          -   0% - haven't started   -
+031 Pythogorean Triplet                - loops, memm, arrs, flex amemb, structs- medium        - 100% - completed         - a great optimization exercise
 
 0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
     Easy   →   24
-    Medium →    4
+    Medium →    5
     Hard   →    0
     —————————————
-    Sum    =   28
+    Sum    =   29
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    0
+    Easy   →    2
     Medium →    1
     Hard   →    0
     —————————————
-    Sum    =    1
+    Sum    =    3
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Java
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
