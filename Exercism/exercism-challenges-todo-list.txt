@@ -49,26 +49,26 @@ C
 026 Binary Search                      - cflow, if, loops, arrays, searching   - easy          - 100% - completed         -
 027 Anagram                            - filtering, strings, structs           - medium        -  69% - 5 failures        - not all the cases were covered + I forgot what anagram is
 028 Roman Numerals                     - arrays, loops, strings, structs       - easy          - 100% - completed         - a Medium problem if you want to automize it. I implemented a lazy approach.
-029 Circular Buffer                    - pointers, structs, flex amemb, buffers- easy          -   0% - haven't started   -
+029 Circular Buffer                    - pointers, structs, flex amemb, buffers- easy          - 100% - completed         - a nice exercise with a Medium level of difficulty though. The exercise provides an opportunity to practise implementing data structures and also touches on system programming with the error.h module.
 030 List Ops                           - loops, memm, func ps, flex amemb, arrs- easy          -   0% - haven't started   -
 031 Pythogorean Triplet                - loops, memm, arrs, flex amemb, structs- medium        - 100% - completed         - a great optimization exercise
 
 0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →   24
+    Easy   →   25
     Medium →    5
     Hard   →    0
     —————————————
-    Sum    =   29
+    Sum    =   30
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    2
+    Easy   →    1
     Medium →    1
     Hard   →    0
     —————————————
-    Sum    =    3
+    Sum    =    2
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Java
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————

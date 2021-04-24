@@ -67,7 +67,6 @@ static void test_reading_empty_buffer_fails(void)
 
 static void test_can_read_item_just_written(void)
 {
-   TEST_IGNORE();               // delete this line to run test
    size_t capacity = 1;
    buffer_value_t values[] = { 1 };
    size_t values_length = ARRAY_LENGTH(values);
@@ -81,7 +80,6 @@ static void test_can_read_item_just_written(void)
 
 static void test_each_item_may_only_be_read_once(void)
 {
-   TEST_IGNORE();
    size_t capacity = 1;
    buffer_value_t values[] = { 1 };
    size_t values_length = ARRAY_LENGTH(values);
@@ -100,7 +98,6 @@ static void test_each_item_may_only_be_read_once(void)
 
 static void test_items_are_read_in_order_written(void)
 {
-   TEST_IGNORE();
    size_t capacity = 2;
    buffer_value_t values[] = { 1, 2 };
    size_t values_length = ARRAY_LENGTH(values);
@@ -114,7 +111,6 @@ static void test_items_are_read_in_order_written(void)
 
 static void test_full_buffer_cannot_be_written_to(void)
 {
-   TEST_IGNORE();
    size_t capacity = 1;
 
    circular_buffer_t *buffer = new_circular_buffer(capacity);
@@ -131,7 +127,6 @@ static void test_full_buffer_cannot_be_written_to(void)
 
 static void test_read_frees_capacity_for_another_write(void)
 {
-   TEST_IGNORE();
    size_t capacity = 1;
 
    circular_buffer_t *buffer = new_circular_buffer(capacity);
@@ -149,7 +144,6 @@ static void test_read_frees_capacity_for_another_write(void)
 
 static void test_read_position_maintained_across_multiple_writes(void)
 {
-   TEST_IGNORE();
    size_t capacity = 3;
 
    circular_buffer_t *buffer = new_circular_buffer(capacity);
@@ -167,7 +161,6 @@ static void test_read_position_maintained_across_multiple_writes(void)
 
 static void test_cleared_buffer_cannot_be_read(void)
 {
-   TEST_IGNORE();
    size_t capacity = 1;
    buffer_value_t read_value = 0;
 
@@ -184,7 +177,6 @@ static void test_cleared_buffer_cannot_be_read(void)
 
 static void test_clear_frees_capacity_for_another_write(void)
 {
-   TEST_IGNORE();
    size_t capacity = 1;
 
    circular_buffer_t *buffer = new_circular_buffer(capacity);
@@ -201,7 +193,6 @@ static void test_clear_frees_capacity_for_another_write(void)
 
 static void test_clear_does_nothing_on_an_empty_buffer(void)
 {
-   TEST_IGNORE();
    size_t capacity = 1;
    buffer_value_t values[] = { 1 };
    size_t values_length = ARRAY_LENGTH(values);
@@ -215,7 +206,6 @@ static void test_clear_does_nothing_on_an_empty_buffer(void)
 
 static void test_overwrite_acts_like_write_on_non_full_buffer(void)
 {
-   TEST_IGNORE();
    size_t capacity = 2;
 
    circular_buffer_t *buffer = new_circular_buffer(capacity);
@@ -231,7 +221,6 @@ static void test_overwrite_acts_like_write_on_non_full_buffer(void)
 
 static void test_overwrite_replaces_oldest_item_on_full_buffer(void)
 {
-   TEST_IGNORE();
    size_t capacity = 2;
 
    circular_buffer_t *buffer = new_circular_buffer(capacity);
@@ -247,7 +236,6 @@ static void test_overwrite_replaces_oldest_item_on_full_buffer(void)
 
 static void test_overwrite_replaces_oldest_item_remaining_following_read(void)
 {
-   TEST_IGNORE();
    size_t capacity = 3;
 
    circular_buffer_t *buffer = new_circular_buffer(capacity);
@@ -267,7 +255,6 @@ static void test_overwrite_replaces_oldest_item_remaining_following_read(void)
 
 static void test_initial_clear_does_not_affect_wrapping(void)
 {
-   TEST_IGNORE();
    size_t capacity = 2;
    buffer_value_t read_value = 0;
 
