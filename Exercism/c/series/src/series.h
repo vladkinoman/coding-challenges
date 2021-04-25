@@ -5,6 +5,9 @@
 #define MAX_SERIES_RESULTS (MAX_INPUT_TEXT_LENGTH)
 #define MAX_SERIES_LENGTH (5)
 
+#include <stdlib.h>
+#include <string.h>
+
 // results structure
 typedef struct slices {
    unsigned int substring_count;
