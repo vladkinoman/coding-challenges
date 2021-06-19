@@ -1,13 +1,13 @@
- #            Problem                         Subdomain            Difficulty             Progress              Implemented in    Time                     Points
-—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+ #            Problem                         Subdomain            Difficulty             Progress              Implemented in    Time                     Points            Teaching Ex.?
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 001  Solve me first                  - warmup                   - easy          - 100% - completed         - C++                 -                          1
 002  Simple Array Sum                - warmup                   - easy          - 100% - completed         - C++                 -                         10
 003  Birthday Cake Candles           - warmup                   - easy          - 100% - completed         - C, Java             -                         10
 004  Birthday Chocolate              - implementation           - easy          - 100% - completed         - C, Java             -                         10
 005  Time Conversion                 - warmup                   - easy          - 100% - completed         - C                   -                         15
 006  Grading Students                - implementation           - easy          - 100% - completed         - C                   -                         10
-007  Apple and Orange                - implementation           - easy          - 100% - completed         - Java                -                         10
-008  Kangaroo                        - implementation           - easy          - 100% - completed         - C, Java             -                         10
+007  Apple and Orange                - implementation           - easy          - 100% - completed         - Java                -                         10                  Yes (level 1)
+008  Kangaroo                        - implementation           - easy          - 100% - completed         - C, Java             -                         10                  Yes (level 1)
 009  Day of the Programmer           - implementation           - easy          - 100% - completed         - C, Java             -                         15
 010  Forming a Magic Squares         - implementation           - medium        - 100% - completed         - C++                 - 4H + back               20
     ← strange exercise which isn't straightforward with these amount of points and requires addiotnal knowledge. So, I used solution on Python from forums 
@@ -18,7 +18,7 @@
 013  Between two sets                - implementation           - easy          - 100% - completed         - Java                - 27 (17s+5c+5r)          10
 014  Migratory Birds                 - implementation           - easy          - 100% - completed         - C++                 -                         10 
 015  Climbing the Leaderboard        - implementation           - medium        - 100% - completed         - C++                 -                         20
-016  Save the Prisoner               - implementation           - easy(medium-o)- 100% - completed         - Java                - 1.24H (41s+38o+2c+3r)   15
+016  Save the Prisoner               - implementation           - easy(medium-o)- 100% - completed         - Java                - 1.24H (41s+38o+2c+3r)   15                  Yes (level 1)
     ← solutions with loop + queues aren't counted, I tried to build a formula. Revealed the tutorial and didn'n get the points.
 017  Organizing Containers of Balls  - implementation           - medium        - 100% - completed         - C++                 - >5H                     30
     ← hard, but EZ :)
@@ -49,12 +49,12 @@
 037  Modified Kaprekar Numbers       - implementation           - easy(+-medium)- 100% - completed         - Java                - 51 (37s+6c+8r)          30
 038  Beautiful Triplets              - implementation           - easy          - 100% - completed         - Java                - 30 (15s+10o+4c+1r)      20
 039  Cavity Map                      - implementation           - easy          - 100% - completed         - Java                - 40 (37s+1c+2r)+back     30
-040  Manasa and Stones               - implementation           - easy          - 100% - completed         - Java                - 1.31H (30s+1c+1Hr)+back 30
+040  Manasa and Stones               - implementation           - easy          - 100% - completed         - Java                - 1.31H (30s+1c+1Hr)+back 30                  ???
 041  Minimum Distances               - implementation           - easy          - 100% - completed         - C++                 - 30 + back               20
 042  Sock Merchant                   - IPK: Warm-up Challenges  - easy          - 100% - completed         - Java                - 20 + back               10
 043  The Time in Words               - implementation           - medium        - 100% - completed         - Java                - 1.5H + back             25
-044  Chocolate Feast                 - implementation           - easy          - 100% - completed         - Java                - 40 + back               25
-045  Angry Professor                 - implementation           - easy          - 100% - completed         - Java                - 20 + back               20
+044  Chocolate Feast                 - implementation           - easy          - 100% - completed         - Java                - 40 + back               25                  Yes (level 1)
+045  Angry Professor                 - implementation           - easy          - 100% - completed         - Java                - 20 + back               20                  ???
 046  Jumping on the Clouds           - IPK: Warm-up Challenges  - easy          - 100% - completed         - C++                 - 20 (recur)              20
 047  Repeated String                 - IPK: Warm-up Challenges  - easy          - 100% - completed         - C++                 - 20                      20
 048  2D Array - DS                   - IPK: Arrays              - easy          - 100% - completed         - C++                 - 1H (30s + 30r)          15
@@ -123,7 +123,7 @@ function from the STL.
 101  Missing Numbers                 - search                   - easy          - 100% - completed         - C++                 -                         45
 102  Pairs                           - search                   - medium        -   0% - haven't started   - C++                 -                         0/50
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Points: 1611.33/2200 
 Rank: 53115
 
@@ -135,7 +135,7 @@ Completed tasks:
     —————————————
     Sum    =   73
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
     Easy   →    2 
     Medium →   17
@@ -145,7 +145,7 @@ ToDo:
     —————————————
     Sum    =   24
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
 
 Time: (s - solving/coding) + (o - optimization) + (c - constraints) + (r - reading)

@@ -1,8 +1,8 @@
-#          Problem                                Subdomain                    Difficulty            Progress                        Commentaries    
+#          Problem                                Subdomain                    Difficulty            Progress            Teaching Ex.?              
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Bash
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-001 Hello World                        - strings                               - easy          - 100% - completed         - 
+001 Hello World                        - strings                               - easy          - 100% - completed             
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
     Easy   →    1
@@ -21,44 +21,61 @@ ToDo:
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 C
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-001 Hello World                        - strings                               - easy          - 100% - completed         - 
-002 Armstrong Numbers                  - control flow, loops, math, logic      - easy          - 100% - completed         - 
-003 Darts                              - control flow, math, logic             - easy          - 100% - completed         - 
-004 Resistor Color                     - arrays, enums, pointers               - easy          - 100% - completed         -
-005 Resistor Color Duo                 - arrays, enums                         - easy          - 100% - completed         -
-006 Resistor Color Trio                - arrays, enums, structs                - easy          - 100% - completed         -
-007 Isogram                            - arrays                                - easy          - 100% - completed         - cool use of nested expressions
-008 Acronym                            - control flow, loops                   - easy          - 100% - completed         - I could use a structure inside the f()
-009 Word Count                         - filtering, memory management          - easy          - 100% - completed         - I chose a ASCII table solution (more cumbersome than the Python solution with isalnum-like functions)
-010 Pangram                            - control flow, loops, strings          - easy          - 100% - completed         -
-011 Gigasecond                         - dates                                 - easy          - 100% - completed         - Too easy. Is this a joke?
-012 Space Age                          - functions                             - easy          - 100% - completed         - Too easy.
-013 Meetup                             - preprocessor x macros, structs, time f- medium        - 100% - completed         - Cool exercise. Refactored. I probably applied a lot of unnecessary macros. I don't know where else to apply them in this exercise.
-014 Hamming                            - arrays, control flow, loops, strings  - easy          - 100% - completed         -
-015 RNA Transcription                  - control flow, case statements, strings- easy          - 100% - completed         -
-016 Nucleotide Count                   - memory management, strings, text form.- easy          - 100% - completed         - Used calloc() here.
-017 Grains                             - bitwise, loops, performance optimizat.- easy          - 100% - completed         -
-018 Leap                               - conrol flow, if else, logic           - easy          - 100% - completed         -
-019 Beer Song                          - conrol flow, if else, loops, strings  - easy          - 100% - completed         - A very good exercise on refactoring (but it may be too hard — Easy becomes Medium)
-020 Rain Drops                         - conrol flow, strings, modulo          - easy          - 100% - completed         -
-021 Bob                                - conrol flow, if else, strings         - medium        - 100% - completed         - It was actually pretty Easy (TDD did the trick!)
-022 Difference Of Squares              - conrol flow, loops, math              - easy          - 100% - completed         -
-023 Sum Of Multiples                   - conrol flow, loops, math              - medium        - 100% - completed         - easy but it's a good exercise on the loop statement
-024 Square Root                        - conrol flow, loops, bitwise ops, math - medium        - 100% - completed         - implemented it using https://www.wikiwand.com/en/Methods_of_computing_square_roots#/Exponential_identity
-025 Grade School                       - cflow, if, loops, structs, sorting    - easy          - 100% - completed         - more like a Medium exercise 
-026 Binary Search                      - cflow, if, loops, arrays, searching   - easy          - 100% - completed         -
-027 Anagram                            - filtering, strings, structs           - medium        -  69% - 5 failures        - not all the cases were covered + I forgot what anagram is
-028 Roman Numerals                     - arrays, loops, strings, structs       - easy          - 100% - completed         - a Medium problem if you want to automize it. I implemented a lazy approach.
-029 Circular Buffer                    - pointers, structs, flex amemb, buffers- easy          - 100% - completed         - a nice exercise with a Medium level of difficulty though. The exercise provides an opportunity to practise implementing data structures and also touches on system programming with the error.h module.
-030 List Ops                           - loops, memm, func ps, flex amemb, arrs- easy          -   0% - haven't started   -
-031 Pythogorean Triplet                - loops, memm, arrs, flex amemb, structs- medium        - 100% - completed         - a great optimization exercise
+001 Hello World                        - strings                               - easy          - 100% - completed           Yes (level 1)                                               
+002 Armstrong Numbers                  - control flow, loops, math, logic      - easy          - 100% - completed           Yes (level 1*)                                    
+003 Darts                              - control flow, math, logic             - easy          - 100% - completed           Yes (level 1)                         
+004 Resistor Color                     - arrays, enums, pointers               - easy          - 100% - completed                        
+005 Resistor Color Duo                 - arrays, enums                         - easy          - 100% - completed                        
+006 Resistor Color Trio                - arrays, enums, structs                - easy          - 100% - completed                        
+007 Isogram                            - arrays                                - easy          - 100% - completed                         
+    ← cool use of nested expressions
+008 Acronym                            - control flow, loops                   - easy          - 100% - completed                          
+    ← I could use a structure inside the f()
+009 Word Count                         - filtering, memory management          - easy          - 100% - completed                          
+    ← I chose a ASCII table solution (more cumbersome than the Python solution with isalnum-like functions)
+010 Pangram                            - control flow, loops, strings          - easy          - 100% - completed                         
+011 Gigasecond                         - dates                                 - easy          - 100% - completed           Yes (level 1)               
+    ← Too easy. Is this a joke?
+012 Space Age                          - functions                             - easy          - 100% - completed           Yes (level 1)             
+    ← Too easy.
+013 Meetup                             - preprocessor x macros, structs, time f- medium        - 100% - completed                          
+    ← Cool exercise. Refactored. I probably applied a lot of unnecessary macros. I don't know where else to apply them in this exercise.
+014 Hamming                            - arrays, control flow, loops, strings  - easy          - 100% - completed           Yes (level 1)             
+015 RNA Transcription                  - control flow, case statements, strings- easy          - 100% - completed           Yes (level 1)             
+016 Nucleotide Count                   - memory management, strings, text form.- easy          - 100% - completed                        
+    ← Used calloc() here.
+017 Grains                             - bitwise, loops, performance optimizat.- easy          - 100% - completed                        
+018 Leap                               - conrol flow, if else, logic           - easy          - 100% - completed           Yes (level 1)                 
+019 Beer Song                          - conrol flow, if else, loops, strings  - easy          - 100% - completed                         
+    ← A very good exercise on refactoring (but it may be too hard — Easy becomes Medium)
+020 Rain Drops                         - conrol flow, strings, modulo          - easy          - 100% - completed                        
+021 Bob                                - conrol flow, if else, strings         - medium        - 100% - completed                         
+    ← It was actually pretty Easy (TDD did the trick!)
+022 Difference Of Squares              - conrol flow, loops, math              - easy          - 100% - completed                        
+023 Sum Of Multiples                   - conrol flow, loops, math              - medium        - 100% - completed                       
+    ← easy but it's a good exercise on the loop statement
+024 Square Root                        - conrol flow, loops, bitwise ops, math - medium        - 100% - completed                         
+    ← implemented it using https://www.wikiwand.com/en/Methods_of_computing_square_roots#/Exponential_identity
+025 Grade School                       - cflow, if, loops, structs, sorting    - easy          - 100% - completed                        
+    ← more like a Medium exercise 
+026 Binary Search                      - cflow, if, loops, arrays, searching   - easy          - 100% - completed                        
+027 Anagram                            - filtering, strings, structs           - medium        -  69% - 5 failures                        
+    ← not all the cases were covered + I forgot what anagram is
+028 Roman Numerals                     - arrays, loops, strings, structs       - easy          - 100% - completed                         
+    ← a Medium problem if you want to automize it. I implemented a lazy approach.
+029 Circular Buffer                    - pointers, structs, flex amemb, buffers- easy          - 100% - completed                         
+    ← a nice exercise with a Medium level of difficulty though. The exercise provides an opportunity to practise implementing data structures and also touches on system programming with the error.h module.
+030 List Ops                           - loops, memm, func ps, flex amemb, arrs- easy          -   0% - haven't started                  
+031 Pythogorean Triplet                - loops, memm, arrs, flex amemb, structs- medium        - 100% - completed                         
+    ← a great optimization exercise
 032
 033
 034
-035 Series                             - cflow, if, memm, strings, text format.- easy          - 100% - completed         - HARD! A double free or corruption error is very common. This is a great memory management exercise.
+035 Series                             - cflow, if, memm, strings, text format.- easy          - 100% - completed                         
+    ← HARD! A double free or corruption error is very common. This is a great memory management exercise.
 
 
-0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed         -                             
+0?? Robot Simulator                    - control flow, pointers                - easy          - 100% - completed                                                    
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
     Easy   →   26
@@ -77,19 +94,21 @@ ToDo:
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Java
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-001 Hello World                        - strings                               - easy          - 100% - completed         - 
-002 Two Fer                            - conditionals, strings                 - easy          - 100% - completed         -
-003 Reverse String                     - strings                               - easy          - 100% - completed         -                              
-004 Leap                               - booleans, integers, logic             - easy          - 100% - completed         -                              
-005 Resistor Color                     - arrays, strings                       - easy          - 100% - completed         -
-006 Resistor Color Duo                 - arrays, strings, enumerations         - easy          - 100% - completed         - oops, I didn't used enumerations
-007 Darts                              - games, conditionals                   - easy          - 100% - completed         -                              
-008 Armstrong Numbers                  - integers, math                        - easy          - 100% - completed         - 
-009 RNA Transcription                  - loops, maps, strings                  - easy          - 100% - completed         - solved using loop and switch                            
-010 D&D Character                      - integers, randomness, games           - easy          - 100% - completed         -
-011 Grains                             - loops, math                           - easy          - 100% - completed         -
-012 Pangram                            - pattern matching                      - easy          - 100% - completed         -
-013 Hamming                            - integers, loops, strings              - easy          - 100% - completed         -                              
+001 Hello World                        - strings                               - easy          - 100% - completed                        
+002 Two Fer                            - conditionals, strings                 - easy          - 100% - completed                         
+003 Reverse String                     - strings                               - easy          - 100% - completed                                                     
+004 Leap                               - booleans, integers, logic             - easy          - 100% - completed                                                    
+005 Resistor Color                     - arrays, strings                       - easy          - 100% - completed                         
+006 Resistor Color Duo                 - arrays, strings, enumerations         - easy          - 100% - completed                        
+    ← oops, I didn't used enumerations
+007 Darts                              - games, conditionals                   - easy          - 100% - completed                                                     
+008 Armstrong Numbers                  - integers, math                        - easy          - 100% - completed                        
+009 RNA Transcription                  - loops, maps, strings                  - easy          - 100% - completed                       
+    ← solved using loop and switch                            
+010 D&D Character                      - integers, randomness, games           - easy          - 100% - completed                        
+011 Grains                             - loops, math                           - easy          - 100% - completed                         
+012 Pangram                            - pattern matching                      - easy          - 100% - completed                         
+013 Hamming                            - integers, loops, strings              - easy          - 100% - completed                                                     
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
     Easy   →   13
@@ -108,16 +127,20 @@ ToDo:
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 JavaScript
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-001 Hello World                        - text formatting                       - easy          - 100% - completed         - 
-002 Two Fer                            - text formatting                       - easy          - 100% - completed         -
-003 Resistor Color                     - arrays, strings                       - easy          - 100% - completed         -
-004 Resistor Color Duo                 - arrays, strings                       - easy          - 100% - completed         -
-005 Gigasecond                         - time                                  - easy          - 100% - completed         -
-006 RNA Transcription                  - loops, maps, strings                  - easy          - 100% - completed         - solved using loop, switch and join('')                            
-007 Space Age                          - functions                             - easy          - 100% - completed         - Too easy.
-008 Pangram                            - pattern matching                      - easy          - 100% - completed         -
-009 Bank Account                       - classesm conditionals                 - easy          - 100% - completed         - OOP :)
-010 Matrix                             - arrays, matrices, text formatting     - easy          - 100% - completed         - used the split() func., probably an efficient solution would be a conventional pass-through.
+001 Hello World                        - text formatting                       - easy          - 100% - completed                          
+002 Two Fer                            - text formatting                       - easy          - 100% - completed                          
+003 Resistor Color                     - arrays, strings                       - easy          - 100% - completed                          
+004 Resistor Color Duo                 - arrays, strings                       - easy          - 100% - completed                          
+005 Gigasecond                         - time                                  - easy          - 100% - completed                          
+006 RNA Transcription                  - loops, maps, strings                  - easy          - 100% - completed                          
+    ← solved using loop, switch and join('')                            
+007 Space Age                          - functions                             - easy          - 100% - completed                          
+    ← Too easy.
+008 Pangram                            - pattern matching                      - easy          - 100% - completed                         
+009 Bank Account                       - classesm conditionals                 - easy          - 100% - completed                          
+    ← OOP :)
+010 Matrix                             - arrays, matrices, text formatting     - easy          - 100% - completed                        
+    ← used the split() func., probably an efficient solution would be a conventional pass-through.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
     Easy   →   10
@@ -136,15 +159,16 @@ ToDo:
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Python
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-001 Hello World                        - text formatting                       - easy          - 100% - completed         - 
-002 Two Fer                            - text formatting                       - easy          - 100% - completed         -
-003 Raindrops                          - conditionals, text formatting         - easy          - 100% - completed         -
-004 High Scores                        - sequences, text formatting, classes   - easy          - 100% - completed         -
-005 Matrix                             - loops, matrices, classes              - easy          - 100% - completed         -
-006 Hamming                            - sequences, text formatting, classes   - easy          - 100% - completed         -
-007 Isogram                            - algorithms, conditionals, filtering   - easy          - 100% - completed         -
-008 Twelve Days                        - lists, strings, text formatting       - medium        - 100% - completed         -
-009 Word Count                         - algorithms, strings, text formatting  - easy          - 100% - completed         - It's hard! A conditional hell!
+001 Hello World                        - text formatting                       - easy          - 100% - completed                           
+002 Two Fer                            - text formatting                       - easy          - 100% - completed                          
+003 Raindrops                          - conditionals, text formatting         - easy          - 100% - completed                          
+004 High Scores                        - sequences, text formatting, classes   - easy          - 100% - completed                          
+005 Matrix                             - loops, matrices, classes              - easy          - 100% - completed                          
+006 Hamming                            - sequences, text formatting, classes   - easy          - 100% - completed                          
+007 Isogram                            - algorithms, conditionals, filtering   - easy          - 100% - completed                          
+008 Twelve Days                        - lists, strings, text formatting       - medium        - 100% - completed                         
+009 Word Count                         - algorithms, strings, text formatting  - easy          - 100% - completed                        
+    ← It's hard! A conditional hell!
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
