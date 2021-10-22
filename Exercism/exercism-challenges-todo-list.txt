@@ -7,14 +7,15 @@ Bash
 003 Error Handling                     - conditionals                          - easy          - 100% - completed                         
 004 Rain Drops                         - control flow, strings, modulo         - easy          - 100% - completed                        
 005 Hamming                            - control flow, loops, strings          - easy          - 100% - completed 
+006 Acronym                            - control flow, loops, IFS & delimiters - easy          - 100% - completed                          
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →    5
+    Easy   →    6
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    5
+    Sum    =    6
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
