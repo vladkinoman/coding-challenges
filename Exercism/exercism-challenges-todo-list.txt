@@ -8,14 +8,15 @@ Bash
 004 Rain Drops                         - control flow, strings, modulo         - easy          - 100% - completed                        
 005 Hamming                            - control flow, loops, strings          - easy          - 100% - completed 
 006 Acronym                            - control flow, loops, IFS & delimiters - easy          - 100% - completed                          
+007 Armstrong Numbers                  - integers, math                        - easy          - 100% - completed                        
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Completed tasks:
-    Easy   →    6
+    Easy   →    7
     Medium →    0
     Hard   →    0
     —————————————
-    Sum    =    6
+    Sum    =    7
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
