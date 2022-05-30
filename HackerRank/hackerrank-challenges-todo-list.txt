@@ -82,7 +82,7 @@
 067  Greedy Florist                  - greedy                   - medium        -   0% - haven't started   - C++                 -                         0/35
 068  Yet Another KMP Problem         - constructive algorithms  - medium        -   0% - haven't started   - C++                 -                         0/60
 069  Permuting Two Arrays            - greedy                   - easy          - 100% - completed         - C++                 -                         40
-070  Priyanka and Toys               - greedy                   - easy          -   0% - haven't started   - C++                 -                         0/30
+070  Priyanka and Toys               - greedy                   - easy          - 100% - completed         - Java                -                         30
 071  Jim and the Orders              - greedy                   - easy          - 100% - completed         - C++                 -                         40
 072  Reverse Shuffle Merge           - greedy                   - advanced      -   0% - haven't started   - C++                 -                         0/50
 073  Max Min                         - greedy                   - medium        -   0% - haven't started   - C++                 -                         0/35
@@ -124,26 +124,26 @@ function from the STL.
 102  Pairs                           - search                   - medium        -   0% - haven't started   - C++                 -                         0/50
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Points: 1611.33/2200 
-Rank: 53115
+Points: 1641.33/2200
+Rank: 63687
 
 Completed tasks:
-    Easy   →   61 
+    Easy   →   62 
     Medium →   10
     Hard   →    2
     Expert →    0
     —————————————
-    Sum    =   73
+    Sum    =   74
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ToDo:
-    Easy   →    2 
+    Easy   →    1 
     Medium →   17
     Hard   →    5
     Advanc →    1
     Expert →    1
     —————————————
-    Sum    =   24
+    Sum    =   23
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Symbols
